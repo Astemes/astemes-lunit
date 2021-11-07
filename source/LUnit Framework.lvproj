@@ -568,19 +568,6 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="LUnit.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit.lvlib"/>
-				<Item Name="Test Case.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Test Case.lvclass/Test Case.ctl">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="LUnit Assertion Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Assertion Result.lvclass/LUnit Assertion Result.ctl">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="LUnit Test Case Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Test Case Result.lvclass/LUnit Test Case Result.ctl">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="LUnit Method Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Method Result.lvclass/LUnit Method Result.ctl">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Asteme/LUnit/Test Case.lvclass"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
