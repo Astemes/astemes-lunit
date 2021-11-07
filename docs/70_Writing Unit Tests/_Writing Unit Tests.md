@@ -35,6 +35,11 @@ Global resources
 Very slow tests
 Breaking encapsulation
 
+## Test harnesses
+
+Overuse of setup and teardown
+Use of private subVIs
+
 ## Testing private methods
 
 ## When to write unit tests

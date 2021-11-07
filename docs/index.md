@@ -20,16 +20,16 @@ Tests may also be executed directly from the project explorer by right-clicking 
 ## Examples
 
 There are a few examples installed with LUnit and these may be found through the NI Example Finder using the keyword `LUnit`.
-The examples are installed at `C:\Program Files (x86)\National Instruments\LabVIEW 20XX\examples\Asteme\LUnit` by default.
+The examples are installed at `C:\Program Files (x86)\National Instruments\LabVIEW 20XX\examples\Astemes\LUnit` by default.
 
 ## Documentation
 
-Documentation is available on [https://asteme.github.io/asteme-lunit/](https://asteme.github.io/asteme-lunit/).
+Documentation is available on [https://astemes.github.io/Astemes-LUnit/](https://asteme.github.io/Asteme-LUnit/).
 
 ## Is it free and open source?
 
 Yes, absolutely!
-LUnit is released by Asteme under the MIT license.
+LUnit is released by Astemes under the MIT license.
 If you find it useful, please consider starring the project on GitHub.
 
 ## Contribute
