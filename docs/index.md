@@ -9,7 +9,9 @@ As LUnit was developed using the LabVIEW Community Edition there is currently no
 
 ## Installation
 
-LUnit is easiest installed from the VIPM package and will soon be available through VIPM.
+The latest stable version is published at [https://github.com/astemes/astemes-lunit/releases/](https://github.com/astemes/astemes-lunit/releases/).
+The release contains a VIPM package which is installed using VI Package Manager.
+LUnit will soon be available directly in VIPM.
 
 ## Using LUnit
 
