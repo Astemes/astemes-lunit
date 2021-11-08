@@ -16,8 +16,11 @@ Only fix the same bug once.
 ### Drive good design
 
 Focus on one detail of aspect at a time.
+Design pressure
 
 ### Confidence to refactor
+
+### Tests as documentation
 
 ## How to write unit tests
 
@@ -26,6 +29,7 @@ Expressive
 Test fail -> what is wrong
 Number of assertions
 Grouping of tests
+Independent
 
 ## How not to write tests
 

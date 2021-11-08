@@ -39,12 +39,12 @@ The assertions are available from the LUnit palette and the quick drop menu.
 ## Test Runner
 
 A test runner is a process executing all mehtods within a Test Case and collecting the results.
-LUnit supports spawning multiple parallell Test Runners, which can significantly reduce the test time for large test suites.
-Test runners may run in separate threads and can leverage a multicore processor to run tests concurrently.
+LUnit supports spawning multiple parallell test runners, which can significantly reduce the test time for large test suites.
+Test runners may run in separate threads and can leverage a multithreaded processor to run tests concurrently.
 
 ## Test Finder
 
-When launching the LUnit UI, the test runner searches for classes inheriting from the base Test Class within the current application instance.
+When launching the LUnit UI, the test finder searches for classes inheriting from the base Test Class within the current application instance.
 The result is saved into an index file and retrieved on subsequent runs to only search through classes which have changed since last time.
 To force the test finder to recreate the index, use the refresh test index button in the LUnit UI.
 
@@ -67,3 +67,5 @@ Please note that LUnit must be installed for the version of LabVIEW called from 
 
 The test vector is a test case which implements a test vector in the same format as the NI Unit Test Framework.
 The feature is to be regarded as experimental.
+
+
