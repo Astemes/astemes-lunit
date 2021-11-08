@@ -24,7 +24,7 @@ The examples are installed at `C:\Program Files (x86)\National Instruments\LabVI
 
 ## Documentation
 
-Documentation is available on [https://astemes.github.io/Astemes-LUnit/](https://asteme.github.io/Asteme-LUnit/).
+Documentation is available on [https://astemes.github.io/astemes-lunit/](https://astemes.github.io/astemes-lunit/).
 
 ## Is it free and open source?
 
