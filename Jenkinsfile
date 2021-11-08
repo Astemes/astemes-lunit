@@ -2,7 +2,7 @@ pipeline {
 	agent any
 	environment{
 		PROJECT_TITLE = "Astemes LUnit"
-		REPO_URL = "https://github.com/Astemes/Astemes-LUnit"
+		REPO_URL = "https://github.com/astemes/astemes-lunit"
 		AUTHOR = "Anton Sundqvist"
 		INITIAL_RELEASE = 2021
 	}
@@ -10,7 +10,7 @@ pipeline {
 		stage('Initialize Build System') {
 			steps {
 				dir ('buildsystem'){
-					git url: 'https://github.com/Astemes/Astemes-Buildsystem.git',
+					git url: 'https://github.com/astemes/astemes-buildsystem.git',
 						branch: 'main',
 						credentialsId: 'Jenkins-Asteme'
 				}
@@ -49,7 +49,7 @@ pipeline {
 				}
 			}
 			steps {
-				bat 'mkdocs gh-deploy'
+				bat 'mkdocs gh-deploy --force'
 				echo 'Project deployed'
 			}
 		}
