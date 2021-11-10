@@ -54,3 +54,5 @@ You can add a Setup and a Teardown method to the test case by overriding the cor
 The Setup vi will run once before each test method in the test case and the Teardown will run once after the test method is completed.
 This is useful in some cases, but should not be overused as it makes the test methods less verbose.
 If you need to pass data from the Setup vi to the test method vi or Teardown vi, you can bundle the data into the test case class wire.
+
+![Setup > test > teardown](img/setup_test_teardown.png)
