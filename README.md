@@ -1,6 +1,6 @@
 # LUnit
 
-A LabVIEW Unit Testing Framework built on the [xUnit](https://en.wikipedia.org/wiki/XUnit) unit testing model and inspired by [JKI VI Tester](https://github.com/JKISoftware/JKI-VI-Tester).
+A LabVIEW Unit Testing Framework built on the [xUnit](https://en.wikipedia.org/wiki/XUnit) unit testing industry standard and inspired by [JKI VI Tester](https://github.com/JKISoftware/JKI-VI-Tester).
 
 ## Prerequisites
 

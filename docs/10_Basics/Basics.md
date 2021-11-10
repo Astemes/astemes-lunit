@@ -1,0 +1,56 @@
+# LUnit Basics
+
+This document walks through the basic workflow using LUnit to test LabVIEW code.
+
+## Prerequisites
+
+To follow along with the instructions on this page you will need to have LabVIEW version 2020 or later installed as well as the LUnit unit testing framework.
+
+## Creating a Test Case
+
+All tests you write will belong to a test case.
+The test case is implemented as a LabVIEW class, but in order to use it you will not need to know anything about object oriented programming.
+
+To get started, create an empty project and add a test case to it from the ``Tools > LUnit > New Test Case...`` menu option.
+
+![Tools Menu > Lunit > new test case](img/tools_menu_new_tc.jpg)
+
+Save the test case in a convenient location.
+Some like to keep the tests next to the code they are testing, and other keep them in a separate folder called ``Tests`` or similar.
+I personally find the later option with a separte top level directory the most convenient.
+
+## Adding a Test Method
+
+Now you have a test case and may add some test methods to the test case.
+A test method is a vi belonging to the test case class and will get executed by the framework.
+
+To create a new test method, right-click on the Test Static Test Method.vit and select ``New from Template``. **Important:** You need to save the test method using a name starting with the upper or lower case letters ``test``.
+
+![New from template](img/new_static_from_template.png)
+
+You do not need to create the test method from the template.
+It is important however that the connector pane uses the same pattern of terminals as the template.
+
+You should now make your test method test something useful by implementing the block diagram of the vi.
+To perform tests you will use the assertions available in the provided palette, or using quick drop.
+
+![Simple test case](img/simple_test_case.png)
+
+## Running the Test Case
+
+To run the test case you can now right click it in the project window and select the ``Run Test Case...`` menu option.
+
+![Run from right click menu](img/run_test_case.png)
+
+This will open the test execution user interface and run the test case.
+Alternatively you can also launch the user interface from the tools menu through the ``Tools > LUnit > LUnit UI...`` menu option.
+This will open the user interface and show all tests in the current project.
+
+![Test Execution UI](img/test_execution_ui.png)
+
+## Using the Setup and Teardown methods
+
+You can add a Setup and a Teardown method to the test case by overriding the corresponding dynamic dispatch vi:s.
+The Setup vi will run once before each test method in the test case and the Teardown will run once after the test method is completed.
+This is useful in some cases, but should not be overused as it makes the test methods less verbose.
+If you need to pass data from the Setup vi to the test method vi or Teardown vi, you can bundle the data into the test case class wire.
