@@ -36,6 +36,7 @@ If you find it useful, please consider starring the project on GitHub.
 
 ## Contribute
 
-If you find LUnit useful, please consider starring the project on GitHub to let us know that you like it.
+If you find LUnit useful, please share it with your colleagues and network to help grow the user base.
+Also, consider starring the project on GitHub to let us know that you like it.
 If you find a bug, use the Issues section on GitHub.
 To take a more active role, please feel free to fork the project and make a pull request.
