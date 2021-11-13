@@ -28,8 +28,8 @@ To create a new test method, right-click on the Test Static Test Method.vit and 
 
 ![New from template](img/new_static_from_template.png)
 
-You do not need to create the test method from the template.
-It is important however that the connector pane uses the same pattern of terminals as the template.
+You can create test methods any way you like and you are free to delete the template methods if you choose to.
+It is important however that the connector pane uses the same pattern of terminals as the template and that the name starts with the word ``test``.
 
 You should now make your test method test something useful by implementing the block diagram of the vi.
 To perform tests you will use the assertions available in the provided palette, or using quick drop.
@@ -46,7 +46,7 @@ This will open the test execution user interface and run the test case.
 Alternatively you can also launch the user interface from the tools menu through the ``Tools > LUnit > LUnit UI...`` menu option.
 This will open the user interface and show all tests in the current project.
 
-![Test Execution UI](img/test_execution_ui.png)
+<img src="img/test_execution_ui.png" alt="Test Execution UI" width="500"/>
 
 ## Using the Setup and Teardown methods
 
@@ -55,4 +55,4 @@ The Setup vi will run once before each test method in the test case and the Tear
 This is useful in some cases, but should not be overused as it makes the test methods less verbose.
 If you need to pass data from the Setup vi to the test method vi or Teardown vi, you can bundle the data into the test case class wire.
 
-![Setup > test > teardown](img/setup_test_teardown.png)
+<img src="img/setup_test_teardown.png" alt="Setup > test > teardown" width="300"/>
