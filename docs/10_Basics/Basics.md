@@ -46,7 +46,7 @@ This will open the test execution user interface and run the test case.
 Alternatively you can also launch the user interface from the tools menu through the ``Tools > LUnit > LUnit UI...`` menu option.
 This will open the user interface and show all tests in the current project.
 
-<img src="img/test_execution_ui.png" alt="Test Execution UI" width="500"/>
+![Run from right click menu](img/test_execution_ui.png)
 
 ## Using the Setup and Teardown methods
 
@@ -55,4 +55,4 @@ The Setup vi will run once before each test method in the test case and the Tear
 This is useful in some cases, but should not be overused as it makes the test methods less verbose.
 If you need to pass data from the Setup vi to the test method vi or Teardown vi, you can bundle the data into the test case class wire.
 
-<img src="img/setup_test_teardown.png" alt="Setup > test > teardown" width="300"/>
+![Run from right click menu](img/setup_test_teardown.png)
