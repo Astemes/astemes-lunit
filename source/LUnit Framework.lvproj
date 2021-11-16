@@ -49,10 +49,6 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 			</Item>
-			<Item Name="Test Vector Demo" Type="Folder">
-				<Item Name="Test Vector Demo.lvclass" Type="LVClass" URL="../Examples/Test Vector Demo/Test Vector Demo.lvclass"/>
-				<Item Name="Test Vector Demo.lvproj" Type="Document" URL="../Examples/Test Vector Demo/Test Vector Demo.lvproj"/>
-			</Item>
 			<Item Name="Basic Example" Type="Folder">
 				<Item Name="Dummy.lvclass" Type="LVClass" URL="../Examples/Basic Example/Dummy/Dummy.lvclass"/>
 				<Item Name="Failing Test Case.lvclass" Type="LVClass" URL="../Examples/Basic Example/Failing Test Case/Failing Test Case.lvclass"/>
@@ -129,15 +125,11 @@
 					<Item Name="Test Case" Type="Folder">
 						<Item Name="Template Test Case.lvclass" Type="LVClass" URL="../Menu/Tools Menu/Templates/Test Case/Template Test Case.lvclass"/>
 					</Item>
-					<Item Name="Test Vector" Type="Folder">
-						<Item Name="Template Test Vector.lvclass" Type="LVClass" URL="../Menu/Tools Menu/Templates/Test Vector/Template Test Vector.lvclass"/>
-					</Item>
 				</Item>
 				<Item Name="Launcher.vi" Type="VI" URL="../Menu/Tools Menu/Launcher.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="New Test Case.lvlib" Type="Library" URL="../Menu/Tools Menu/New Test Case/New Test Case.lvlib"/>
-				<Item Name="New Test Vector.lvlib" Type="Library" URL="../Menu/Tools Menu/New Test Vector/New Test Vector.lvlib"/>
 				<Item Name="Enable Eager Loading.vi" Type="VI" URL="../Menu/Tools Menu/Enable Eager Loading.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
@@ -1054,10 +1046,10 @@
 				<Property Name="Source[7].newName" Type="Str">LUnit </Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[70].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[70].itemID" Type="Ref">/My Computer/LUnit/LUnit Test Vector.lvclass/Setup.vi</Property>
+				<Property Name="Source[70].itemID" Type="Ref"></Property>
 				<Property Name="Source[70].type" Type="Str">VI</Property>
 				<Property Name="Source[71].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[71].itemID" Type="Ref">/My Computer/LUnit/LUnit Test Vector.lvclass/Teardown.vi</Property>
+				<Property Name="Source[71].itemID" Type="Ref"></Property>
 				<Property Name="Source[71].type" Type="Str">VI</Property>
 				<Property Name="Source[72].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[72].Container.depDestIndex" Type="Int">0</Property>
