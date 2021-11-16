@@ -62,10 +62,3 @@ The API is accessed from the API subpalette of the LUnit palette.
 LUnit exposes a command line interface (CLI) to [enable execution from continuous integration tools](../30_CI%20Integration/CI%20Integration.md).
 LUnit adds an operation to the LabVIEWCLI when installed.
 Please note that LUnit must be installed for the version of LabVIEW called from the CLI.
-
-## Test Vectors
-
-The test vector is a test case which implements a test vector in the same format as the NI Unit Test Framework.
-The feature is to be regarded as experimental.
-
-
