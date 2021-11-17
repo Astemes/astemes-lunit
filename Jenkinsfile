@@ -35,7 +35,7 @@ pipeline {
 		*/
 		stage('Generate Docs'){
 			steps{
-				dir('buildsystem/mkdocs builder'){
+				dir('buildsystem/mkdocs_builder'){
 					bat 'python mkdocs_builder.py --docs_path '+env.WORKSPACE +"\\docs --site_name \"${PROJECT_TITLE}\" --repo_url \"${REPO_URL}\" --author \"${AUTHOR}\" --initial_release ${INITIAL_RELEASE}"
 				}
 				bat 'mkdocs build'
