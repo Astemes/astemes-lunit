@@ -1,6 +1,17 @@
 # LUnit
 
 A LabVIEW Unit Testing Framework built on the [xUnit](https://en.wikipedia.org/wiki/XUnit) unit testing industry standard and inspired by [JKI VI Tester](https://github.com/JKISoftware/JKI-VI-Tester).
+LUnit helps you test driving your LabVIEW development and provides the following key features.
+
+- Very fast test execution
+- Clear and informative results view
+- Run specific tests quickly from right-click menu
+- Test results visible directly in LabVIEW project
+- Instant loading of UI
+- Parallell test execution managed by framework
+- Dynamic test methods for testing of class hierarchies
+- Native CLI and support for CI
+- LabVIEW API
 
 ## Prerequisites
 
