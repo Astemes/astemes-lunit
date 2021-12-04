@@ -541,6 +541,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Pass If Equal.vim" Type="VI" URL="../Framework/Test Case/Assertions/Pass If Equal.vim"/>
+			<Item Name="Fail If Equal.vim" Type="VI" URL="../Framework/Test Case/Assertions/Fail If Equal.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
