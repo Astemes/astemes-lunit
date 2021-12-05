@@ -40,11 +40,11 @@
 	<Item Name="Test Compare Equal Enums.vi" Type="VI" URL="../Test Compare Equal Enums.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Y!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;B!=!!?!!!S%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC(E.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!'E.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1A4X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;:!=!!?!!!S%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC(E.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!'5.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1A37Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1116209680</Property>
 	</Item>
 	<Item Name="Test Compare Equal Strings.vi" Type="VI" URL="../Test Compare Equal Strings.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Y!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;B!=!!?!!!S%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC(E.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!'E.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1A4X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;:!=!!?!!!S%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC(E.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!'5.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1A37Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
@@ -53,16 +53,16 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1116209680</Property>
 	</Item>
 	<Item Name="Test Compare Inequal Enums.vi" Type="VI" URL="../Test Compare Inequal Enums.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Y!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;B!=!!?!!!S%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC(E.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!'E.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1A4X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;:!=!!?!!!S%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC(E.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!'5.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1A37Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1116209680</Property>
 	</Item>
 	<Item Name="Test Compare Typedefed Equal Enums.vi" Type="VI" URL="../Test Compare Typedefed Equal Enums.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Y!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;B!=!!?!!!S%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC(E.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!'E.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1A4X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;:!=!!?!!!S%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC(E.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!'5.P&lt;8"B=G5A18.T:8*U;7^O)&amp;2F=X1A37Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
@@ -71,6 +71,6 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1116209680</Property>
 	</Item>
 </LVClass>
