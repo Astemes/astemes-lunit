@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2021-12-06 19:59:03" Creator="Anton Sundqvist" Comments="" ID="feb6ecf44521b26803123464ab417df4">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2021-12-06 22:27:30" Creator="Anton Sundqvist" Comments="" ID="2374658c90d65e3125d59ce9d4644c8b">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
-    <Library_Version>1.0.3.7</Library_Version>
+    <Library_Version>1.0.3.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM</Library_Output_Folder>
@@ -165,6 +165,12 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
         <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>LUnit/Help</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -177,6 +183,9 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
       </Namespace_Overrides>
       <Exclusions>
         <Path>VIPM</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>LUnit/LICENSE</Path>
       </Exclusions>
       <Compile_Exclusions>
         <Path>LUnitCLI</Path>
@@ -409,7 +418,7 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Fail If Equal.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>836F7DF6F480571278025F6179AA111B</GUID>
+      <GUID>8B4586625682E310194F5902A521D4DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -556,7 +565,7 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Test Suite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>75D37BA455E7AAA400A03952CB06FD3C</GUID>
+      <GUID>288BBEFD1F6ECA7DF9BFD09C6F3639D6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

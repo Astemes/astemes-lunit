@@ -141,6 +141,12 @@
 			<Item Name="Example Finder" Type="Folder">
 				<Item Name="Astemes-LUnit.bin3" Type="Document" URL="../Menu/Example Finder/Astemes-LUnit.bin3"/>
 			</Item>
+			<Item Name="Help Menu" Type="Folder">
+				<Item Name="Astemes" Type="Folder">
+					<Item Name="LUnit.txt" Type="Document" URL="../Menu/Help Menu/Astemes/LUnit.txt"/>
+					<Item Name="LUnit.vi" Type="VI" URL="../Menu/Help Menu/Astemes/LUnit.vi"/>
+				</Item>
+			</Item>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Dummys" Type="Folder">
@@ -244,6 +250,7 @@
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi">
@@ -562,7 +569,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{59DBD71A-E198-4694-A825-620056A2C89B}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">191</Property>
+				<Property Name="Bld_version.build" Type="Int">192</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -594,7 +601,7 @@
 				<Property Name="Destination[3].destName" Type="Str">Custom Errors</Property>
 				<Property Name="Destination[3].path" Type="Path">../builds/LUnit/project/errors</Property>
 				<Property Name="Destination[4].destName" Type="Str">Help Files</Property>
-				<Property Name="Destination[4].path" Type="Path">../builds/LUnit/Help/Astemes/LUnit</Property>
+				<Property Name="Destination[4].path" Type="Path">../builds/LUnit/Help/Astemes</Property>
 				<Property Name="Destination[5].destName" Type="Str">Examples</Property>
 				<Property Name="Destination[5].path" Type="Path">../builds/LUnit/examples/Astemes/LUnit</Property>
 				<Property Name="Destination[5].preserveHierarchy" Type="Bool">true</Property>
@@ -607,7 +614,7 @@
 				<Property Name="Destination[9].destName" Type="Str">Palette</Property>
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Palette</Property>
 				<Property Name="DestinationCount" Type="Int">19</Property>
-				<Property Name="Source[0].itemID" Type="Str">{26E49A85-21A0-47AA-8731-5AC30EB8C27B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{043A3596-B4D6-4168-9585-D47D8CF9769F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">16</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LUnit/Framework/Execution UI.lvclass</Property>
@@ -651,6 +658,14 @@
 				<Property Name="Source[103].type" Type="Str">VI</Property>
 				<Property Name="Source[104].destinationIndex" Type="Int">13</Property>
 				<Property Name="Source[104].itemID" Type="Ref">/My Computer/Menu/Example Finder/Astemes-LUnit.bin3</Property>
+				<Property Name="Source[105].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[105].itemID" Type="Ref">/My Computer/LICENSE</Property>
+				<Property Name="Source[105].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[106].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[106].itemID" Type="Ref">/My Computer/Menu/Help Menu/Astemes/LUnit.txt</Property>
+				<Property Name="Source[107].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[107].itemID" Type="Ref">/My Computer/Menu/Help Menu/Astemes/LUnit.vi</Property>
+				<Property Name="Source[107].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">16</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/LUnit/Framework/Result Collector.lvclass</Property>
 				<Property Name="Source[11].newName" Type="Str">LUnit Result Collector.lvclass</Property>
@@ -1184,7 +1199,7 @@
 				<Property Name="Source[99].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[99].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[99].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">105</Property>
+				<Property Name="SourceCount" Type="Int">108</Property>
 			</Item>
 		</Item>
 	</Item>
