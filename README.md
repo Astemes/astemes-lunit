@@ -17,6 +17,7 @@ LUnit helps you test driving your LabVIEW development and provides the following
 
 To use LUnit you will need to have LabVIEW 2020 or later installed.
 As LUnit was developed using the LabVIEW Community Edition there is currently no support for older versions of LabVIEW.
+Operation system requirements are Windows 10 (version 1909)/8.1 Update 12/7 SP13, Windows Server 2016, Windows Server 2012 R22, or Windows Server 2008 R2 SP13.
 
 ## Installation
 
@@ -42,8 +43,12 @@ Documentation is available on [https://astemes.github.io/astemes-lunit/](https:/
 ## Is it free and open source?
 
 Yes, absolutely!
-LUnit is released by Astemes under the MIT license.
+LUnit is released by [Astemes](https://www.astemes.com) under the MIT license.
 If you find it useful, please consider starring the project on GitHub.
+
+## Support
+
+LUnit is an open source toolkit provided as is and without guarantees by [Astemes](https://www.astemes.com). If you encounter issues, use GitHub Issues to report and track the progress. If you have a suggestion for a solution, please consider making pull request. For paid-for professional support, please [contact Astemes directly](https://www.astemes.com/contact).
 
 ## Contribute
 
