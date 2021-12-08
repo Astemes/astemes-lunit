@@ -21,9 +21,9 @@ Operation system requirements are Windows 10 (version 1909)/8.1 Update 12/7 SP13
 
 ## Installation
 
+LUnit is easiest installed using [VI Package Manager](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000x1r4CAA&l=sv-SE).
 The latest stable version is published at [https://github.com/astemes/astemes-lunit/releases/](https://github.com/astemes/astemes-lunit/releases/).
 The release contains a VIPM package which is installed using VI Package Manager.
-LUnit will soon be available directly in VIPM.
 
 ## Using LUnit
 
