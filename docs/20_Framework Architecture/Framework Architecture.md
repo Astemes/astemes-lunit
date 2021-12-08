@@ -33,6 +33,10 @@ In this pattern the class under test is configured by setting the class under te
 
 Tests are evaluated by one or more assertions called in the test method.
 The assertions are available from the LUnit palette and the quick drop menu.
+Assertions are evalueated when the test case executes and the result of the assertions are reported by the framework.
+Multiple assertions may be used in a single test method and results from all assertions will be available in the test report.
+A test case will fail if one or more of the assertions fail.
+Likewise a test case will produce an error result if one or more of the assertions receives an error on the `Error In` terminal.
 
 ![LUnit Palette](img/LUnit_palette.PNG)
 
@@ -56,6 +60,17 @@ The use of the API is illustrated in the `LUnit API Demo` example.
 The API is accessed from the API subpalette of the LUnit palette.
 
 ![LUnit API Palette](img/LUnit_api_palette.PNG)
+
+To use the API methods, an API reference must first be obtained using the `LUnit Open API Reference.vi`.
+The configuration VI:s `LUnit Configure Reporting.vi` and `LUnit Configure Test Runner.vi`  should be used before executing a test, as shown in the `LUnit API Demo` example.
+
+A test case is executed by calling one of the Run Test API VI:s.
+To observe the results of the test execution, the `LUnit Register for Events.vi` must be called before starting test execution.
+Results for Assertions, Methods, Test Cases, and Test Suites are returned using data objects through the user event registration.
+
+When the execution has completed the `Tests Completed` event is generated.
+To abort a running test, use the `LUnit Abort.vi`.
+When done, use the `LUnit Close API Reference.vi` and unregister for any event obtained from `LUnit Register for Events.vi`.
 
 ## Command Line Interface
 
