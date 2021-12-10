@@ -508,9 +508,6 @@
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
