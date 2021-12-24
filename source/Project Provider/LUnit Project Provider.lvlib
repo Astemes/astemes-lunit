@@ -23,4 +23,5 @@
 		<Item Name="Item_OnCommand.vi" Type="VI" URL="../LUnit/Item_OnCommand.vi"/>
 		<Item Name="Item_OnPopupMenu.vi" Type="VI" URL="../LUnit/Item_OnPopupMenu.vi"/>
 	</Item>
+	<Item Name="Run Tests in UI.vi" Type="VI" URL="../SubVIs/Run Tests in UI.vi"/>
 </Library>
