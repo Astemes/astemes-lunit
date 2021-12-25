@@ -566,7 +566,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{59DBD71A-E198-4694-A825-620056A2C89B}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">194</Property>
+				<Property Name="Bld_version.build" Type="Int">199</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -611,7 +611,7 @@
 				<Property Name="Destination[9].destName" Type="Str">Palette</Property>
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Palette</Property>
 				<Property Name="DestinationCount" Type="Int">19</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C79FA1B1-7889-4710-9033-1625C51A5E77}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A21C84C1-8CEB-43E9-8AAF-371ECAABD973}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">16</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LUnit/Framework/Execution UI.lvclass</Property>
@@ -640,6 +640,7 @@
 				<Property Name="Source[104].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[104].itemID" Type="Ref">/My Computer/Menu/Help Menu/Astemes/LUnit.vi</Property>
 				<Property Name="Source[104].type" Type="Str">VI</Property>
+				<Property Name="Source[105].destinationIndex" Type="Int">17</Property>
 				<Property Name="Source[105].itemID" Type="Ref">/My Computer/LUnit/Project Provider.lvlib</Property>
 				<Property Name="Source[105].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[105].newName" Type="Str">LUnit Project Provider.lvlib</Property>
