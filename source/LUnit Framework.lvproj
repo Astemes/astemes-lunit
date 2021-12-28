@@ -82,6 +82,7 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="Execution Profiler.lvclass" Type="LVClass" URL="../Framework/Execution Profiler/Execution Profiler.lvclass"/>
+				<Item Name="Coverage Analyzer.lvclass" Type="LVClass" URL="../Framework/Coverage Analyzer/Coverage Analyzer.lvclass"/>
 			</Item>
 			<Item Name="Framework" Type="Folder">
 				<Item Name="Result Classes" Type="Folder">
