@@ -32,7 +32,7 @@ It is somewhat more tedious to work with tests for code on a LabVIEW Real-Time t
 One reason for this is that libraries gets locked when opened in multiple application instances, and this would happen frequently when developing code on an RT target and testing under Windows.
 Additionally the code needs to be recompiled  for the different targets.
 
-A naive approach would be to keep the test case under the target and run it as normal using the UI.
+A direct approach would be to keep the test case under the target and run it as normal using the UI.
 
 ![Tests located under RT target](img/tests_under_target.png)
 
