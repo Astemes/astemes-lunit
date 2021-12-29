@@ -8,8 +8,9 @@
 	<Item Name="API Test.lvclass" Type="LVClass" URL="../API Test/API Test.lvclass"/>
 	<Item Name="Assertion Result Test.lvclass" Type="LVClass" URL="../Test Assertion Results/Assertion Result Test.lvclass"/>
 	<Item Name="Compare Assertion Test.lvclass" Type="LVClass" URL="../Compare Assertion Test/Compare Assertion Test.lvclass"/>
+	<Item Name="Indexing Test Finder Test.lvclass" Type="LVClass" URL="../Indexing Test Finder Test/Indexing Test Finder Test.lvclass"/>
 	<Item Name="Method Result Test.lvclass" Type="LVClass" URL="../Assertion Test/Method Result Test.lvclass"/>
 	<Item Name="Test Case Result Test.lvclass" Type="LVClass" URL="../Test Test Case Result/Test Case Result Test.lvclass"/>
-	<Item Name="Test Finder.lvclass" Type="LVClass" URL="../Test Finder/Test Finder.lvclass"/>
+	<Item Name="Test Finder Test.lvclass" Type="LVClass" URL="../Test Finder/Test Finder Test.lvclass"/>
 	<Item Name="Test Suite Result Test.lvclass" Type="LVClass" URL="../Test Suite Result/Test Suite Result Test.lvclass"/>
 </Library>
