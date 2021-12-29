@@ -131,6 +131,7 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="New Test Case.lvlib" Type="Library" URL="../Menu/Tools Menu/New Test Case/New Test Case.lvlib"/>
+				<Item Name="_Set Test Path.vi" Type="VI" URL="../Menu/Tools Menu/_Set Test Path.vi"/>
 				<Item Name="Enable Eager Loading.vi" Type="VI" URL="../Menu/Tools Menu/Enable Eager Loading.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
@@ -567,7 +568,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{59DBD71A-E198-4694-A825-620056A2C89B}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">200</Property>
+				<Property Name="Bld_version.build" Type="Int">202</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
