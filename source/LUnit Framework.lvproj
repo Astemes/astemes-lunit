@@ -66,23 +66,11 @@
 		</Item>
 		<Item Name="LUnit" Type="Folder">
 			<Item Name="Support" Type="Folder">
-				<Item Name="Generate Histogram.vi" Type="VI" URL="../Framework/Execution Profiler/Generate Histogram.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Result View.vi" Type="VI" URL="../Framework/Result Classes/Result View/Result View.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Generate Timing Table.vi" Type="VI" URL="../Framework/Execution Profiler/Generate Timing Table.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Analysis View.vi" Type="VI" URL="../Framework/Execution Profiler/Analysis View.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Data Cluster.ctl" Type="VI" URL="../Framework/Execution Profiler/Data Cluster.ctl">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
 				<Item Name="Execution Profiler.lvclass" Type="LVClass" URL="../Framework/Execution Profiler/Execution Profiler.lvclass"/>
+				<Item Name="Execution Profiler Result View.lvclass" Type="LVClass" URL="../Framework/Execution Profiler Result View/Execution Profiler Result View.lvclass"/>
 				<Item Name="Coverage Analyzer.lvclass" Type="LVClass" URL="../Framework/Coverage Analyzer/Coverage Analyzer.lvclass"/>
+				<Item Name="Coverage Analyzer Result View.lvclass" Type="LVClass" URL="../Framework/Coverage Analyzer Result View/Coverage Analyzer Result View.lvclass"/>
+				<Item Name="Coverage Analyzer Process.lvclass" Type="LVClass" URL="../Framework/Coverage Analyzer Process/Coverage Analyzer Process.lvclass"/>
 			</Item>
 			<Item Name="Framework" Type="Folder">
 				<Item Name="Result Classes" Type="Folder">
@@ -162,6 +150,7 @@
 				<Item Name="Skip All Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Skip All Test Case/Skip All Test Case.lvclass"/>
 				<Item Name="Hanging Dummy Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Hanging Dummy Case/Hanging Dummy Case.lvclass"/>
 				<Item Name="Hanging Dummy Case 2.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Hanging Dummy Case 2/Hanging Dummy Case 2.lvclass"/>
+				<Item Name="Two Path Dummy.vi" Type="VI" URL="../../tests/Coverage Test/Two Path Dummy.vi"/>
 			</Item>
 			<Item Name="LUnit Tests.lvlib" Type="Library" URL="../../tests/LUnit Tests.lvlib"/>
 		</Item>
@@ -542,6 +531,13 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="LUnit.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit.lvlib"/>
+				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
+				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
+				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
+				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
+				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
+				<Item Name="Set Union.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Union.vim"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -568,7 +564,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{59DBD71A-E198-4694-A825-620056A2C89B}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">202</Property>
+				<Property Name="Bld_version.build" Type="Int">206</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
