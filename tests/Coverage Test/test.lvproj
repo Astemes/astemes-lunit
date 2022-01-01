@@ -10,6 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Descending Test Test Case.lvclass" Type="LVClass" URL="../../Test Dummys/Descending Test Test Case/Descending Test Test Case.lvclass"/>
 		<Item Name="Test Case Test Double.lvclass" Type="LVClass" URL="../../Test Dummys/Test Case Test Double/Test Case Test Double.lvclass"/>
 		<Item Name="Two Path Dummy.vi" Type="VI" URL="../Two Path Dummy.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -23,6 +24,7 @@
 			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../../../source/Framework/Test Case/LUnit Test Case.lvclass"/>
 			<Item Name="Method Result.lvclass" Type="LVClass" URL="../../../source/Framework/Result Classes/Method Result/Method Result.lvclass"/>
 			<Item Name="Test Case Result.lvclass" Type="LVClass" URL="../../../source/Framework/Result Classes/Test Case Result/Test Case Result.lvclass"/>
+			<Item Name="Test Test Case.lvclass" Type="LVClass" URL="../../Test Dummys/Test Test Case/Test Test Case.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
