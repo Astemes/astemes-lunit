@@ -26,6 +26,24 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Filter Classes Descending from Test Casre.vi" Type="VI" URL="../Private/Filter Classes Descending from Test Casre.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%"!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Q!=!!)!!!!3A!!!"Z!1!!"`````Q!&amp;%6"S&lt;WJF9X1A382F&lt;8-A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'E"!!!(`````!!5.5(*P;G6D&gt;#"*&gt;'6N=Q"5!0!!$!!$!!1!"!!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!#%!!!!!!"!!E!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
+		<Item Name="Filter VIs belonging to Test Case.vi" Type="VI" URL="../Private/Filter VIs belonging to Test Case.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$X!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-P````]%5'&amp;U;!!!&amp;E"!!!(`````!!5*18*S98EA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E"!!!(`````!!5)18*S98EA;7Y!!&amp;1!]!!-!!-!"!!%!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!)1!!!!!!%!#1!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821058</Property>
+		</Item>
 		<Item Name="Filter VIs by Name Prefix.vi" Type="VI" URL="../Private/Filter VIs by Name Prefix.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#W!!!!"A!%!!!!$E!S`````Q21982I!!!71%!!!@````]!!1F"=H*B?3"P&gt;81!(%!Q`````R*S:7&gt;V&lt;'&amp;S)'6Y=(*F=X.J&lt;WY!!":!1!!"`````Q!"#%&amp;S=G&amp;Z)'FO!!"5!0!!$!!!!!!!!!!#!!!!!!!!!!!!!!!!!!-!"!)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)1!!!#%!!!!!!"!!5!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -42,7 +60,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074274818</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685378</Property>
 		</Item>
 		<Item Name="Get Coverage for VI.vi" Type="VI" URL="../Private/Get Coverage for VI.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;X!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!'%!B%E.P&gt;G6S97&gt;F)%VF98.V=G6E0Q!!%5!+!!J1:8*D:7ZU97&gt;F!!![1(!!(A!!'RF$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=CZM&gt;G.M98.T!"6$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%!S`````Q&gt;733"1982I!$J!=!!?!!!&lt;'5.P&gt;G6S97&gt;F)%&amp;O97RZ?G6S,GRW9WRB=X-!&amp;%.P&gt;G6S97&gt;F)%&amp;O97RZ?G6S)'FO!!"B!0!!$!!$!!1!"1!'!!=!"Q!(!!=!#!!(!!E!#A-!!(A!!!U)!!!*!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!+!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!,!!!!!!</Property>

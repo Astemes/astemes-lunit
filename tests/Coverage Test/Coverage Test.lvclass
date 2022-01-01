@@ -32,6 +32,15 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Exclude Test Methods from Set of VIs in Project.vi" Type="VI" URL="../Private/Exclude Test Methods from Set of VIs in Project.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#'!!!!"1!%!!!!%%!S`````Q&gt;733"1982I!!R!=Q!""6:*=S!S!!J!=Q!"!V:*=Q"5!0!!$!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!Q-!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!"!!1!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
 		<Item Name="Exclude Test Methods from Code Coverage.vi" Type="VI" URL="../Private/Exclude Test Methods from Code Coverage.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#Z!!!!"A!%!!!!%%!S`````Q&gt;733"1982I!!^!#A!)1W^W:8*B:W5!!#*!&gt;!!#!!%!!B:';7RU:8*F:#"$&lt;W2F)%.P&gt;G6S97&gt;F!!!91(1!!A!"!!).1W^E:3"$&lt;X:F=G&amp;H:1"5!0!!$!!!!!!!!!!$!!!!!!!!!!!!!!!!!!!!"!-!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!"!!5!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -151,6 +160,15 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
 	</Item>
 	<Item Name="Test Get VIs in project excludes LV Root.vi" Type="VI" URL="../Test Get VIs in project excludes LV Root.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!J%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC&amp;5.P&gt;G6S97&gt;F)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!.6'6T&gt;#"$98.F)%^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!J%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC&amp;5.P&gt;G6S97&gt;F)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;#"$98.F)%FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+	</Item>
+	<Item Name="Test Get Code Coverage Ignores Framework.vi" Type="VI" URL="../Test Get Code Coverage Ignores Framework.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!J%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC&amp;5.P&gt;G6S97&gt;F)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!.6'6T&gt;#"$98.F)%^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!J%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC&amp;5.P&gt;G6S97&gt;F)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;#"$98.F)%FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>

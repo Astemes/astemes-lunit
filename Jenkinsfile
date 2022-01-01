@@ -12,14 +12,20 @@ pipeline {
 				dir ('buildsystem'){
 					git url: 'https://github.com/astemes/astemes-buildsystem.git',
 						branch: 'main',
-						credentialsId: 'Jenkins-Asteme'
-					echo 'Build system pulled' 
+						credentialsId: 'Jenkins-Astemes'
+					echo 'Build system pulled'
+				}
+				bat 'git fetch'
+			}
+		}
+		stage('Initialize Python venv') {
+			steps {
+				dir ('buildsystem'){
 					bat 'python -m venv .venv'
 					bat '.venv\\scripts\\activate'
 					bat 'pip install -r requirements.txt'
 				}
 				echo 'Python environment initialized'
-				bat 'git fetch'
 			}
 		}
 		/*
@@ -28,6 +34,16 @@ pipeline {
 			}
 		}
 		stage('Build') {
+			steps {
+				echo 'Building not configured..'
+			}
+		}
+		stage('Build VIP') {
+			steps {
+				echo 'Building not configured..'
+			}
+		}
+		stage('Publish Release') {
 			steps {
 				echo 'Building not configured..'
 			}
