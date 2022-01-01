@@ -35,15 +35,6 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 		</Item>
-		<Item Name="Filter VIs belonging to Test Case.vi" Type="VI" URL="../Private/Filter VIs belonging to Test Case.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$X!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-P````]%5'&amp;U;!!!&amp;E"!!!(`````!!5*18*S98EA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E"!!!(`````!!5)18*S98EA;7Y!!&amp;1!]!!-!!-!"!!%!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!)1!!!!!!%!#1!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821058</Property>
-		</Item>
 		<Item Name="Filter VIs by Name Prefix.vi" Type="VI" URL="../Private/Filter VIs by Name Prefix.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#W!!!!"A!%!!!!$E!S`````Q21982I!!!71%!!!@````]!!1F"=H*B?3"P&gt;81!(%!Q`````R*S:7&gt;V&lt;'&amp;S)'6Y=(*F=X.J&lt;WY!!":!1!!"`````Q!"#%&amp;S=G&amp;Z)'FO!!"5!0!!$!!!!!!!!!!#!!!!!!!!!!!!!!!!!!-!"!)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)1!!!#%!!!!!!"!!5!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -81,7 +72,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1115689488</Property>
 		</Item>
 	</Item>
-	<Item Name="Get all VIs in Project.vi" Type="VI" URL="../Get all VIs in Project.vi">
+	<Item Name="Get all VIs in Project excluding Test Case VIs.vi" Type="VI" URL="../Get all VIs in Project excluding Test Case VIs.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;G!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-P````](6EEA5'&amp;U;!!+1(-!"1.738-!/E"Q!"Y!!"M:1W^W:8*B:W5A17ZB&lt;(F[:8)O&lt;(:D&lt;'&amp;T=Q!61W^W:8*B:W5A17ZB&lt;(F[:8)A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$E!S`````Q21982I!!![1(!!(A!!'RF$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=CZM&gt;G.M98.T!"2$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=C"J&lt;A!!91$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!*!!I$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%A!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -90,23 +81,14 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
-	<Item Name="Get Coverage for All Executed VIs.vi" Type="VI" URL="../Get Coverage for All Executed VIs.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;V!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-P````](6EEA5'&amp;U;!!01!I!#%.P&gt;G6S97&gt;F!!!91(1!!A!&amp;!!9.1W^E:3"$&lt;X:F=G&amp;H:1![1(!!(A!!'RF$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=CZM&gt;G.M98.T!"6$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1![1(!!(A!!'RF$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=CZM&gt;G.M98.T!"2$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=C"J&lt;A!!91$Q!!Q!!Q!%!!=!#!!%!!1!"!!%!!E!"!!%!!I$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
+	<Item Name="Get Coverage for VIs in set.vi" Type="VI" URL="../Get Coverage for VIs in set.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;`!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-P````](6EEA5'&amp;U;!!01!I!#%.P&gt;G6S97&gt;F!!!91(1!!A!&amp;!!9.1W^E:3"$&lt;X:F=G&amp;H:1![1(!!(A!!'RF$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=CZM&gt;G.M98.T!"6$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!+1(-!"1.738-!/E"Q!"Y!!"M:1W^W:8*B:W5A17ZB&lt;(F[:8)O&lt;(:D&lt;'&amp;T=Q!51W^W:8*B:W5A17ZB&lt;(F[:8)A;7Y!!'%!]!!-!!-!"!!(!!A!"!!%!!1!"!!*!!1!#A!,!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074536982</Property>
-	</Item>
-	<Item Name="Get Coverage for VIs in Project.vi" Type="VI" URL="../Get Coverage for VIs in Project.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!',!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-P````](6EEA5'&amp;U;!!01!I!#%.P&gt;G6S97&gt;F!!!91(1!!A!&amp;!!9.1W^E:3"$&lt;X:F=G&amp;H:1![1(!!(A!!'RF$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=CZM&gt;G.M98.T!"6$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71$,`````$&amp;"S&lt;WJF9X1A5'&amp;U;!!!/E"Q!"Y!!"M:1W^W:8*B:W5A17ZB&lt;(F[:8)O&lt;(:D&lt;'&amp;T=Q!51W^W:8*B:W5A17ZB&lt;(F[:8)A;7Y!!'%!]!!-!!-!"!!(!!A!"!!%!!1!"!!*!!1!#A!,!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!")!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!Q!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="Start Measuring.vi" Type="VI" URL="../Start Measuring.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%_!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'5.P&gt;G6S97&gt;F)%&amp;O97RZ?G6S,GRW9WRB=X-!&amp;5.P&gt;G6S97&gt;F)%&amp;O97RZ?G6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$J!=!!?!!!&lt;'5.P&gt;G6S97&gt;F)%&amp;O97RZ?G6S,GRW9WRB=X-!&amp;%.P&gt;G6S97&gt;F)%&amp;O97RZ?G6S)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
