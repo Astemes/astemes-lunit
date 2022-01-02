@@ -27,13 +27,13 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Generate Average Coverage String.vi" Type="VI" URL="../Private/Generate Average Coverage String.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'1!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!-0````]92H*B9X2J&lt;WYA&lt;W9A6EFT)%6Y:7.V&gt;'6E!!"31(!!(A!!*S6$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=C"3:8.V&lt;(1A6GFF&gt;SZM&gt;G.M98.T!#&amp;$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=C"3:8.V&lt;(1A6GFF&gt;S"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"31(!!(A!!*S6$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=C"3:8.V&lt;(1A6GFF&gt;SZM&gt;G.M98.T!#"$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=C"3:8.V&lt;(1A6GFF&gt;S"J&lt;A!!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'1!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!-0````]92H*B9X2J&lt;WYA&lt;W9A6EFT)%6Y:7.V&gt;'6E!!"31(!!(A!!*S6$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=C"3:8.V&lt;(1A6GFF&gt;SZM&gt;G.M98.T!#&amp;$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=C"3:8.V&lt;(1A6GFF&gt;S"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"31(!!(A!!*S6$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=C"3:8.V&lt;(1A6GFF&gt;SZM&gt;G.M98.T!#"$&lt;X:F=G&amp;H:3""&lt;G&amp;M?8JF=C"3:8.V&lt;(1A6GFF&gt;S"J&lt;A!!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">3</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 		<Item Name="Generate Coverage Table.vi" Type="VI" URL="../Private/Generate Coverage Table.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'/!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!A!-0````]!'%"!!!(`````!!5+382F&lt;3"/97VF=Q!!5E"Q!"Y!!#=F1W^W:8*B:W5A17ZB&lt;(F[:8)A5G6T&gt;7RU)&amp;:J:8=O&lt;(:D&lt;'&amp;T=Q!B1W^W:8*B:W5A17ZB&lt;(F[:8)A5G6T&gt;7RU)&amp;:J:8=A4X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!5E"Q!"Y!!#=F1W^W:8*B:W5A17ZB&lt;(F[:8)A5G6T&gt;7RU)&amp;:J:8=O&lt;(:D&lt;'&amp;T=Q!A1W^W:8*B:W5A17ZB&lt;(F[:8)A5G6T&gt;7RU)&amp;:J:8=A37Y!!'%!]!!-!!-!"!!'!!=!"!!%!!1!"!!)!!1!"!!*!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!+!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>

@@ -140,11 +140,11 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Dummys" Type="Folder">
-				<Item Name="Descending Test Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Descending Test Test Case/Descending Test Test Case.lvclass"/>
 				<Item Name="Test Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Test Test Case/Test Test Case.lvclass"/>
 				<Item Name="Error First Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Error Test Case/Error First Test Case.lvclass"/>
 				<Item Name="Error Last Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Error Test Case 2/Error Last Test Case.lvclass"/>
 				<Item Name="Test Case Test Double.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Test Case Test Double/Test Case Test Double.lvclass"/>
+				<Item Name="Descending Test Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Descending Test Test Case/Descending Test Test Case.lvclass"/>
 				<Item Name="Skip First Test Case.lvclass" Type="LVClass" URL="../../tests/Skip First Test Case/Skip First Test Case.lvclass"/>
 				<Item Name="Skip Last Test Case.lvclass" Type="LVClass" URL="../../tests/Skip Last Test Case/Skip Last Test Case.lvclass"/>
 				<Item Name="Skip All Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Skip All Test Case/Skip All Test Case.lvclass"/>
@@ -538,6 +538,8 @@
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
 				<Item Name="Set Union.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Union.vim"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="Read Class Ancestry Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Read Class Ancestry Without Loading.vi"/>
+				<Item Name="Is Class Not Interface Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Is Class Not Interface Without Loading.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -564,7 +566,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{59DBD71A-E198-4694-A825-620056A2C89B}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">207</Property>
+				<Property Name="Bld_version.build" Type="Int">209</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -609,7 +611,7 @@
 				<Property Name="Destination[9].destName" Type="Str">Palette</Property>
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Palette</Property>
 				<Property Name="DestinationCount" Type="Int">19</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A21C84C1-8CEB-43E9-8AAF-371ECAABD973}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D9FC4BA0-D61E-47CE-A8E2-591F572E0938}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">16</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LUnit/Framework/Execution UI.lvclass</Property>
