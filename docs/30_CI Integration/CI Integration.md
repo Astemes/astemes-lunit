@@ -34,6 +34,44 @@ Once the tests have finished, the result file is available at the specified path
 File may now be digested by most CI tools.
 For Jenkins this is done using the [JUnit plugin](https://plugins.jenkins.io/junit/).
 
+## Jenkins Example
+
+Jenkins is a popular open source automation server used for continuous integration and delivery pipelines.
+A pipeline in Jenkins may be configured using a declarative Jenkinsfile which may be saved directly in the repository.
+Below is an example showing a basic configuration.
+
+```java
+pipeline {
+	agent any
+	environment{
+		LV_PROJECT_PATH = "Path to Your LabVIEW Project.lvproj"
+        NUM_TEST_RUNNERS = "1"
+        LV_PORT = "3363"
+	}
+	stages {
+		stage('Unit Tests') {
+			steps {
+				bat "LabVIEWCLI -OperationName LUnit -ProjectPath \"${WORKSPACE}\\${LV_PROJECT_PATH}\" -TestRunners ${NUM_TEST_RUNNERS} -ReportPath \"${WORKSPACE}\\lunit_reports\\lunit.xml\" -ClearIndex TRUE -PortNumber ${LV_PORT} -LogFilePath \"${WORKSPACE}\\LabVIEWCLI_LUnit.txt\" -LogToConsole true -Verbosity Default"
+			}
+		}
+	}
+	post{
+		always{
+			junit "lunit_reports\\*.xml"
+		}
+	}
+}
+```
+
+The pipeline above declares three environment variables used to configure the call to LUnit using the LabVIEW CLI.
+The first is the path to the project file relative to the workspace, *i.e.* the path relative to the root of the repository where the Jenkinsfile is located.
+The second is the number of parallell test runners to spawn, here configured to one. 
+The third parameter is the port configured for VI server in LabVIEW under Tools->Options->VI Server.
+
+The report is saved in the path `lunit_reports` using the file name `lunit.xml` with incrementing index.
+In the post actions of the pipeline, the junit plugin is configured to digest the report files generated.
+This requires that the Jenkins JUnit plugin is installed, which it is by using the recommended default settings when installing Jenkins.
+
 ### * Footnote on Test Finder indexing
 
 The test finder keeps an index of all test methods for all test classes in the project.

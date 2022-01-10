@@ -2,7 +2,7 @@
 
 LUnit has built in tools to help profile test suites.
 These tools are meant to be used to identify issues and locate parts needing improvement, but should probably not be used as hard benchmarking tools.
-The tools are enabled from the `Tools` menu and the results are displayed after test have been executed.
+The tools are enabled from the `Tools` menu of the LUnit User Interface and the results are displayed after test have been executed.
 
 ![Tools Menu](img/tools_menu.png)
 
@@ -30,7 +30,6 @@ There are a few caveats to be aware of when using the coverage tool.
 - The reported coverage is zero for VIs which do not have debugging activated
 - VIs in vi.lib are ignored
 - Any VI with a name starting with `test` is ignored
-- Code coverage measurement is not available on real-time targets
 
 Further, it is important to understand that the number obtained does not tell anything about the quality of the tests.
 It only reveals how much of the code is exercised by the tests.
