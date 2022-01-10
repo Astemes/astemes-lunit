@@ -19,6 +19,7 @@ The histogram is useful to identify outliers and it is often these tests which h
 
 ## Code Coverage Analyzer
 
+Analysis of code coverage was added as a feature in LUnit version 1.0.6.
 The code coverage analyzer is useful for identifying parts of the code which has low test coverage.
 The coverate is reported for each VI as a percentage indicating how much of the block diagram is exercised during test execution.
 

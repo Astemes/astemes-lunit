@@ -51,10 +51,11 @@ To solve this we can create a new project file to contain the tests and add this
 
 ![Tests located in test suite lvproj](img/tests_in_test_suite_lvproj.png)
 
-As the project file is treated as a text file, it will not load anything into memory when added to the project.
+As the project file is treated as a text file by LabVIEW, it will not load anything into memory when added to the project.
 This implies that the class under test will not be locked unless the test suite is also in memory.
 The test suite may then be run from the right click menu and tests will not need to be recompiled on subsequent test executions.
 There will however be a smaller overhead from loading the project into memory when running the tests.
+Please note that this feature requires LUnit version 1.0.5 or higher.
 
 ![Run tests in test suite](img/run_tests_in_suite.png)
 
