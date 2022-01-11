@@ -32,10 +32,7 @@ pipeline {
 			steps {
 				//Execute LabVIEW build spec
 				buildLVBuildSpec "${LV_PROJECT_PATH}", "${LV_BUILD_SPEC}"
-				
-				//Build VIPM package
-				script{VIP_FILE_PATH = buildVIPackage "${LV_VIPB_PATH}", "${LV_VERSION}"}
-				
+								
 				//Build mkdocs documentation
 				buildDocs "${PROJECT_TITLE}", "${REPO_URL}", "${AUTHOR}", "${INITIAL_RELEASE}"
 			}
@@ -50,6 +47,8 @@ pipeline {
 				GITHUB_TOKEN = credentials('github-token')
 			}
 			steps{
+				//Build VIPM package
+				script{VIP_FILE_PATH = buildVIPackage "${LV_VIPB_PATH}", "${LV_VERSION}"}
 				deployGithubPages()
 				deployGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${VIP_FILE_PATH}"
 			}
