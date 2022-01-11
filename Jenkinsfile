@@ -15,6 +15,7 @@ pipeline {
 		stage('Initialize') {
 			steps {
 				library 'astemes-build-support'
+				killLv()
 				initWorkspace()
 				dir("build_support"){
 					pullBuildSupport()
