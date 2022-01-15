@@ -71,6 +71,7 @@
 				<Item Name="Coverage Analyzer.lvclass" Type="LVClass" URL="../Framework/Coverage Analyzer/Coverage Analyzer.lvclass"/>
 				<Item Name="Coverage Analyzer Result View.lvclass" Type="LVClass" URL="../Framework/Coverage Analyzer Result View/Coverage Analyzer Result View.lvclass"/>
 				<Item Name="Coverage Analyzer Process.lvclass" Type="LVClass" URL="../Framework/Coverage Analyzer Process/Coverage Analyzer Process.lvclass"/>
+				<Item Name="Test Result View.lvclass" Type="LVClass" URL="../Framework/Test Result View/Test Result View.lvclass"/>
 			</Item>
 			<Item Name="Framework" Type="Folder">
 				<Item Name="Result Classes" Type="Folder">
@@ -540,6 +541,31 @@
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="Read Class Ancestry Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Read Class Ancestry Without Loading.vi"/>
 				<Item Name="Is Class Not Interface Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Is Class Not Interface Without Loading.vi"/>
+				<Item Name="Test Case.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Test Case.lvclass/Test Case.ctl"/>
+				<Item Name="LUnit Assertion Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Assertion Result.lvclass/LUnit Assertion Result.ctl"/>
+				<Item Name="LUnit Test Case Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Test Case Result.lvclass/LUnit Test Case Result.ctl"/>
+				<Item Name="LUnit Method Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Method Result.lvclass/LUnit Method Result.ctl"/>
+				<Item Name="Pass If Error.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass If Error.vi"/>
+				<Item Name="Fail.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Fail.vi"/>
+				<Item Name="Pass.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass.vi"/>
+				<Item Name="Set Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Set Assertion Type.vi"/>
+				<Item Name="Add test result.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Add test result.vi"/>
+				<Item Name="LUnit Write Passed.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Passed.vi"/>
+				<Item Name="LUnit Write Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Message.vi"/>
+				<Item Name="LUnit Write Description.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Description.vi"/>
+				<Item Name="LUnit Write Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Assertion Type.vi"/>
+				<Item Name="LUnit Record Assertion Result.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Record Assertion Result.vi"/>
+				<Item Name="LUnit Aggregate Assertion Results.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Aggregate Assertion Results.vi"/>
+				<Item Name="LUnit Read Status.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Assertion Result/LUnit Read Status.vi"/>
+				<Item Name="LUnit Read Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Read Message.vi"/>
+				<Item Name="LUnit Read Description.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Read Description.vi"/>
+				<Item Name="LUnit Merge Status.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Method Result/LUnit Merge Status.vi"/>
+				<Item Name="LUnit Concatenate result strings.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Concatenate result strings.vi"/>
+				<Item Name="LUnit Assertion Result.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Assertion Result.lvclass"/>
+				<Item Name="Pass If.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass If.vi"/>
+				<Item Name="Pass If Equal.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass If Equal.vi"/>
+				<Item Name="Variant to string.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Variant to string.vi"/>
+				<Item Name="Fail If.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Fail If.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -611,7 +637,7 @@
 				<Property Name="Destination[9].destName" Type="Str">Palette</Property>
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Palette</Property>
 				<Property Name="DestinationCount" Type="Int">19</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D9FC4BA0-D61E-47CE-A8E2-591F572E0938}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CB8820A1-055E-4ACC-9D18-AA95817B9525}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">16</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LUnit/Framework/Execution UI.lvclass</Property>
