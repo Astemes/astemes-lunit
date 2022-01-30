@@ -26,6 +26,7 @@ pipeline {
 		stage('Test') {
 			steps {
 				runLUnit "${LV_PROJECT_PATH}"
+				junit "reports\\*.xml"
 			}
 		}
 		stage('Build') {
@@ -52,11 +53,6 @@ pipeline {
 				deployGithubPages()
 				deployGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${VIP_FILE_PATH}"
 			}
-		}
-	}
-	post{
-		always{
-			junit "reports\\*.xml"
 		}
 	}
 	options {
