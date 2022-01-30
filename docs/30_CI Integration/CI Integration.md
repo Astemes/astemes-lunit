@@ -52,12 +52,9 @@ pipeline {
 		stage('Unit Tests') {
 			steps {
 				bat "LabVIEWCLI -OperationName LUnit -ProjectPath \"${WORKSPACE}\\${LV_PROJECT_PATH}\" -TestRunners ${NUM_TEST_RUNNERS} -ReportPath \"${WORKSPACE}\\lunit_reports\\lunit.xml\" -ClearIndex TRUE -PortNumber ${LV_PORT} -LogFilePath \"${WORKSPACE}\\LabVIEWCLI_LUnit.txt\" -LogToConsole true -Verbosity Default"
+
+				junit "lunit_reports\\*.xml"
 			}
-		}
-	}
-	post{
-		always{
-			junit "lunit_reports\\*.xml"
 		}
 	}
 }
@@ -69,8 +66,12 @@ The second is the number of parallell test runners to spawn, here configured to 
 The third parameter is the port configured for VI server in LabVIEW under Tools->Options->VI Server.
 
 The report is saved in the path `lunit_reports` using the file name `lunit.xml` with incrementing index.
-In the post actions of the pipeline, the junit plugin is configured to digest the report files generated.
+After the execution of tests using the bat command the junit plugin is called to digest the report files generated.
 This requires that the Jenkins JUnit plugin is installed, which it is by using the recommended default settings when installing Jenkins.
+
+Note that this is a minimal example meant to demonstrate the concept. 
+It could be improved significantly to reduce the details in the Jenkinsfile using shared libraries.
+As an example, the build system used to build LUnit uses a simpler command `runLUnit "${LV_PROJECT_PATH}"` in the Jenkinsfile in stead of the rather detailed `bat` command.
 
 ### * Footnote on Test Finder indexing
 
