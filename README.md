@@ -14,6 +14,8 @@ LUnit helps you test drive your LabVIEW development and provides the following k
 - Native CLI and support for CI
 - LabVIEW API
 
+Full documentation available on [https://astemes.github.io/astemes-lunit/](https://astemes.github.io/astemes-lunit/).
+
 ## Prerequisites
 
 To use LUnit you will need to have LabVIEW 2020 or later installed.
