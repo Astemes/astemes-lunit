@@ -72,6 +72,7 @@
 				<Item Name="Coverage Analyzer Result View.lvclass" Type="LVClass" URL="../Framework/Coverage Analyzer Result View/Coverage Analyzer Result View.lvclass"/>
 				<Item Name="Coverage Analyzer Process.lvclass" Type="LVClass" URL="../Framework/Coverage Analyzer Process/Coverage Analyzer Process.lvclass"/>
 				<Item Name="Test Result View.lvclass" Type="LVClass" URL="../Framework/Test Result View/Test Result View.lvclass"/>
+				<Item Name="Utilities.lvlib" Type="Library" URL="../Framework/Utilities/Utilities.lvlib"/>
 			</Item>
 			<Item Name="Framework" Type="Folder">
 				<Item Name="Result Classes" Type="Folder">

@@ -47,6 +47,24 @@
 			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 		</Item>
 	</Item>
+	<Item Name="Test Find Class from Path Prod Namespace.vi" Type="VI" URL="../Test Find Class from Path Prod Namespace.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;A!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!M%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC'&amp;2F=X1A2GFO:'6S)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;2F=X1A2GFO:'6S)&amp;2F=X1A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%J!=!!?!!!M%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC'&amp;2F=X1A2GFO:'6S)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!%V2F=X1A2GFO:'6S)&amp;2F=X1A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+	</Item>
+	<Item Name="Test Find Class from Path.vi" Type="VI" URL="../Test Find Class from Path.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;A!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!M%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC'&amp;2F=X1A2GFO:'6S)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;2F=X1A2GFO:'6S)&amp;2F=X1A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%J!=!!?!!!M%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC'&amp;2F=X1A2GFO:'6S)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!%V2F=X1A2GFO:'6S)&amp;2F=X1A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
 	<Item Name="Test Finding Tests at Empty Path Finds all Test In App Instance.vi" Type="VI" URL="../Test Finding Tests at Empty Path Finds all Test In App Instance.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;4!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!M%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC'&amp;2F=X1A2GFO:'6S)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;2F=X1A2GFO:'6S)&amp;2F=X1A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%J!=!!?!!!M%5R6&lt;GFU)&amp;2F=X2T,GRW&lt;'FC'&amp;2F=X1A2GFO:'6S)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!%V2F=X1A2GFO:'6S)&amp;2F=X1A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
