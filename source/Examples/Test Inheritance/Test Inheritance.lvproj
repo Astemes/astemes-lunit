@@ -35,10 +35,10 @@
 				</Item>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 			</Item>
-			<Item Name="Assertion Result.lvclass" Type="LVClass" URL="../../../Framework/Result Classes/Assertion Result/Assertion Result.lvclass"/>
+			<Item Name="Assertion Result.lvlib" Type="Library" URL="../../../Framework/Result Types/Assertion Result/Assertion Result.lvlib"/>
 			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../../../Framework/Test Case/LUnit Test Case.lvclass"/>
-			<Item Name="Method Result.lvclass" Type="LVClass" URL="../../../Framework/Result Classes/Method Result/Method Result.lvclass"/>
-			<Item Name="Test Case Result.lvclass" Type="LVClass" URL="../../../Framework/Result Classes/Test Case Result/Test Case Result.lvclass"/>
+			<Item Name="Method Result.lvlib" Type="Library" URL="../../../Framework/Result Types/Method Result/Method Result.lvlib"/>
+			<Item Name="Test Case Result.lvlib" Type="Library" URL="../../../Framework/Result Types/Case Result/Test Case Result.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
