@@ -92,6 +92,7 @@
 					<Item Name="Test Result Tree.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Test Result Tree/Test Result Tree.lvclass"/>
 					<Item Name="Result Table.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Result Table/Result Table/Result Table.lvclass"/>
 					<Item Name="Project Loader.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Project Loader/Project Loader.lvclass"/>
+					<Item Name="Open Test Case.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Open Test Case Interface/Open Test Case.lvclass"/>
 				</Item>
 				<Item Name="LUnitCLI" Type="Folder">
 					<Item Name="LUnitCLI.lvclass" Type="LVClass" URL="../Framework/LUnitCLI/LUnitCLI.lvclass"/>
@@ -557,17 +558,24 @@
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/20.0</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/anton/Documents/LabVIEW Data/2020(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/Anton/Documents/LabVIEW Data/2020(32-bit)/ExtraVILib</Property>
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/LUnit</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{59DBD71A-E198-4694-A825-620056A2C89B}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">209</Property>
+				<Property Name="Bld_version.build" Type="Int">211</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -612,7 +620,7 @@
 				<Property Name="Destination[9].destName" Type="Str">Palette</Property>
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Palette</Property>
 				<Property Name="DestinationCount" Type="Int">19</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CB8820A1-055E-4ACC-9D18-AA95817B9525}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5A7AEFC7-2632-4456-BFFB-3A6F8F878B15}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">16</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LUnit/Framework/Execution UI.lvclass</Property>
