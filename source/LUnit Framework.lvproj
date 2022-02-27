@@ -72,6 +72,7 @@
 				<Item Name="Coverage Analyzer Result View.lvclass" Type="LVClass" URL="../Framework/Coverage Analyzer Result View/Coverage Analyzer Result View.lvclass"/>
 				<Item Name="Coverage Analyzer Process.lvclass" Type="LVClass" URL="../Framework/Coverage Analyzer Process/Coverage Analyzer Process.lvclass"/>
 				<Item Name="Test Result View.lvclass" Type="LVClass" URL="../Framework/Test Result View/Test Result View.lvclass"/>
+				<Item Name="Utilities.lvlib" Type="Library" URL="../Framework/Utilities/Utilities.lvlib"/>
 				<Item Name="Open Test Case.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Open Test Case Interface/Open Test Case.lvclass"/>
 			</Item>
 			<Item Name="Framework" Type="Folder">
@@ -153,6 +154,7 @@
 				<Item Name="Hanging Dummy Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Hanging Dummy Case/Hanging Dummy Case.lvclass"/>
 				<Item Name="Hanging Dummy Case 2.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Hanging Dummy Case 2/Hanging Dummy Case 2.lvclass"/>
 				<Item Name="Two Path Dummy.vi" Type="VI" URL="../../tests/Coverage Test/Two Path Dummy.vi"/>
+				<Item Name="Dummy Library.lvlib" Type="Library" URL="../../tests/Test Dummys/Dummy Library/Dummy Library.lvlib"/>
 			</Item>
 			<Item Name="LUnit Tests.lvlib" Type="Library" URL="../../tests/LUnit Tests.lvlib"/>
 		</Item>
@@ -547,8 +549,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Utilities.lvlib" Type="Library" URL="../Framework/Utilities/Utilities.lvlib"/>
-			<Item Name="Dummy Library.lvlib" Type="Library" URL="../../tests/Test Dummys/Dummy Library/Dummy Library.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
