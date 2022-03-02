@@ -76,11 +76,11 @@
 				<Item Name="Open Test Case.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Open Test Case Interface/Open Test Case.lvclass"/>
 			</Item>
 			<Item Name="Framework" Type="Folder">
-				<Item Name="Result Classes" Type="Folder">
-					<Item Name="Assertion Result.lvclass" Type="LVClass" URL="../Framework/Result Classes/Assertion Result/Assertion Result.lvclass"/>
-					<Item Name="Method Result.lvclass" Type="LVClass" URL="../Framework/Result Classes/Method Result/Method Result.lvclass"/>
-					<Item Name="Test Case Result.lvclass" Type="LVClass" URL="../Framework/Result Classes/Test Case Result/Test Case Result.lvclass"/>
-					<Item Name="Test Suite Result.lvclass" Type="LVClass" URL="../Framework/Result Classes/Test Suite Result/Test Suite Result.lvclass"/>
+				<Item Name="Result Types" Type="Folder">
+					<Item Name="Assertion Result.lvlib" Type="Library" URL="../Framework/Result Types/Assertion Result/Assertion Result.lvlib"/>
+					<Item Name="Method Result.lvlib" Type="Library" URL="../Framework/Result Types/Method Result/Method Result.lvlib"/>
+					<Item Name="Test Case Result.lvlib" Type="Library" URL="../Framework/Result Types/Case Result/Test Case Result.lvlib"/>
+					<Item Name="Test Suite Result.lvlib" Type="Library" URL="../Framework/Result Types/Suite Results/Test Suite Result.lvlib"/>
 				</Item>
 				<Item Name="Report Classes" Type="Folder">
 					<Item Name="Test Report.lvclass" Type="LVClass" URL="../Framework/Report Classes/Test Report/Test Report.lvclass"/>
@@ -534,7 +534,6 @@
 				<Item Name="Sort 2D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array.vim">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="LUnit.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit.lvlib"/>
 				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
 				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
 				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
@@ -972,7 +971,7 @@
 				<Property Name="Source[6].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/LUnit/Framework/Result Classes</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/LUnit/Framework/Result Types</Property>
 				<Property Name="Source[6].newName" Type="Str">LUnit </Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[60].destinationIndex" Type="Int">10</Property>

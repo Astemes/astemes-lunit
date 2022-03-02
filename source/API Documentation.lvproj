@@ -243,6 +243,8 @@
 				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
+				<Item Name="Read Class Ancestry Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Read Class Ancestry Without Loading.vi"/>
+				<Item Name="Is Class Not Interface Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Is Class Not Interface Without Loading.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -261,6 +263,12 @@
 			<Item Name="Result Collector.lvclass" Type="LVClass" URL="../Framework/Result Collector/Result Collector.lvclass"/>
 			<Item Name="Test Runner.lvclass" Type="LVClass" URL="../Framework/Test Runner/Test Runner.lvclass"/>
 			<Item Name="Slave Test Runner.lvclass" Type="LVClass" URL="../Framework/Slave Test Runner/Slave Test Runner.lvclass"/>
+			<Item Name="Utilities.lvlib" Type="Library" URL="../Framework/Utilities/Utilities.lvlib"/>
+			<Item Name="Open Test Case.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Open Test Case Interface/Open Test Case.lvclass"/>
+			<Item Name="Assertion Result.lvlib" Type="Library" URL="../Framework/Result Types/Assertion Result/Assertion Result.lvlib"/>
+			<Item Name="Method Result.lvlib" Type="Library" URL="../Framework/Result Types/Method Result/Method Result.lvlib"/>
+			<Item Name="Test Case Result.lvlib" Type="Library" URL="../Framework/Result Types/Case Result/Test Case Result.lvlib"/>
+			<Item Name="Test Suite Result.lvlib" Type="Library" URL="../Framework/Result Types/Suite Results/Test Suite Result.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
