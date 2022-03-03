@@ -1,5 +1,7 @@
 pipeline {
-	agent any
+	agent {
+        label 'LV2020'
+    }
 	environment{
 		PROJECT_TITLE = "Astemes LUnit"
 		REPO_URL = "https://github.com/astemes/astemes-lunit"
