@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Assertion Result type.ctl" Type="VI" URL="../Assertion Result type.ctl"/>
+	<Item Name="Assertion Result.ctl" Type="VI" URL="../Assertion Result.ctl"/>
 	<Item Name="Assertion Type.ctl" Type="VI" URL="../Public/TypeDefs/Assertion Type.ctl"/>
 	<Item Name="Status.ctl" Type="VI" URL="../Public/TypeDefs/Status.ctl"/>
 </Library>

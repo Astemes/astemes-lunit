@@ -26,5 +26,5 @@
 		<Item Name="Record Assertion Result.vi" Type="VI" URL="../Public/Record Assertion Result.vi"/>
 		<Item Name="Set Method End Time.vi" Type="VI" URL="../Public/Set Method End Time.vi"/>
 	</Item>
-	<Item Name="Test Case Result type.ctl" Type="VI" URL="../Test Case Result type.ctl"/>
+	<Item Name="Test Case Result.ctl" Type="VI" URL="../Test Case Result.ctl"/>
 </Library>

@@ -6,7 +6,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="New Folder" Type="Folder"/>
 		<Item Name="Concatenate result strings.vi" Type="VI" URL="../Private/Concatenate result strings.vi"/>
 		<Item Name="Count Status.vi" Type="VI" URL="../Private/Count Status.vi"/>
 		<Item Name="Merge Status.vi" Type="VI" URL="../Private/Merge Status.vi"/>
@@ -21,5 +20,5 @@
 		<Item Name="Read Passed Count.vi" Type="VI" URL="../Public/Read Passed Count.vi"/>
 		<Item Name="Read Status.vi" Type="VI" URL="../Public/Read Status.vi"/>
 	</Item>
-	<Item Name="Method Result type.ctl" Type="VI" URL="../Method Result type.ctl"/>
+	<Item Name="Method Result.ctl" Type="VI" URL="../Method Result.ctl"/>
 </Library>

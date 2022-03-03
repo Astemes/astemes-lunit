@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Count by Status.vi" Type="VI" URL="../Private/Count by Status.vi"/>
 		<Item Name="Merge Status.vi" Type="VI" URL="../Private/Merge Status.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
@@ -23,6 +24,5 @@
 		<Item Name="Read Test Case count.vi" Type="VI" URL="../Public/Read Test Case count.vi"/>
 		<Item Name="Read Test Method Count.vi" Type="VI" URL="../Public/Read Test Method Count.vi"/>
 	</Item>
-	<Item Name="Count by Status.vi" Type="VI" URL="../Public/Count by Status.vi"/>
-	<Item Name="Test Suite Result type.ctl" Type="VI" URL="../Test Suite Result type.ctl"/>
+	<Item Name="Test Suite Result.ctl" Type="VI" URL="../Test Suite Result.ctl"/>
 </Library>
