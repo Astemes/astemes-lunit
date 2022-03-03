@@ -64,6 +64,9 @@
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="LUnitCLI" Type="Folder">
+			<Item Name="LUnitCLI.lvclass" Type="LVClass" URL="../Framework/LUnitCLI/LUnitCLI.lvclass"/>
+		</Item>
 		<Item Name="LUnit" Type="Folder">
 			<Item Name="Support" Type="Folder">
 				<Item Name="Execution Profiler.lvclass" Type="LVClass" URL="../Framework/Execution Profiler/Execution Profiler.lvclass"/>
@@ -94,9 +97,6 @@
 					<Item Name="Test Result Tree.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Test Result Tree/Test Result Tree.lvclass"/>
 					<Item Name="Result Table.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Result Table/Result Table/Result Table.lvclass"/>
 					<Item Name="Project Loader.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Project Loader/Project Loader.lvclass"/>
-				</Item>
-				<Item Name="LUnitCLI" Type="Folder">
-					<Item Name="LUnitCLI.lvclass" Type="LVClass" URL="../Framework/LUnitCLI/LUnitCLI.lvclass"/>
 				</Item>
 				<Item Name="Execution UI.lvclass" Type="LVClass" URL="../Framework/Execution UI/Execution UI.lvclass"/>
 				<Item Name="Execution API.lvclass" Type="LVClass" URL="../Framework/Execution API/Execution API.lvclass"/>
@@ -614,7 +614,7 @@
 				<Property Name="Destination[9].destName" Type="Str">Palette</Property>
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Palette</Property>
 				<Property Name="DestinationCount" Type="Int">19</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A8BC12C1-8004-45A4-9D38-B4916C9091DD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{70875EF6-0E21-481B-8C52-E20F42E6559C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">16</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LUnit/Framework/Execution UI.lvclass</Property>
@@ -886,22 +886,22 @@
 				<Property Name="Source[44].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[44].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[44].destinationIndex" Type="Int">18</Property>
-				<Property Name="Source[44].itemID" Type="Ref">/My Computer/LUnit/Framework/LUnitCLI</Property>
+				<Property Name="Source[44].itemID" Type="Ref">/My Computer/LUnitCLI</Property>
 				<Property Name="Source[44].type" Type="Str">Container</Property>
 				<Property Name="Source[45].destinationIndex" Type="Int">5</Property>
 				<Property Name="Source[45].itemID" Type="Ref">/My Computer/Examples/API Demo/API Demo.vi</Property>
 				<Property Name="Source[45].newName" Type="Str">LUnit API Demo.vi</Property>
 				<Property Name="Source[45].type" Type="Str">VI</Property>
 				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[46].itemID" Type="Ref">/My Computer/LUnit/Framework/LUnitCLI/LUnitCLI.lvclass</Property>
+				<Property Name="Source[46].itemID" Type="Ref">/My Computer/LUnitCLI/LUnitCLI.lvclass</Property>
 				<Property Name="Source[46].newName" Type="Str">LUnit.lvclass</Property>
 				<Property Name="Source[46].type" Type="Str">Library</Property>
 				<Property Name="Source[47].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[47].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[47].itemID" Type="Ref">/My Computer/LUnit/Framework/LUnitCLI/LUnitCLI.lvclass/Private</Property>
+				<Property Name="Source[47].itemID" Type="Ref">/My Computer/LUnitCLI/LUnitCLI.lvclass/Private</Property>
 				<Property Name="Source[47].type" Type="Str">Container</Property>
 				<Property Name="Source[48].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[48].itemID" Type="Ref">/My Computer/LUnit/Framework/LUnitCLI/LUnitCLI.lvclass/GetHelp.vi</Property>
+				<Property Name="Source[48].itemID" Type="Ref">/My Computer/LUnitCLI/LUnitCLI.lvclass/GetHelp.vi</Property>
 				<Property Name="Source[48].type" Type="Str">VI</Property>
 				<Property Name="Source[49].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[49].Container.depDestIndex" Type="Int">0</Property>
