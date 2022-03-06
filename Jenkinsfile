@@ -11,12 +11,13 @@ pipeline {
 		LV_BUILD_SPEC = "LUnit"
 		LV_VIPB_PATH = "source\\LUnit.vipb"
 		LV_VERSION = "20.0"
-		COMMIT_TAG = "${bat(returnStdout: true, script: '@git fetch & git tag --contains').trim()}"
 	}
 	stages {
 		stage('Initialize') {
 			steps {
 				library 'astemes-build-support'
+				script{COMMIT_TAG = gitTag()}
+				echo COMMIT_TAG
 				killLv()
 				initWorkspace()
 				dir("build_support"){
@@ -42,7 +43,7 @@ pipeline {
 		stage('Deploy') {
 			when{
 				expression{
-					env.COMMIT_TAG != null
+					COMMIT_TAG != null
 				}
 			}
 			environment{
