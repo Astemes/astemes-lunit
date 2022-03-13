@@ -1,7 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="20008000">
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!**!!!*Q(C=\:5R&lt;FJ"%)&lt;`2#H3=I/)+]Q63"GFIK1&gt;S8;2EN)J[6S0@!/OQ"8G#BQ"8(#!ZW`XD4#*:,!5/UHB8?&lt;R_(&gt;HZHO\_Q;JN]`3*QW87JZN,RK8[N)`:/YX87XDITI/D8&gt;V@2I`4J)KU0D^OX_?_OO:`"8N[0`(TX&gt;W`%,4?XNP`\&lt;^P(B)X`T-@F!L2&amp;BCA4FG;KG'2/&gt;V(2)^U2/&gt;NX=)^%!0^%!0^%"X&gt;%&gt;X&gt;%&gt;X&gt;%=X&gt;%-X&gt;%-X&gt;%0P(6XI1B=[3,S['*7#I%G!:$)I&amp;)WB+AA[0!F0LS\Q*$Q*4]+4]$"&amp;#5`#E`!E0!E0&lt;EJY%J[%*_&amp;*?!D63=&lt;[BAZ0QN/+6=!4]!1]!5`!1UI&amp;0!&amp;!E#Q)(!1"1]&amp;A="0Q"$Q"$\=+?!+?A#@A#8A96M!4]!1]!5`!AUN@F?AUL;0$1RAZ0![0Q_0Q/$S%FM0D]$A]$I`$1TIZ0![0!_%E&gt;)+$)-@*G?$]=(A=(L\E]$A]$I`$Y`!QV(@)_]IUGN&lt;2Y4&amp;Y$"[$R_!R?!ABA]@A-8A-(I/(M$*Y$"[$R_!R?%AFA]@A-8A-%#-J[75%-RS.39:A]0$JJ]8[,E5HM&gt;[F/LSK1[E[&lt;+J$J$I=KEV8&lt;;:KEV3,LVJ5V7+J&amp;E(V=#JI&amp;9QKC=KZ4&gt;3?[R&lt;&lt;9'NMB3WR/4&lt;$JNCEO&lt;\SR0V_L_VWK]VGI`6[L&gt;6KJ?6SK@F]LNFMJOFUKMFE=CQ$8_D(AP"L84L=@\X&lt;83VO([[`@&gt;`&gt;,(Y=\B&gt;X@_'`^$_ID@KIU\CMU30AQA+A!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
