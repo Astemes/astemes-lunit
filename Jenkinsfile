@@ -58,6 +58,9 @@ pipeline {
 		}
 	}
 	post{
+        always { 
+            cleanWs()
+		}
 		regression{
 			sendMail "anton.sundqvist@astemes.com"
 		}
