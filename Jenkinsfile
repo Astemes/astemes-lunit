@@ -43,7 +43,8 @@ pipeline {
 		stage('Deploy') {
 			when{
 				expression{
-					COMMIT_TAG != null
+					!COMMIT_TAG.isEmpty()
+					//COMMIT_TAG != null && !COMMIT_TAG.isEmpty()
 				}
 			}
 			environment{
