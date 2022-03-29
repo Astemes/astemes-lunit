@@ -60,6 +60,7 @@ pipeline {
 	}
 	post{
         always { 
+			killLv()
             cleanWs()
 		}
 		regression{
