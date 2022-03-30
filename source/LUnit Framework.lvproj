@@ -150,6 +150,7 @@
 				<Item Name="Descending Test Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Descending Test Test Case/Descending Test Test Case.lvclass"/>
 				<Item Name="Skip First Test Case.lvclass" Type="LVClass" URL="../../tests/Skip First Test Case/Skip First Test Case.lvclass"/>
 				<Item Name="Skip Last Test Case.lvclass" Type="LVClass" URL="../../tests/Skip Last Test Case/Skip Last Test Case.lvclass"/>
+				<Item Name="Skip and Pass Test Case.lvclass" Type="LVClass" URL="../../tests/Skip and Pass Test Case/Skip and Pass Test Case.lvclass"/>
 				<Item Name="Skip All Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Skip All Test Case/Skip All Test Case.lvclass"/>
 				<Item Name="Hanging Dummy Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Hanging Dummy Case/Hanging Dummy Case.lvclass"/>
 				<Item Name="Hanging Dummy Case 2.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Hanging Dummy Case 2/Hanging Dummy Case 2.lvclass"/>
