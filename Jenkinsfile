@@ -61,7 +61,7 @@ pipeline {
 	post{
         always { 
 			killLv()
-            cleanWs()
+            cleanWs(notFailBuild: true)
 		}
 		regression{
 			sendMail "anton.sundqvist@astemes.com"
