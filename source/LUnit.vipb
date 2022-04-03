@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2022-03-28 20:58:52" Creator="Anton Sundqvist" Comments="" ID="57c6ff23054d8cd107035a946482fce6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2022-04-03 13:24:50" Creator="Anton Sundqvist" Comments="" ID="bcce0972b3e0f253230057a4a84ac5b4">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
-    <Library_Version>1.1.2.5</Library_Version>
+    <Library_Version>1.1.3.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM</Library_Output_Folder>
@@ -419,7 +419,7 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Fail If Equal.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3137A872FE95CB039A847D8B88EBD01B</GUID>
+      <GUID>F766AA35D84A4C1125A753DB77D2E7E6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -580,7 +580,7 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Test Suite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6979CE5CBD8F1FA2D2B51A356630BC6D</GUID>
+      <GUID>968A204743B5EF393D87D4B1517A8E6A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

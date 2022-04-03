@@ -144,6 +144,7 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Dummys" Type="Folder">
 				<Item Name="Test Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Test Test Case/Test Test Case.lvclass"/>
+				<Item Name="Test Case Skipping Inherited Method.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Test Case Skipping Inherited Method/Test Case Skipping Inherited Method.lvclass"/>
 				<Item Name="Error First Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Error Test Case/Error First Test Case.lvclass"/>
 				<Item Name="Error Last Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Error Test Case 2/Error Last Test Case.lvclass"/>
 				<Item Name="Test Case Test Double.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Test Case Test Double/Test Case Test Double.lvclass"/>
