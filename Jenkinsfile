@@ -17,7 +17,6 @@ pipeline {
 			steps {
 				library 'astemes-build-support'
 				script{COMMIT_TAG = gitTag()}
-				echo COMMIT_TAG
 				killLv()
 				initWorkspace()
 				dir("build_support"){
