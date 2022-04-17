@@ -43,7 +43,6 @@ pipeline {
 			when{
 				expression{
 					!COMMIT_TAG.isEmpty()
-					//COMMIT_TAG != null && !COMMIT_TAG.isEmpty()
 				}
 			}
 			environment{
