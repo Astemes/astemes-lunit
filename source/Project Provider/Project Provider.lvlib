@@ -14,6 +14,7 @@
 		<Item Name="Error.png" Type="Document" URL="../Icons/Error.png"/>
 		<Item Name="Fail.png" Type="Document" URL="../Icons/Fail.png"/>
 		<Item Name="Pass.png" Type="Document" URL="../Icons/Pass.png"/>
+		<Item Name="RunAll.png" Type="Document" URL="../Icons/RunAll.png"/>
 	</Item>
 	<Item Name="LUnit" Type="Folder">
 		<Item Name="Global_Init.vi" Type="VI" URL="../LUnit/Global_Init.vi"/>
