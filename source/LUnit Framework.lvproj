@@ -573,7 +573,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{59DBD71A-E198-4694-A825-620056A2C89B}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">210</Property>
+				<Property Name="Bld_version.build" Type="Int">214</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -618,7 +618,7 @@
 				<Property Name="Destination[9].destName" Type="Str">Palette</Property>
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Palette</Property>
 				<Property Name="DestinationCount" Type="Int">19</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F476B65E-C57F-4C07-93BF-A4B40A81643B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2527E14E-7E9B-4EC3-AB6B-192E407B1BCB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">16</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LUnit/Framework/Execution UI.lvclass</Property>
