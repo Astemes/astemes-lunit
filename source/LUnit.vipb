@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2022-05-13 22:51:04" Creator="Anton Sundqvist" Comments="" ID="8551844e728e246cb4d759f26a93f490">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2022-06-08 19:45:33" Creator="Anton Sundqvist" Comments="" ID="5f4c7fe4e1f685d9487a9a37e2edfd8f">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
-    <Library_Version>1.1.8.10</Library_Version>
+    <Library_Version>1.1.9.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM</Library_Output_Folder>
@@ -48,7 +48,12 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
       <Copyright>Copyright (c) 2020, Astemes</Copyright>
       <Packager>Anton Sundqvist</Packager>
       <URL>https://astemes.github.io/astemes-lunit</URL>
-      <Release_Notes/>
+      <Release_Notes>- Add buttons to LabVIEW Toolbar for running all tests in project and for creating new test case
+- Add option to ignore inherited tests
+- Add tool for measuring code coverage.
+- Add support for organizing tests in nested LabVIEW Project files.
+- Internal implementation for test results updated from class based to regular type defs. The only way to access these classes is through the API, so the impact on users is limited. 
+- Minor useability and performance improvements.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -183,9 +188,6 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
       </Namespace_Overrides>
       <Exclusions>
         <Path>LUnit/LICENSE</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>VIPM</Path>
       </Exclusions>
       <Compile_Exclusions>
         <Path>LUnitCLI</Path>
@@ -419,7 +421,7 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Fail If Equal.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>28331AAC5A521A6EAAC0D32FC84455C6</GUID>
+      <GUID>2CFFF11D8FEB93232E4BB4EA3A6160C1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -580,7 +582,7 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Test Suite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>17B3E17B0ADE7D1414BD389E8D4838B3</GUID>
+      <GUID>A5948A68E402B212D1F8094B9DA743CA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
