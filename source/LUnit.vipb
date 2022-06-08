@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2022-06-08 21:17:18" Creator="Anton Sundqvist" Comments="" ID="e5451fafd07d5ecc4fb4f81109e3abc9">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2022-06-08 21:46:16" Creator="Anton Sundqvist" Comments="" ID="30c0a20a557390a558fe4e2654b8b325">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
-    <Library_Version>1.1.11.10</Library_Version>
+    <Library_Version>1.1.12.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM</Library_Output_Folder>
@@ -35,7 +35,7 @@
 - Run specific tests quickly from right-click menu
 - Test results visible directly in LabVIEW project explorer
 - Instant loading of UI
-- Parallell test execution managed by framework
+- Parallel test execution managed by framework
 - Dynamic test methods for testing of class hierarchies
 - Native CLI and support for CI
 - LabVIEW API
@@ -421,7 +421,7 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Fail If Equal.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6AAE28E585B1B34853C37F37995F6D4A</GUID>
+      <GUID>5AC931429A01E1F8E6220EB23D89183C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -582,7 +582,7 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Test Suite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4017F255314C6A34881E3A89744C8330</GUID>
+      <GUID>2D299F3E8A3C5387AF42555704982578</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
