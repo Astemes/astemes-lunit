@@ -141,25 +141,6 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Tests" Type="Folder">
-			<Item Name="Test Dummys" Type="Folder">
-				<Item Name="Test Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Test Test Case/Test Test Case.lvclass"/>
-				<Item Name="Test Case Skipping Inherited Method.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Test Case Skipping Inherited Method/Test Case Skipping Inherited Method.lvclass"/>
-				<Item Name="Error First Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Error Test Case/Error First Test Case.lvclass"/>
-				<Item Name="Error Last Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Error Test Case 2/Error Last Test Case.lvclass"/>
-				<Item Name="Test Case Test Double.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Test Case Test Double/Test Case Test Double.lvclass"/>
-				<Item Name="Descending Test Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Descending Test Test Case/Descending Test Test Case.lvclass"/>
-				<Item Name="Skip First Test Case.lvclass" Type="LVClass" URL="../../tests/Skip First Test Case/Skip First Test Case.lvclass"/>
-				<Item Name="Skip Last Test Case.lvclass" Type="LVClass" URL="../../tests/Skip Last Test Case/Skip Last Test Case.lvclass"/>
-				<Item Name="Skip and Pass Test Case.lvclass" Type="LVClass" URL="../../tests/Skip and Pass Test Case/Skip and Pass Test Case.lvclass"/>
-				<Item Name="Skip All Test Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Skip All Test Case/Skip All Test Case.lvclass"/>
-				<Item Name="Hanging Dummy Case.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Hanging Dummy Case/Hanging Dummy Case.lvclass"/>
-				<Item Name="Hanging Dummy Case 2.lvclass" Type="LVClass" URL="../../tests/Test Dummys/Hanging Dummy Case 2/Hanging Dummy Case 2.lvclass"/>
-				<Item Name="Two Path Dummy.vi" Type="VI" URL="../../tests/Coverage Test/Two Path Dummy.vi"/>
-				<Item Name="Dummy Library.lvlib" Type="Library" URL="../../tests/Test Dummys/Dummy Library/Dummy Library.lvlib"/>
-			</Item>
-			<Item Name="LUnit Tests.lvlib" Type="Library" URL="../../tests/LUnit Tests.lvlib"/>
-		</Item>
 		<Item Name="Excluded Dependencies" Type="Folder">
 			<Item Name="Project Provider" Type="Folder">
 				<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl">
@@ -249,6 +230,9 @@
 			</Item>
 		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
+		<Item Name="LUnit Test Case V2.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case/LUnit Test Case V2.lvclass"/>
+		<Item Name="Test Case V2 Test.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/Test Case V2 Test/Test Case V2 Test.lvclass"/>
+		<Item Name="LUnit Test Case V2 Test Double.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double/LUnit Test Case V2 Test Double.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi">
@@ -862,7 +846,7 @@
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Tests</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[40].Container.applyDestination" Type="Bool">true</Property>
