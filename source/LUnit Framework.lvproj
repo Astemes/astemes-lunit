@@ -233,12 +233,13 @@
 			<Item Name="Test Case V2 Test.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/Test Case V2 Test/Test Case V2 Test.lvclass"/>
 			<Item Name="LUnit Test Suite Tests.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Suite Tests/LUnit Test Suite Tests.lvclass"/>
 			<Item Name="LUnit Test Case V2 Test Double.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double/LUnit Test Case V2 Test Double.lvclass"/>
+			<Item Name="LUnit Test Case V2 Test Double Child.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double Child/LUnit Test Case V2 Test Double Child.lvclass"/>
 		</Item>
 		<Item Name="Core" Type="Folder">
 			<Item Name="Result.lvlib" Type="Library" URL="../Rewrite Project/Result/Result.lvlib"/>
 			<Item Name="LUnit Test Case V2.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case/LUnit Test Case V2.lvclass"/>
-			<Item Name="Runnable.lvclass" Type="LVClass" URL="../Rewrite Project/Run/Runnable.lvclass"/>
 			<Item Name="LUnit Test Suite V2.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Suite/LUnit Test Suite V2.lvclass"/>
+			<Item Name="Runnable.lvclass" Type="LVClass" URL="../Rewrite Project/Run/Runnable.lvclass"/>
 		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
 		<Item Name="Dependencies" Type="Dependencies">
