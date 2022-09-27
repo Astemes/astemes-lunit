@@ -235,6 +235,7 @@
 		<Item Name="LUnit Test Case V2 Test Double.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double/LUnit Test Case V2 Test Double.lvclass"/>
 		<Item Name="Result.lvlib" Type="Library" URL="../Rewrite Project/Result/Result.lvlib"/>
 		<Item Name="Run.lvclass" Type="LVClass" URL="../Rewrite Project/Run/Run.lvclass"/>
+		<Item Name="Methods.ctl" Type="VI" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double/Methods.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi">
