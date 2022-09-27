@@ -4,6 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Merge Status.vi" Type="VI" URL="../Merge Status.vi"/>
+	</Item>
+	<Item Name="Evaluate Status.vi" Type="VI" URL="../Evaluate Status.vi"/>
 	<Item Name="Result.ctl" Type="VI" URL="../Result.ctl"/>
 	<Item Name="Status.ctl" Type="VI" URL="../Status.ctl"/>
 	<Item Name="Type.ctl" Type="VI" URL="../Type.ctl"/>
