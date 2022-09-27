@@ -28,7 +28,7 @@
 		<Item Name="Slave Test Runner.lvclass" Type="Friended Library" URL="../../../Framework/Slave Test Runner/Slave Test Runner.lvclass"/>
 	</Item>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Run.lvclass" Type="Parent" URL="../../Run/Run.lvclass"/>
+		<Item Name="Runnable.lvclass" Type="Parent" URL="../../Run/Runnable.lvclass"/>
 	</Item>
 	<Item Name="LUnit Test Case V2.ctl" Type="Class Private Data" URL="LUnit Test Case V2.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
