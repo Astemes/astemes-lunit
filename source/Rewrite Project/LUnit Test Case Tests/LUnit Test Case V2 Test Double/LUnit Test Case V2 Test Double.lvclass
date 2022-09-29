@@ -45,7 +45,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
 	</Item>
-	<Item Name="Number of Tests in Case.vi" Type="VI" URL="../Number of Tests in Case.vi">
+	<Item Name="Number of Results in Case.vi" Type="VI" URL="../Number of Results in Case.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"X!!!!!Q!%!!!!&amp;U!$!""/&gt;7VC:8)A&lt;W9A&gt;'6T&gt;(-A!!"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!!!!!)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!)!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
