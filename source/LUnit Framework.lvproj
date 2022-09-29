@@ -231,6 +231,7 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Case V2 Test.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/Test Case V2 Test/Test Case V2 Test.lvclass"/>
+			<Item Name="Result Collector Tests.lvclass" Type="LVClass" URL="../Rewrite Project/Result Collector Tests/Result Collector Tests.lvclass"/>
 			<Item Name="LUnit Test Suite Tests.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Suite Tests/LUnit Test Suite Tests.lvclass"/>
 			<Item Name="LUnit Test Case V2 Test Double.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double/LUnit Test Case V2 Test Double.lvclass"/>
 			<Item Name="LUnit Test Case V2 Test Double Child.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double Child/LUnit Test Case V2 Test Double Child.lvclass"/>
