@@ -6,9 +6,11 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Merge Status.vi" Type="VI" URL="../Merge Status.vi"/>
+		<Item Name="Merge Assertion Status.vi" Type="VI" URL="../Merge Assertion Status.vi"/>
+		<Item Name="Merge Method Status.vi" Type="VI" URL="../Merge Method Status.vi"/>
 	</Item>
-	<Item Name="Evaluate Status.vi" Type="VI" URL="../Evaluate Status.vi"/>
+	<Item Name="Evaluate Case Status.vi" Type="VI" URL="../Evaluate Case Status.vi"/>
+	<Item Name="Evaluate Method Status.vi" Type="VI" URL="../Evaluate Method Status.vi"/>
 	<Item Name="Result.ctl" Type="VI" URL="../Result.ctl"/>
 	<Item Name="Status.ctl" Type="VI" URL="../Status.ctl"/>
 	<Item Name="Type.ctl" Type="VI" URL="../Type.ctl"/>
