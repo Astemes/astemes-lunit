@@ -236,12 +236,15 @@
 			<Item Name="LUnit Test Case V2 Test Double.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double/LUnit Test Case V2 Test Double.lvclass"/>
 			<Item Name="LUnit Test Case V2 Test Double Child.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double Child/LUnit Test Case V2 Test Double Child.lvclass"/>
 			<Item Name="Test Case V2 Assertions Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Case V2 Assertions Test/Test Case V2 Assertions Test.lvclass"/>
+			<Item Name="Result Observation Test.lvclass" Type="LVClass" URL="../Rewrite Project/Result Observation Test/Result Observation Test.lvclass"/>
+			<Item Name="Mock Result Observer.lvclass" Type="LVClass" URL="../Rewrite Project/Mock Result Observer/Mock Result Observer.lvclass"/>
 		</Item>
 		<Item Name="Core" Type="Folder">
 			<Item Name="Result.lvlib" Type="Library" URL="../Rewrite Project/Result/Result.lvlib"/>
 			<Item Name="LUnit Test Case V2.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case/LUnit Test Case V2.lvclass"/>
 			<Item Name="LUnit Test Suite V2.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Suite/LUnit Test Suite V2.lvclass"/>
 			<Item Name="Runnable.lvclass" Type="LVClass" URL="../Rewrite Project/Run/Runnable.lvclass"/>
+			<Item Name="Result Observer.lvclass" Type="LVClass" URL="../Rewrite Project/Result Observer/Result Observer.lvclass"/>
 		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -546,7 +549,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Append Result.vi" Type="VI" URL="../Rewrite Project/LUnit Test Case/Private/Append Result.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
