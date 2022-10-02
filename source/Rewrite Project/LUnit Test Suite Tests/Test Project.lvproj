@@ -11,7 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="LUnit Test Case V2 Test Double.lvclass" Type="LVClass" URL="../../LUnit Test Case Tests/LUnit Test Case V2 Test Double/LUnit Test Case V2 Test Double.lvclass"/>
+		<Item Name="Light Test Case Double.lvclass" Type="LVClass" URL="../../Light Test Case Double/Light Test Case Double.lvclass"/>
 		<Item Name="LUnit Test Suite V2.lvclass" Type="LVClass" URL="../../LUnit Test Suite/LUnit Test Suite V2.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

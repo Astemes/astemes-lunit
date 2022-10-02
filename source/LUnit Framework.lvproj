@@ -236,6 +236,7 @@
 			<Item Name="LUnit Test Case V2 Test Double.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double/LUnit Test Case V2 Test Double.lvclass"/>
 			<Item Name="LUnit Test Case V2 Test Double Child.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double Child/LUnit Test Case V2 Test Double Child.lvclass"/>
 			<Item Name="Test Case V2 Assertions Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Case V2 Assertions Test/Test Case V2 Assertions Test.lvclass"/>
+			<Item Name="Light Test Case Double.lvclass" Type="LVClass" URL="../Rewrite Project/Light Test Case Double/Light Test Case Double.lvclass"/>
 			<Item Name="Result Observation Test.lvclass" Type="LVClass" URL="../Rewrite Project/Result Observation Test/Result Observation Test.lvclass"/>
 			<Item Name="Mock Result Observer.lvclass" Type="LVClass" URL="../Rewrite Project/Mock Result Observer/Mock Result Observer.lvclass"/>
 		</Item>
