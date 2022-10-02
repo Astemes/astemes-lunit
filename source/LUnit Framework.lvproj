@@ -239,6 +239,7 @@
 			<Item Name="Light Test Case Double.lvclass" Type="LVClass" URL="../Rewrite Project/Light Test Case Double/Light Test Case Double.lvclass"/>
 			<Item Name="Result Observation Test.lvclass" Type="LVClass" URL="../Rewrite Project/Result Observation Test/Result Observation Test.lvclass"/>
 			<Item Name="Mock Result Observer.lvclass" Type="LVClass" URL="../Rewrite Project/Mock Result Observer/Mock Result Observer.lvclass"/>
+			<Item Name="Test Result Tree Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Result Tree Test/Test Result Tree Test.lvclass"/>
 		</Item>
 		<Item Name="Core" Type="Folder">
 			<Item Name="Result.lvlib" Type="Library" URL="../Rewrite Project/Result/Result.lvlib"/>
@@ -253,6 +254,7 @@
 			<Item Name="Icon Decorator V2.lvclass" Type="LVClass" URL="../Rewrite Project/Icon Decorator/Icon Decorator V2.lvclass"/>
 		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
+		<Item Name="Counter Map Key.ctl" Type="VI" URL="../Rewrite Project/Test Result Tree Test/Private/Counter Map Key.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi">
