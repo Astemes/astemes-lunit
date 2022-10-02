@@ -246,6 +246,11 @@
 			<Item Name="LUnit Test Suite V2.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Suite/LUnit Test Suite V2.lvclass"/>
 			<Item Name="Runnable.lvclass" Type="LVClass" URL="../Rewrite Project/Run/Runnable.lvclass"/>
 			<Item Name="Result Observer.lvclass" Type="LVClass" URL="../Rewrite Project/Result Observer/Result Observer.lvclass"/>
+			<Item Name="Test Result Tree V2.lvclass" Type="LVClass" URL="../Rewrite Project/Test Result Tree/Test Result Tree/Test Result Tree V2.lvclass"/>
+			<Item Name="LUnit Utilities.lvlib" Type="Library" URL="../Rewrite Project/Utilities/LUnit Utilities.lvlib"/>
+		</Item>
+		<Item Name="Framework" Type="Folder">
+			<Item Name="Icon Decorator V2.lvclass" Type="LVClass" URL="../Rewrite Project/Icon Decorator/Icon Decorator V2.lvclass"/>
 		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
 		<Item Name="Dependencies" Type="Dependencies">
