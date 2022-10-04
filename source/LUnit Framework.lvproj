@@ -229,13 +229,15 @@
 			</Item>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Test Doubles" Type="Folder">
+				<Item Name="LUnit Test Case V2 Test Double.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double/LUnit Test Case V2 Test Double.lvclass"/>
+				<Item Name="LUnit Test Case V2 Test Double Child.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double Child/LUnit Test Case V2 Test Double Child.lvclass"/>
+				<Item Name="Light Test Case Double.lvclass" Type="LVClass" URL="../Rewrite Project/Light Test Case Double/Light Test Case Double.lvclass"/>
+			</Item>
 			<Item Name="Test Case V2 Test.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/Test Case V2 Test/Test Case V2 Test.lvclass"/>
 			<Item Name="Result Collector Tests.lvclass" Type="LVClass" URL="../Rewrite Project/Result Collector Tests/Result Collector Tests.lvclass"/>
 			<Item Name="LUnit Test Suite Tests.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Suite Tests/LUnit Test Suite Tests.lvclass"/>
-			<Item Name="LUnit Test Case V2 Test Double.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double/LUnit Test Case V2 Test Double.lvclass"/>
-			<Item Name="LUnit Test Case V2 Test Double Child.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Case Tests/LUnit Test Case V2 Test Double Child/LUnit Test Case V2 Test Double Child.lvclass"/>
 			<Item Name="Test Case V2 Assertions Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Case V2 Assertions Test/Test Case V2 Assertions Test.lvclass"/>
-			<Item Name="Light Test Case Double.lvclass" Type="LVClass" URL="../Rewrite Project/Light Test Case Double/Light Test Case Double.lvclass"/>
 			<Item Name="Result Observation Test.lvclass" Type="LVClass" URL="../Rewrite Project/Result Observation Test/Result Observation Test.lvclass"/>
 			<Item Name="Test FInder Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Finder Test/Test FInder Test.lvclass"/>
 			<Item Name="Mock Result Observer.lvclass" Type="LVClass" URL="../Rewrite Project/Mock Result Observer/Mock Result Observer.lvclass"/>
