@@ -247,14 +247,17 @@
 			<Item Name="LUnit Test Suite V2.lvclass" Type="LVClass" URL="../Rewrite Project/LUnit Test Suite/LUnit Test Suite V2.lvclass"/>
 			<Item Name="Runnable.lvclass" Type="LVClass" URL="../Rewrite Project/Run/Runnable.lvclass"/>
 			<Item Name="Result Observer.lvclass" Type="LVClass" URL="../Rewrite Project/Result Observer/Result Observer.lvclass"/>
-			<Item Name="Test Result Tree V2.lvclass" Type="LVClass" URL="../Rewrite Project/Test Result Tree/Test Result Tree/Test Result Tree V2.lvclass"/>
 			<Item Name="LUnit Utilities.lvlib" Type="Library" URL="../Rewrite Project/Utilities/LUnit Utilities.lvlib"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
 			<Item Name="Icon Decorator V2.lvclass" Type="LVClass" URL="../Rewrite Project/Icon Decorator/Icon Decorator V2.lvclass"/>
 		</Item>
+		<Item Name="User Interface" Type="Folder">
+			<Item Name="Test Result Tree V2.lvclass" Type="LVClass" URL="../Rewrite Project/Test Result Tree/Test Result Tree/Test Result Tree V2.lvclass"/>
+			<Item Name="Result Table V2.lvclass" Type="LVClass" URL="../Rewrite Project/Result Table/Result Table V2.lvclass"/>
+			<Item Name="Execution UI V2.lvclass" Type="LVClass" URL="../Rewrite Project/Execution UI/Execution UI V2.lvclass"/>
+		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
-		<Item Name="Counter Map Key.ctl" Type="VI" URL="../Rewrite Project/Test Result Tree Test/Private/Counter Map Key.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi">
