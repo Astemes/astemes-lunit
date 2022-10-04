@@ -93,7 +93,6 @@
 				<Item Name="Helper Classes" Type="Folder">
 					<Item Name="Indexing Test Finder.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Buffered Test Finder/Indexing Test Finder.lvclass"/>
 					<Item Name="Test Finder.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Test Finder/Test Finder.lvclass"/>
-					<Item Name="Test Tree.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Test Tree/Test Tree.lvclass"/>
 					<Item Name="Test Result Tree.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Test Result Tree/Test Result Tree.lvclass"/>
 					<Item Name="Result Table.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Result Table/Result Table/Result Table.lvclass"/>
 					<Item Name="Project Loader.lvclass" Type="LVClass" URL="../Framework/Helper Classes/Project Loader/Project Loader.lvclass"/>
@@ -238,6 +237,7 @@
 			<Item Name="Test Case V2 Assertions Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Case V2 Assertions Test/Test Case V2 Assertions Test.lvclass"/>
 			<Item Name="Light Test Case Double.lvclass" Type="LVClass" URL="../Rewrite Project/Light Test Case Double/Light Test Case Double.lvclass"/>
 			<Item Name="Result Observation Test.lvclass" Type="LVClass" URL="../Rewrite Project/Result Observation Test/Result Observation Test.lvclass"/>
+			<Item Name="Test FInder Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Finder Test/Test FInder Test.lvclass"/>
 			<Item Name="Mock Result Observer.lvclass" Type="LVClass" URL="../Rewrite Project/Mock Result Observer/Mock Result Observer.lvclass"/>
 			<Item Name="Test Result Tree Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Result Tree Test/Test Result Tree Test.lvclass"/>
 		</Item>
@@ -251,8 +251,10 @@
 		</Item>
 		<Item Name="Framework" Type="Folder">
 			<Item Name="Icon Decorator V2.lvclass" Type="LVClass" URL="../Rewrite Project/Icon Decorator/Icon Decorator V2.lvclass"/>
+			<Item Name="Test Finder V2.lvclass" Type="LVClass" URL="../Rewrite Project/Test Finder/Test Finder V2.lvclass"/>
 		</Item>
 		<Item Name="User Interface" Type="Folder">
+			<Item Name="Test Tree.lvclass" Type="LVClass" URL="../Rewrite Project/Test Tree/Test Tree.lvclass"/>
 			<Item Name="Test Result Tree V2.lvclass" Type="LVClass" URL="../Rewrite Project/Test Result Tree/Test Result Tree/Test Result Tree V2.lvclass"/>
 			<Item Name="Result Table V2.lvclass" Type="LVClass" URL="../Rewrite Project/Result Table/Result Table V2.lvclass"/>
 			<Item Name="Execution UI V2.lvclass" Type="LVClass" URL="../Rewrite Project/Execution UI/Execution UI V2.lvclass"/>
