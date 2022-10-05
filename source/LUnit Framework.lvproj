@@ -242,6 +242,8 @@
 			<Item Name="Test FInder Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Finder Test/Test FInder Test.lvclass"/>
 			<Item Name="Mock Result Observer.lvclass" Type="LVClass" URL="../Rewrite Project/Mock Result Observer/Mock Result Observer.lvclass"/>
 			<Item Name="Test Result Tree Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Result Tree Test/Test Result Tree Test.lvclass"/>
+			<Item Name="Result Model Test Enumeration.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model Tests/Result Model Test Enumeration.lvclass"/>
+			<Item Name="Result Model Result Recording Test.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model Result Recording Test/Result Model Result Recording Test.lvclass"/>
 		</Item>
 		<Item Name="Core" Type="Folder">
 			<Item Name="Result.lvlib" Type="Library" URL="../Rewrite Project/Result/Result.lvlib"/>
@@ -261,6 +263,7 @@
 			<Item Name="Result Table V2.lvclass" Type="LVClass" URL="../Rewrite Project/Result Table/Result Table V2.lvclass"/>
 			<Item Name="Tag Tree.lvclass" Type="LVClass" URL="../Rewrite Project/Test Tree V2/Tag Tree.lvclass"/>
 			<Item Name="Execution UI V2.lvclass" Type="LVClass" URL="../Rewrite Project/Execution UI/Execution UI V2.lvclass"/>
+			<Item Name="Result Model.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model/Result Model.lvclass"/>
 		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
 		<Item Name="Dependencies" Type="Dependencies">
