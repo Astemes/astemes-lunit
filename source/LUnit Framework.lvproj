@@ -258,12 +258,14 @@
 			<Item Name="Test Finder V2.lvclass" Type="LVClass" URL="../Rewrite Project/Test Finder/Test Finder V2.lvclass"/>
 		</Item>
 		<Item Name="User Interface" Type="Folder">
-			<Item Name="Test Tree.lvclass" Type="LVClass" URL="../Rewrite Project/Test Tree/Test Tree.lvclass"/>
-			<Item Name="Test Result Tree V2.lvclass" Type="LVClass" URL="../Rewrite Project/Test Result Tree/Test Result Tree/Test Result Tree V2.lvclass"/>
 			<Item Name="Result Table V2.lvclass" Type="LVClass" URL="../Rewrite Project/Result Table/Result Table V2.lvclass"/>
 			<Item Name="Tag Tree.lvclass" Type="LVClass" URL="../Rewrite Project/Test Tree V2/Tag Tree.lvclass"/>
 			<Item Name="Execution UI V2.lvclass" Type="LVClass" URL="../Rewrite Project/Execution UI/Execution UI V2.lvclass"/>
 			<Item Name="Result Model.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model/Result Model.lvclass"/>
+		</Item>
+		<Item Name="Deprecated" Type="Folder">
+			<Item Name="Test Result Tree V2.lvclass" Type="LVClass" URL="../Rewrite Project/Test Result Tree/Test Result Tree/Test Result Tree V2.lvclass"/>
+			<Item Name="Test Tree.lvclass" Type="LVClass" URL="../Rewrite Project/Test Tree/Test Tree.lvclass"/>
 		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
 		<Item Name="Dependencies" Type="Dependencies">
