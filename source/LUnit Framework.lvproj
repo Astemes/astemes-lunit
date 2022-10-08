@@ -243,6 +243,7 @@
 			<Item Name="Mock Result Observer.lvclass" Type="LVClass" URL="../Rewrite Project/Mock Result Observer/Mock Result Observer.lvclass"/>
 			<Item Name="Test Result Tree Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Result Tree Test/Test Result Tree Test.lvclass"/>
 			<Item Name="Result Model Test Enumeration.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model Tests/Result Model Test Enumeration.lvclass"/>
+			<Item Name="Result Model Statistics.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model Statistics Test/Result Model Statistics.lvclass"/>
 			<Item Name="Result Model Result Recording Test.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model Result Recording Test/Result Model Result Recording Test.lvclass"/>
 		</Item>
 		<Item Name="Core" Type="Folder">
