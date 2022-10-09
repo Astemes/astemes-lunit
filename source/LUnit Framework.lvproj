@@ -244,6 +244,7 @@
 			<Item Name="Result Model Test Enumeration.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model Tests/Result Model Test Enumeration.lvclass"/>
 			<Item Name="Result Model Statistics.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model Statistics Test/Result Model Statistics.lvclass"/>
 			<Item Name="Result Model Result Recording Test.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model Result Recording Test/Result Model Result Recording Test.lvclass"/>
+			<Item Name="Test Runner Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Runner Test/Test Runner Test.lvclass"/>
 		</Item>
 		<Item Name="Core" Type="Folder">
 			<Item Name="Result.lvlib" Type="Library" URL="../Rewrite Project/Result/Result.lvlib"/>
@@ -256,6 +257,9 @@
 		<Item Name="Framework" Type="Folder">
 			<Item Name="Icon Decorator V2.lvclass" Type="LVClass" URL="../Rewrite Project/Icon Decorator/Icon Decorator V2.lvclass"/>
 			<Item Name="Test Finder V2.lvclass" Type="LVClass" URL="../Rewrite Project/Test Finder/Test Finder V2.lvclass"/>
+			<Item Name="Test Runner V2.lvclass" Type="LVClass" URL="../Rewrite Project/Test Runner/Test Runner V2.lvclass"/>
+			<Item Name="Single Thread Test Runner.lvclass" Type="LVClass" URL="../Rewrite Project/Single Thread Test Runner/Single Thread Test Runner.lvclass"/>
+			<Item Name="Parallell Test Runner.lvclass" Type="LVClass" URL="../Rewrite Project/Parallell Test Runner/Parallell Test Runner.lvclass"/>
 		</Item>
 		<Item Name="User Interface" Type="Folder">
 			<Item Name="Execution UI V2.lvclass" Type="LVClass" URL="../Rewrite Project/Execution UI/Execution UI V2.lvclass"/>
