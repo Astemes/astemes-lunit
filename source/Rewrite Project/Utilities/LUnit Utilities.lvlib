@@ -9,6 +9,5 @@
 </Property>
 	<Item Name="Check Is Test Case.vi" Type="VI" URL="../Check Is Test Case.vi"/>
 	<Item Name="Parse Qualified Method Name.vi" Type="VI" URL="../Parse Qualified Method Name.vi"/>
-	<Item Name="Separator.vi" Type="VI" URL="../Separator.vi"/>
 	<Item Name="Status to Glyph.vi" Type="VI" URL="../Status to Glyph.vi"/>
 </Library>

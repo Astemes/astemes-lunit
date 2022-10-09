@@ -258,7 +258,6 @@
 			<Item Name="Test Finder V2.lvclass" Type="LVClass" URL="../Rewrite Project/Test Finder/Test Finder V2.lvclass"/>
 		</Item>
 		<Item Name="User Interface" Type="Folder">
-			<Item Name="Tag Tree.lvclass" Type="LVClass" URL="../Rewrite Project/Test Tree V2/Tag Tree.lvclass"/>
 			<Item Name="Execution UI V2.lvclass" Type="LVClass" URL="../Rewrite Project/Execution UI/Execution UI V2.lvclass"/>
 			<Item Name="Result Model.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model/Result Model.lvclass"/>
 		</Item>
