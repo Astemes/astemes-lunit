@@ -241,7 +241,6 @@
 			<Item Name="Result Observation Test.lvclass" Type="LVClass" URL="../Rewrite Project/Result Observation Test/Result Observation Test.lvclass"/>
 			<Item Name="Test FInder Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Finder Test/Test FInder Test.lvclass"/>
 			<Item Name="Mock Result Observer.lvclass" Type="LVClass" URL="../Rewrite Project/Mock Result Observer/Mock Result Observer.lvclass"/>
-			<Item Name="Test Result Tree Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Result Tree Test/Test Result Tree Test.lvclass"/>
 			<Item Name="Result Model Test Enumeration.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model Tests/Result Model Test Enumeration.lvclass"/>
 			<Item Name="Result Model Statistics.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model Statistics Test/Result Model Statistics.lvclass"/>
 			<Item Name="Result Model Result Recording Test.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model Result Recording Test/Result Model Result Recording Test.lvclass"/>
@@ -259,14 +258,9 @@
 			<Item Name="Test Finder V2.lvclass" Type="LVClass" URL="../Rewrite Project/Test Finder/Test Finder V2.lvclass"/>
 		</Item>
 		<Item Name="User Interface" Type="Folder">
-			<Item Name="Result Table V2.lvclass" Type="LVClass" URL="../Rewrite Project/Result Table/Result Table V2.lvclass"/>
 			<Item Name="Tag Tree.lvclass" Type="LVClass" URL="../Rewrite Project/Test Tree V2/Tag Tree.lvclass"/>
 			<Item Name="Execution UI V2.lvclass" Type="LVClass" URL="../Rewrite Project/Execution UI/Execution UI V2.lvclass"/>
 			<Item Name="Result Model.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model/Result Model.lvclass"/>
-		</Item>
-		<Item Name="Deprecated" Type="Folder">
-			<Item Name="Test Result Tree V2.lvclass" Type="LVClass" URL="../Rewrite Project/Test Result Tree/Test Result Tree/Test Result Tree V2.lvclass"/>
-			<Item Name="Test Tree.lvclass" Type="LVClass" URL="../Rewrite Project/Test Tree/Test Tree.lvclass"/>
 		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -571,6 +565,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Test Tree.lvclass" Type="LVClass" URL="../Rewrite Project/Deprecated/Test Tree/Test Tree.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
