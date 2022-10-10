@@ -245,6 +245,7 @@
 			<Item Name="Result Model Statistics.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model Statistics Test/Result Model Statistics.lvclass"/>
 			<Item Name="Result Model Result Recording Test.lvclass" Type="LVClass" URL="../Rewrite Project/Result Model Result Recording Test/Result Model Result Recording Test.lvclass"/>
 			<Item Name="Test Runner Test.lvclass" Type="LVClass" URL="../Rewrite Project/Test Runner Test/Test Runner Test.lvclass"/>
+			<Item Name="Error Checking Test.lvclass" Type="LVClass" URL="../Rewrite Project/Error Checking Test/Error Checking Test.lvclass"/>
 		</Item>
 		<Item Name="Core" Type="Folder">
 			<Item Name="Result.lvlib" Type="Library" URL="../Rewrite Project/Result/Result.lvlib"/>
