@@ -107,7 +107,6 @@
 			</Item>
 			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../Framework/Test Case/LUnit Test Case.lvclass"/>
 			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../Framework/Test Suite/LUnit Test Suite.lvclass"/>
-			<Item Name="LUnit Test Vector.lvclass" Type="LVClass" URL="../Framework/Test Vector/LUnit Test Vector.lvclass"/>
 			<Item Name="Project Provider.lvlib" Type="Library" URL="../Project Provider/Project Provider.lvlib"/>
 		</Item>
 		<Item Name="Menu" Type="Folder">
@@ -564,12 +563,14 @@
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="Read Class Ancestry Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Read Class Ancestry Without Loading.vi"/>
 				<Item Name="Is Class Not Interface Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Is Class Not Interface Without Loading.vi"/>
+				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Test Tree.lvclass" Type="LVClass" URL="../Rewrite Project/Deprecated/Test Tree/Test Tree.lvclass"/>
+			<Item Name="Handle Error.vi" Type="VI" URL="../Framework/Result Types/Case Result/Public/Handle Error.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
@@ -1020,18 +1021,18 @@
 				<Property Name="Source[63].newName" Type="Str">LUnit Generate Text Report.vi</Property>
 				<Property Name="Source[63].type" Type="Str">VI</Property>
 				<Property Name="Source[64].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[64].itemID" Type="Ref">/My Computer/LUnit/LUnit Test Vector.lvclass</Property>
+				<Property Name="Source[64].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/LUnit Test Vector.lvclass</Property>
 				<Property Name="Source[64].newName" Type="Str">Test Vector.lvclass</Property>
 				<Property Name="Source[64].type" Type="Str">Library</Property>
 				<Property Name="Source[65].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[65].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[65].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[65].itemID" Type="Ref">/My Computer/LUnit/LUnit Test Vector.lvclass/Private</Property>
+				<Property Name="Source[65].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/LUnit Test Vector.lvclass/Private</Property>
 				<Property Name="Source[65].type" Type="Str">Container</Property>
 				<Property Name="Source[66].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[66].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[66].destinationIndex" Type="Int">14</Property>
-				<Property Name="Source[66].itemID" Type="Ref">/My Computer/LUnit/LUnit Test Vector.lvclass/Vector methods</Property>
+				<Property Name="Source[66].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/LUnit Test Vector.lvclass/Vector methods</Property>
 				<Property Name="Source[66].type" Type="Str">Container</Property>
 				<Property Name="Source[67].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[67].Container.depDestIndex" Type="Int">0</Property>
