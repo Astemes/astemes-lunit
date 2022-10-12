@@ -1297,7 +1297,7 @@
 				<Property Name="Destination[9].libraryName" Type="Str">LUnit Framework.lvlib</Property>
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit V2/vi.lib/Astemes/LUnit</Property>
 				<Property Name="DestinationCount" Type="Int">12</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6EBA64FF-4A7F-4858-A082-810C792F38B1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{ED0A2B4E-5A95-4393-BC52-FBA4E5D8200D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -1341,7 +1341,7 @@
 				<Property Name="Source[18].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[18].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[18].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">7</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Application Framework</Property>
 				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[18].type" Type="Str">Container</Property>
@@ -1427,6 +1427,25 @@
 				<Property Name="Source[35].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[35].itemID" Type="Ref">/My Computer/Framework</Property>
 				<Property Name="Source[35].type" Type="Str">Container</Property>
+				<Property Name="Source[36].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/LUnitCLI/LUnitCLI.lvclass</Property>
+				<Property Name="Source[36].newName" Type="Str">LUnit.lvclass</Property>
+				<Property Name="Source[36].type" Type="Str">Library</Property>
+				<Property Name="Source[37].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/Project Provider.lvlib</Property>
+				<Property Name="Source[37].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[37].newName" Type="Str">LUnit Project Provider.lvlib</Property>
+				<Property Name="Source[37].type" Type="Str">Library</Property>
+				<Property Name="Source[38].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[38].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/Project Provider.lvlib/Icons</Property>
+				<Property Name="Source[38].newName" Type="Str">LUnit_</Property>
+				<Property Name="Source[38].type" Type="Str">Container</Property>
+				<Property Name="Source[39].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[39].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/Project Provider.lvlib/LUnit</Property>
+				<Property Name="Source[39].newName" Type="Str">LUnit_</Property>
+				<Property Name="Source[39].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Core/Runnable.lvclass</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
@@ -1456,7 +1475,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Framework/Icon Decorator V2.lvclass</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">36</Property>
+				<Property Name="SourceCount" Type="Int">40</Property>
 			</Item>
 		</Item>
 	</Item>
