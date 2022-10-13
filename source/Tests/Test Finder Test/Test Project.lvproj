@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="21008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -13,11 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test Finder Test Dummy.lvlib" Type="Library" URL="../Test Finder Test Dummy.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
-			</Item>
 			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../../../Core/LUnit Test Case/LUnit Test Case.lvclass"/>
-			<Item Name="Result Observer.lvclass" Type="LVClass" URL="../../../Core/Result Observer/Result Observer.lvclass"/>
 			<Item Name="Result.lvlib" Type="Library" URL="../../../Core/Result/Result.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
