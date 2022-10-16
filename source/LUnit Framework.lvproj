@@ -1130,7 +1130,7 @@
 				<Property Name="Source[46].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Teardown.vi</Property>
 				<Property Name="Source[46].type" Type="Str">VI</Property>
 				<Property Name="Source[47].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[47].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Run.vi</Property>
+				<Property Name="Source[47].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Run All.vi</Property>
 				<Property Name="Source[47].type" Type="Str">VI</Property>
 				<Property Name="Source[48].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[48].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/Subscribe to Results.vi</Property>
@@ -1169,7 +1169,7 @@
 				<Property Name="Source[56].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Remove Items.vi</Property>
 				<Property Name="Source[56].type" Type="Str">VI</Property>
 				<Property Name="Source[57].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[57].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Run.vi</Property>
+				<Property Name="Source[57].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Run All.vi</Property>
 				<Property Name="Source[57].type" Type="Str">VI</Property>
 				<Property Name="Source[58].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[58].itemID" Type="Ref"></Property>
