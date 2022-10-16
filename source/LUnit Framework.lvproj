@@ -125,7 +125,6 @@
 		<Item Name="Core" Type="Folder">
 			<Item Name="Result.lvlib" Type="Library" URL="../Core/Result/Result.lvlib"/>
 			<Item Name="Runnable.lvclass" Type="LVClass" URL="../Core/Runnable/Runnable.lvclass"/>
-			<Item Name="Result Observer.lvclass" Type="LVClass" URL="../Core/Result Observer/Result Observer.lvclass"/>
 		</Item>
 		<Item Name="API" Type="Folder">
 			<Item Name="Execution API.lvclass" Type="LVClass" URL="../User Interface/Execution API/Execution API.lvclass"/>
@@ -137,6 +136,7 @@
 			<Item Name="Test Finder.lvclass" Type="LVClass" URL="../Framework/Test Finder/Test Finder.lvclass"/>
 			<Item Name="Single Thread Test Runner.lvclass" Type="LVClass" URL="../Framework/Single Thread Test Runner/Single Thread Test Runner.lvclass"/>
 			<Item Name="Parallell Test Runner.lvclass" Type="LVClass" URL="../Framework/Parallell Test Runner/Parallell Test Runner.lvclass"/>
+			<Item Name="Result Observer.lvclass" Type="LVClass" URL="../Framework/Result Observer/Result Observer.lvclass"/>
 			<Item Name="Test Runner.lvclass" Type="LVClass" URL="../Framework/Test Runner/Test Runner.lvclass"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
@@ -1133,13 +1133,13 @@
 				<Property Name="Source[47].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Run.vi</Property>
 				<Property Name="Source[47].type" Type="Str">VI</Property>
 				<Property Name="Source[48].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[48].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Subscribe to Results.vi</Property>
+				<Property Name="Source[48].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/Subscribe to Results.vi</Property>
 				<Property Name="Source[48].type" Type="Str">VI</Property>
 				<Property Name="Source[49].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[49].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/List.vi</Property>
 				<Property Name="Source[49].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">8</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Core/Result Observer.lvclass</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Framework/Result Observer.lvclass</Property>
 				<Property Name="Source[5].newName" Type="Str">LUnit Result Observer.lvclass</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
@@ -1172,7 +1172,7 @@
 				<Property Name="Source[57].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Run.vi</Property>
 				<Property Name="Source[57].type" Type="Str">VI</Property>
 				<Property Name="Source[58].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[58].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Subscribe to Results.vi</Property>
+				<Property Name="Source[58].itemID" Type="Ref"></Property>
 				<Property Name="Source[58].type" Type="Str">VI</Property>
 				<Property Name="Source[59].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[59].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/List.vi</Property>

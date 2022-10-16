@@ -22,7 +22,7 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Result Observer.lvclass" Type="Parent" URL="../../../Core/Result Observer/Result Observer.lvclass"/>
+		<Item Name="Result Observer.lvclass" Type="Parent" URL="../../Result Observer/Result Observer.lvclass"/>
 	</Item>
 	<Item Name="Icon Decorator.ctl" Type="Class Private Data" URL="Icon Decorator.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -78,11 +78,11 @@
 	<Item Name="Result.vi" Type="VI" URL="../Result.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+)!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$E!Q`````Q2/97VF!!!11$$`````"UVF=X.B:W5!&amp;%!Q`````QN%:8.D=GFQ&gt;'FP&lt;A"T!0%!!!!!!!!!!AR3:8.V&lt;(1O&lt;(:M;7)+5X2B&gt;(6T,G.U&lt;!"41"9!#!!'5'&amp;T=W6E"E:B;7RF:!6&amp;=H*P=A&gt;4;WFQ='6E#V.F&gt;(6Q)%6S=G^S"E*S&lt;WNF&lt;AZ5:7&amp;S:'^X&lt;C"&amp;=H*P=A!!"F.U982V=Q!!HQ$R!!!!!!!!!!)-5G6T&gt;7RU,GRW&lt;'FC#&amp;2Z='5O9X2M!)&amp;!&amp;A!-"EVF&gt;'BP:!2$98.F"6.V;82F"&amp;"B=X-%2G&amp;J&lt;!24;WFQ"V"B=X-A;79(2G&amp;J&lt;#"J:AV198.T)'FG)%6S=G^S$5:B;7QA;79A28*S&lt;X).5'&amp;T=S"J:C"&amp;=86B&lt;!V'97FM)'FG)%6R&gt;7&amp;M!!!,5G6T&gt;7RU)&amp;2Z='5!&amp;5!+!!Z&amp;?'6D&gt;82J&lt;WYA6'FN:1!!0A$R!!!!!!!!!!)-5G6T&gt;7RU,GRW&lt;'FC#F*F=X6M&gt;#ZD&gt;'Q!(E"1!!9!"A!(!!A!#1!+!!M'5G6T&gt;7RU!!!U1(!!(A!!'":*9W^O)%2F9W^S982P=CZM&gt;G.M98.T!!!237.P&lt;C"%:7.P=G&amp;U&lt;X)A37Y!6!$Q!!Q!!Q!%!!1!"!!%!!1!"!!%!!5!"!!-!!U$!!"Y!!!.#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!%!!!!*!!!!!!!1!/!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 	</Item>
 	<Item Name="Update Item Overlay.vi" Type="VI" URL="../Update Item Overlay.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$A!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!)Q$RQ]1LCA!!!!%,382F&lt;6*F:CZD&gt;'Q!$U!)!!2*&gt;'6N!!"5!0!!$!!$!!1!"!!%!!1!"!!%!!1!"1!%!!9!"!-!!(A!!!U)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!!!!!!!!"!!=!!!!!</Property>
