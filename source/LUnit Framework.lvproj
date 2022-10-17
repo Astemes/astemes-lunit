@@ -121,6 +121,7 @@
 			<Item Name="Result Model Result Recording Test.lvclass" Type="LVClass" URL="../../tests/Result Model Result Recording Test/Result Model Result Recording Test.lvclass"/>
 			<Item Name="Test Runner Test.lvclass" Type="LVClass" URL="../../tests/Test Runner Test/Test Runner Test.lvclass"/>
 			<Item Name="Error Checking Test.lvclass" Type="LVClass" URL="../../tests/Error Checking Test/Error Checking Test.lvclass"/>
+			<Item Name="Configuration Manager Test.lvclass" Type="LVClass" URL="../../tests/Configuration Manager Test/Configuration Manager Test.lvclass"/>
 		</Item>
 		<Item Name="Core" Type="Folder">
 			<Item Name="Result.lvlib" Type="Library" URL="../Core/Result/Result.lvlib"/>
@@ -132,7 +133,6 @@
 			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../API/LUnit Test Suite/LUnit Test Suite.lvclass"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
-			<Item Name="Icon Decorator.lvclass" Type="LVClass" URL="../Framework/Icon Decorator/Icon Decorator.lvclass"/>
 			<Item Name="Test Finder.lvclass" Type="LVClass" URL="../Framework/Test Finder/Test Finder.lvclass"/>
 			<Item Name="Single Thread Test Runner.lvclass" Type="LVClass" URL="../Framework/Single Thread Test Runner/Single Thread Test Runner.lvclass"/>
 			<Item Name="Parallell Test Runner.lvclass" Type="LVClass" URL="../Framework/Parallell Test Runner/Parallell Test Runner.lvclass"/>
@@ -179,6 +179,7 @@
 			<Item Name="Process.lvclass" Type="LVClass" URL="../User Interface/Process/Process.lvclass"/>
 			<Item Name="Execution UI.lvclass" Type="LVClass" URL="../User Interface/Execution UI/Execution UI.lvclass"/>
 			<Item Name="Result Model.lvclass" Type="LVClass" URL="../User Interface/Result Model/Result Model.lvclass"/>
+			<Item Name="Configuration Manager.lvclass" Type="LVClass" URL="../User Interface/Configuration Manager/Configuration Manager.lvclass"/>
 		</Item>
 		<Item Name="Plugins" Type="Folder">
 			<Item Name="Execution Profiler.lvclass" Type="LVClass" URL="../Plugins/Execution Profiler/Execution Profiler.lvclass"/>
@@ -187,6 +188,8 @@
 			<Item Name="Coverage Analyzer Result View.lvclass" Type="LVClass" URL="../Plugins/Coverage Analyzer Result View/Coverage Analyzer Result View.lvclass"/>
 			<Item Name="Coverage Analyzer Process.lvclass" Type="LVClass" URL="../Plugins/Coverage Analyzer Process/Coverage Analyzer Process.lvclass"/>
 			<Item Name="Test Result View.lvclass" Type="LVClass" URL="../Plugins/Test Result View/Test Result View.lvclass"/>
+			<Item Name="Icon Decorator.lvclass" Type="LVClass" URL="../Framework/Icon Decorator/Icon Decorator.lvclass"/>
+			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Plugins/Plugin/Plugin.lvclass"/>
 		</Item>
 		<Item Name="Menu" Type="Folder">
 			<Item Name="Tools Menu" Type="Folder">
@@ -220,7 +223,7 @@
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="Project Loader.lvclass" Type="LVClass" URL="../Support/Project Loader/Project Loader.lvclass"/>
-			<Item Name="Configuration File.lvlib" Type="Library" URL="../Support/Configuration File/Configuration File.lvlib"/>
+			<Item Name="Utilities.lvlib" Type="Library" URL="../Support/Utilities.lvlib"/>
 		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
 		<Item Name="Project Provider.lvlib" Type="Library" URL="../Project Provider/Project Provider.lvlib"/>
@@ -382,13 +385,6 @@
 				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
@@ -485,10 +481,12 @@
 				<Item Name="Read Class Ancestry Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Read Class Ancestry Without Loading.vi"/>
 				<Item Name="Is Class Not Interface Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Is Class Not Interface Without Loading.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
-				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="menu.rtm" Type="Document" URL="../User Interface/Execution UI/menu.rtm"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit Historic" Type="Source Distribution">
@@ -940,7 +938,7 @@
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{382D2E91-B8AB-44FB-AF2A-BBE06E0F256A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E253ADCE-BF0D-4C46-AA1E-3C86908FDACD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -1130,52 +1128,54 @@
 				<Property Name="Source[46].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Teardown.vi</Property>
 				<Property Name="Source[46].type" Type="Str">VI</Property>
 				<Property Name="Source[47].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[47].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Run All.vi</Property>
+				<Property Name="Source[47].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/List.vi</Property>
 				<Property Name="Source[47].type" Type="Str">VI</Property>
 				<Property Name="Source[48].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[48].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/Subscribe to Results.vi</Property>
+				<Property Name="Source[48].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Filter.vi</Property>
 				<Property Name="Source[48].type" Type="Str">VI</Property>
+				<Property Name="Source[49].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[49].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[49].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[49].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/List.vi</Property>
-				<Property Name="Source[49].type" Type="Str">VI</Property>
+				<Property Name="Source[49].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Private</Property>
+				<Property Name="Source[49].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Framework/Result Observer.lvclass</Property>
 				<Property Name="Source[5].newName" Type="Str">LUnit Result Observer.lvclass</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="Source[50].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[50].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[50].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[50].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Filter.vi</Property>
-				<Property Name="Source[50].type" Type="Str">VI</Property>
-				<Property Name="Source[51].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[51].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[50].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Factory VIs</Property>
+				<Property Name="Source[50].type" Type="Str">Container</Property>
 				<Property Name="Source[51].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[51].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Private</Property>
-				<Property Name="Source[51].type" Type="Str">Container</Property>
-				<Property Name="Source[52].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[52].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[51].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Create.vi</Property>
+				<Property Name="Source[51].type" Type="Str">VI</Property>
 				<Property Name="Source[52].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[52].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Factory VIs</Property>
-				<Property Name="Source[52].type" Type="Str">Container</Property>
+				<Property Name="Source[52].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/List Tests.vi</Property>
+				<Property Name="Source[52].type" Type="Str">VI</Property>
 				<Property Name="Source[53].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[53].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Create.vi</Property>
+				<Property Name="Source[53].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Append.vi</Property>
 				<Property Name="Source[53].type" Type="Str">VI</Property>
 				<Property Name="Source[54].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[54].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/List Tests.vi</Property>
+				<Property Name="Source[54].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Remove Items.vi</Property>
 				<Property Name="Source[54].type" Type="Str">VI</Property>
 				<Property Name="Source[55].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[55].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Append.vi</Property>
+				<Property Name="Source[55].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/List.vi</Property>
 				<Property Name="Source[55].type" Type="Str">VI</Property>
 				<Property Name="Source[56].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[56].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Remove Items.vi</Property>
+				<Property Name="Source[56].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Filter.vi</Property>
 				<Property Name="Source[56].type" Type="Str">VI</Property>
+				<Property Name="Source[57].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[57].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[57].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[57].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Run All.vi</Property>
-				<Property Name="Source[57].type" Type="Str">VI</Property>
+				<Property Name="Source[57].itemID" Type="Ref">/My Computer/API/Execution API.lvclass/Private</Property>
+				<Property Name="Source[57].type" Type="Str">Container</Property>
 				<Property Name="Source[58].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[58].itemID" Type="Ref"></Property>
+				<Property Name="Source[58].itemID" Type="Ref">/My Computer/API/Execution API.lvclass/Init.vi</Property>
 				<Property Name="Source[58].type" Type="Str">VI</Property>
 				<Property Name="Source[59].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[59].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/List.vi</Property>
+				<Property Name="Source[59].itemID" Type="Ref">/My Computer/API/Execution API.lvclass/Clear.vi</Property>
 				<Property Name="Source[59].type" Type="Str">VI</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
@@ -1183,35 +1183,26 @@
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Tests</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="Source[60].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[60].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[60].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[60].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[60].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Filter.vi</Property>
-				<Property Name="Source[60].type" Type="Str">VI</Property>
-				<Property Name="Source[61].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[61].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[60].itemID" Type="Ref">/My Computer/Support</Property>
+				<Property Name="Source[60].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[60].type" Type="Str">Container</Property>
 				<Property Name="Source[61].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[61].itemID" Type="Ref">/My Computer/API/Execution API.lvclass/Private</Property>
-				<Property Name="Source[61].type" Type="Str">Container</Property>
-				<Property Name="Source[62].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[62].itemID" Type="Ref">/My Computer/API/Execution API.lvclass/Init.vi</Property>
+				<Property Name="Source[61].itemID" Type="Ref">/My Computer/API/Execution API.lvclass</Property>
+				<Property Name="Source[61].type" Type="Str">Library</Property>
+				<Property Name="Source[62].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[62].itemID" Type="Ref">/My Computer/User Interface/Execution UI.lvclass/User Interface.vi</Property>
+				<Property Name="Source[62].newName" Type="Str">LUnit User Interface.vi</Property>
+				<Property Name="Source[62].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[62].type" Type="Str">VI</Property>
-				<Property Name="Source[63].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[63].itemID" Type="Ref">/My Computer/API/Execution API.lvclass/Clear.vi</Property>
-				<Property Name="Source[63].type" Type="Str">VI</Property>
-				<Property Name="Source[64].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[64].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[64].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[64].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[64].itemID" Type="Ref">/My Computer/Support</Property>
-				<Property Name="Source[64].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[64].type" Type="Str">Container</Property>
-				<Property Name="Source[65].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[65].itemID" Type="Ref">/My Computer/API/Execution API.lvclass</Property>
-				<Property Name="Source[65].type" Type="Str">Library</Property>
-				<Property Name="Source[66].destinationIndex" Type="Int">8</Property>
-				<Property Name="Source[66].itemID" Type="Ref">/My Computer/User Interface/Execution UI.lvclass/User Interface.vi</Property>
-				<Property Name="Source[66].newName" Type="Str">LUnit User Interface.vi</Property>
-				<Property Name="Source[66].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[66].type" Type="Str">VI</Property>
+				<Property Name="Source[63].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[63].itemID" Type="Ref">/My Computer/Framework/Test Runner.lvclass</Property>
+				<Property Name="Source[63].newName" Type="Str">LUnit Test Runner.lvclass</Property>
+				<Property Name="Source[63].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[63].type" Type="Str">Library</Property>
 				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
@@ -1219,12 +1210,12 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Framework/Icon Decorator.lvclass</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Plugins/Icon Decorator.lvclass</Property>
 				<Property Name="Source[8].type" Type="Str">Library</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">67</Property>
+				<Property Name="SourceCount" Type="Int">64</Property>
 			</Item>
 		</Item>
 	</Item>
