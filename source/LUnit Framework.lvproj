@@ -120,8 +120,9 @@
 			<Item Name="Result Model Statistics.lvclass" Type="LVClass" URL="../../tests/Result Model Statistics Test/Result Model Statistics.lvclass"/>
 			<Item Name="Result Model Result Recording Test.lvclass" Type="LVClass" URL="../../tests/Result Model Result Recording Test/Result Model Result Recording Test.lvclass"/>
 			<Item Name="Test Runner Test.lvclass" Type="LVClass" URL="../../tests/Test Runner Test/Test Runner Test.lvclass"/>
-			<Item Name="Error Checking Test.lvclass" Type="LVClass" URL="../../tests/Error Checking Test/Error Checking Test.lvclass"/>
 			<Item Name="Configuration Manager Test.lvclass" Type="LVClass" URL="../../tests/Configuration Manager Test/Configuration Manager Test.lvclass"/>
+			<Item Name="Error Checking Test.lvclass" Type="LVClass" URL="../../tests/Error Checking Test/Error Checking Test.lvclass"/>
+			<Item Name="Error Handler Tests.lvclass" Type="LVClass" URL="../../tests/Error Handler Tests/Error Handler Tests.lvclass"/>
 		</Item>
 		<Item Name="Core" Type="Folder">
 			<Item Name="Result.lvlib" Type="Library" URL="../Core/Result/Result.lvlib"/>
@@ -180,6 +181,7 @@
 			<Item Name="Execution UI.lvclass" Type="LVClass" URL="../User Interface/Execution UI/Execution UI.lvclass"/>
 			<Item Name="Result Model.lvclass" Type="LVClass" URL="../User Interface/Result Model/Result Model.lvclass"/>
 			<Item Name="Configuration Manager.lvclass" Type="LVClass" URL="../User Interface/Configuration Manager/Configuration Manager.lvclass"/>
+			<Item Name="Error Handler.lvclass" Type="LVClass" URL="../User Interface/Error Handler/Error Handler.lvclass"/>
 		</Item>
 		<Item Name="Plugins" Type="Folder">
 			<Item Name="Execution Profiler.lvclass" Type="LVClass" URL="../Plugins/Execution Profiler/Execution Profiler.lvclass"/>
