@@ -10,4 +10,5 @@
 	<Item Name="Get Config Directory Path.vi" Type="VI" URL="../Get Config Directory Path.vi"/>
 	<Item Name="Get Config File Path.vi" Type="VI" URL="../Get Config File Path.vi"/>
 	<Item Name="Get Error Log Directory Path.vi" Type="VI" URL="../Get Error Log Directory Path.vi"/>
+	<Item Name="Get Index Directory Path.vi" Type="VI" URL="../Get Index Directory Path.vi"/>
 </Library>
