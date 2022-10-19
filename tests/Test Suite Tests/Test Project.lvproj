@@ -11,7 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Light Test Case Double.lvclass" Type="LVClass" URL="../../Test Case Test Double Child/Light Test Case Double.lvclass"/>
+		<Item Name="Light Test Case Double.lvclass" Type="LVClass" URL="../../Test Doubles/Test Case Test Double Child/Light Test Case Double.lvclass"/>
 		<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../../../source/API/LUnit Test Suite/LUnit Test Suite.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -26,6 +26,7 @@
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="Is Class Not Interface Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Is Class Not Interface Without Loading.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -40,7 +41,6 @@
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 			</Item>
 			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../../../source/API/LUnit Test Case/LUnit Test Case.lvclass"/>
-			<Item Name="Result Observer.lvclass" Type="LVClass" URL="../../../source/Core/Result Observer/Result Observer.lvclass"/>
 			<Item Name="Result.lvlib" Type="Library" URL="../../../source/Core/Result/Result.lvlib"/>
 			<Item Name="Runnable.lvclass" Type="LVClass" URL="../../../source/Core/Runnable/Runnable.lvclass"/>
 		</Item>
