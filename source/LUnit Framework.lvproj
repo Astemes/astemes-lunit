@@ -34,6 +34,7 @@
 			<Item Name="Error Checking Test.lvclass" Type="LVClass" URL="../../tests/Error Checking Test/Error Checking Test.lvclass"/>
 			<Item Name="Error Handler Tests.lvclass" Type="LVClass" URL="../../tests/Error Handler Tests/Error Handler Tests.lvclass"/>
 			<Item Name="Report Generator Test.lvclass" Type="LVClass" URL="../../tests/Report Test/Report Generator Test.lvclass"/>
+			<Item Name="Text Report Test.lvclass" Type="LVClass" URL="../../tests/Text Report Test/Text Report Test.lvclass"/>
 			<Item Name="XML Report Test.lvclass" Type="LVClass" URL="../../tests/XML Report Test/XML Report Test.lvclass"/>
 		</Item>
 		<Item Name="LUnitCLI" Type="Folder">

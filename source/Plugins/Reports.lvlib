@@ -9,4 +9,5 @@
 	<Item Name="Report Generator.lvclass" Type="LVClass" URL="../Report Generator/Report Generator.lvclass"/>
 	<Item Name="Report.lvclass" Type="LVClass" URL="../Report/Report.lvclass"/>
 	<Item Name="XML Report.lvclass" Type="LVClass" URL="../XML Report/XML Report.lvclass"/>
+	<Item Name="Text Report.lvclass" Type="LVClass" URL="../Text Report/Text Report.lvclass"/>
 </Library>
