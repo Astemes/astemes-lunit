@@ -4,7 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Coverage Analyzer Process.lvclass" Type="LVClass" URL="../Coverage Analyzer Process/Coverage Analyzer Process.lvclass"/>
 	<Item Name="Coverage Analyzer Result View.lvclass" Type="LVClass" URL="../Coverage Analyzer Result View/Coverage Analyzer Result View.lvclass"/>
 	<Item Name="Coverage Analyzer.lvclass" Type="LVClass" URL="../Coverage Analyzer/Coverage Analyzer.lvclass"/>
 </Library>
