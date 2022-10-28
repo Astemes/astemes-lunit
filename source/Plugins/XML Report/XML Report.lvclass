@@ -25,7 +25,7 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Plugin.lvclass" Type="Parent" URL="../../Plugin/Plugin.lvclass"/>
+		<Item Name="Plugin.lvclass" Type="Parent" URL="../../../Framework/Plugin/Plugin.lvclass"/>
 		<Item Name="Reports.lvlib:Report Interface.lvclass" Type="Parent" URL="../../Report Interface/Report Interface.lvclass"/>
 		<Item Name="Reports.lvlib:Report.lvclass" Type="Parent" URL="../../Report/Report.lvclass"/>
 	</Item>
