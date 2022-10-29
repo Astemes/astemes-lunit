@@ -231,8 +231,10 @@
 			<Item Name="Project Loader.lvclass" Type="LVClass" URL="../Support/Project Loader/Project Loader.lvclass"/>
 			<Item Name="Utilities.lvlib" Type="Library" URL="../Support/Utilities.lvlib"/>
 		</Item>
+		<Item Name="Project Providers" Type="Folder">
+			<Item Name="Project Provider.lvlib" Type="Library" URL="../Project Provider/Project Provider.lvlib"/>
+		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
-		<Item Name="Project Provider.lvlib" Type="Library" URL="../Project Provider/Project Provider.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi">
@@ -504,6 +506,7 @@
 				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
 				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
 				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
+				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Runnable.lvclass"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
@@ -534,7 +537,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{86FCB19C-1FDD-419C-965A-93BB19BFAE86}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -572,7 +575,7 @@
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8AB9A8A6-B2C0-48DE-B4AA-7F59BCE3DB39}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D0ED5F4E-1A24-443B-96D0-F9019E148BF1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -675,10 +678,12 @@
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[30].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[30].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[30].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[30].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[30].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[30].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[30].itemID" Type="Ref">/My Computer/Framework</Property>
+				<Property Name="Source[30].newName" Type="Str">LUnit </Property>
 				<Property Name="Source[30].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[30].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[30].properties[1].type" Type="Str">Auto error handling</Property>
@@ -691,15 +696,16 @@
 				<Property Name="Source[31].newName" Type="Str">LUnit.lvclass</Property>
 				<Property Name="Source[31].type" Type="Str">Library</Property>
 				<Property Name="Source[32].destinationIndex" Type="Int">6</Property>
-				<Property Name="Source[32].itemID" Type="Ref">/My Computer/Project Provider.lvlib</Property>
+				<Property Name="Source[32].itemID" Type="Ref">/My Computer/Project Providers/Project Provider.lvlib</Property>
 				<Property Name="Source[32].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[32].newName" Type="Str">LUnit Project Provider.lvlib</Property>
-				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[32].type" Type="Str">Library</Property>
+				<Property Name="Source[33].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[33].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[33].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[33].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[33].itemID" Type="Ref">/My Computer/Project Provider.lvlib/Icons</Property>
+				<Property Name="Source[33].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/Project Providers/Project Provider.lvlib/Icons</Property>
 				<Property Name="Source[33].newName" Type="Str">LUnit_</Property>
 				<Property Name="Source[33].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[33].properties[0].value" Type="Bool">false</Property>
@@ -707,10 +713,12 @@
 				<Property Name="Source[33].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[33].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[33].type" Type="Str">Container</Property>
+				<Property Name="Source[34].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[34].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[34].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[34].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[34].itemID" Type="Ref">/My Computer/Project Provider.lvlib/LUnit</Property>
+				<Property Name="Source[34].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/Project Providers/Project Provider.lvlib/LUnit</Property>
 				<Property Name="Source[34].newName" Type="Str">LUnit_</Property>
 				<Property Name="Source[34].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[34].properties[0].value" Type="Bool">false</Property>
@@ -726,10 +734,12 @@
 				<Property Name="Source[35].type" Type="Str">Container</Property>
 				<Property Name="Source[36].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[36].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[36].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[36].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[36].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[36].itemID" Type="Ref">/My Computer/User Interface</Property>
+				<Property Name="Source[36].newName" Type="Str">LUnit </Property>
 				<Property Name="Source[36].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[36].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[36].properties[1].type" Type="Str">Auto error handling</Property>
@@ -742,10 +752,12 @@
 				<Property Name="Source[37].type" Type="Str">Library</Property>
 				<Property Name="Source[38].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[38].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[38].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[38].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[38].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[38].destinationIndex" Type="Int">14</Property>
 				<Property Name="Source[38].itemID" Type="Ref">/My Computer/Plugins</Property>
+				<Property Name="Source[38].newName" Type="Str">LUnit </Property>
 				<Property Name="Source[38].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[38].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[38].properties[1].type" Type="Str">Auto error handling</Property>
@@ -853,53 +865,78 @@
 				<Property Name="Source[57].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[57].itemID" Type="Ref">/My Computer/API/Execution API.lvclass/Private</Property>
 				<Property Name="Source[57].type" Type="Str">Container</Property>
+				<Property Name="Source[58].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[58].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[58].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[58].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[58].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[58].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[58].itemID" Type="Ref"></Property>
-				<Property Name="Source[58].type" Type="Str">VI</Property>
+				<Property Name="Source[58].itemID" Type="Ref">/My Computer/Support</Property>
+				<Property Name="Source[58].newName" Type="Str">LUnit </Property>
+				<Property Name="Source[58].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[58].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[58].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[58].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[58].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[58].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[58].type" Type="Str">Container</Property>
 				<Property Name="Source[59].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[59].itemID" Type="Ref"></Property>
-				<Property Name="Source[59].type" Type="Str">VI</Property>
+				<Property Name="Source[59].itemID" Type="Ref">/My Computer/API/Execution API.lvclass</Property>
+				<Property Name="Source[59].newName" Type="Str">LUnit_Execution API.lvclass</Property>
+				<Property Name="Source[59].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[59].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[59].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[59].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[59].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[59].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[59].type" Type="Str">Library</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Tests</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[60].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[60].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[60].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[60].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[60].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[60].itemID" Type="Ref">/My Computer/Support</Property>
+				<Property Name="Source[60].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[60].itemID" Type="Ref">/My Computer/User Interface/Execution UI.lvclass/User Interface.vi</Property>
 				<Property Name="Source[60].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[60].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[60].properties[1].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[60].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[60].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[60].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[60].type" Type="Str">Container</Property>
-				<Property Name="Source[61].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[61].itemID" Type="Ref">/My Computer/API/Execution API.lvclass</Property>
+				<Property Name="Source[60].type" Type="Str">VI</Property>
+				<Property Name="Source[61].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[61].itemID" Type="Ref">/My Computer/Framework/Test Runner.lvclass</Property>
+				<Property Name="Source[61].newName" Type="Str">LUnit Test Runner.lvclass</Property>
+				<Property Name="Source[61].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[61].type" Type="Str">Library</Property>
-				<Property Name="Source[62].destinationIndex" Type="Int">8</Property>
-				<Property Name="Source[62].itemID" Type="Ref">/My Computer/User Interface/Execution UI.lvclass/User Interface.vi</Property>
-				<Property Name="Source[62].newName" Type="Str">LUnit User Interface.vi</Property>
-				<Property Name="Source[62].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[62].type" Type="Str">VI</Property>
-				<Property Name="Source[63].destinationIndex" Type="Int">8</Property>
-				<Property Name="Source[63].itemID" Type="Ref">/My Computer/Framework/Test Runner.lvclass</Property>
-				<Property Name="Source[63].newName" Type="Str">LUnit Test Runner.lvclass</Property>
+				<Property Name="Source[62].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[62].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[62].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[62].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[62].itemID" Type="Ref">/My Computer/Project Providers/Project Provider.lvlib/GProviders</Property>
+				<Property Name="Source[62].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[62].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[62].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[62].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[62].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[62].type" Type="Str">Container</Property>
+				<Property Name="Source[63].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[63].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[63].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[63].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[63].itemID" Type="Ref">/My Computer/Project Providers</Property>
 				<Property Name="Source[63].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[63].type" Type="Str">Library</Property>
-				<Property Name="Source[64].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[64].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[64].itemID" Type="Ref">/My Computer/Project Provider.lvlib/GProviders</Property>
+				<Property Name="Source[63].type" Type="Str">Container</Property>
+				<Property Name="Source[64].itemID" Type="Ref">/My Computer/API/Execution API.lvclass/Result.vi</Property>
+				<Property Name="Source[64].newName" Type="Str">LUnit_Result.vi</Property>
 				<Property Name="Source[64].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[64].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[64].properties[1].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[64].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[64].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[64].type" Type="Str">Container</Property>
+				<Property Name="Source[64].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[64].type" Type="Str">VI</Property>
 				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
