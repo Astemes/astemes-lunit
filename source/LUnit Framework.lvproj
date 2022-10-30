@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
+	<Property Name="CCSymbols" Type="Str">LUNIT_DEVELOPMENT,TRUE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -17,6 +18,7 @@
 			<Item Name="Test Doubles" Type="Folder">
 				<Item Name="Test Case Test Double.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Case Test Double/Test Case Test Double.lvclass"/>
 				<Item Name="Test Case Test Double Child.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Case Test Double/Test Case Test Double Child.lvclass"/>
+				<Item Name="Light Test Case Double Copy.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Light Test Case Double Copy/Light Test Case Double Copy.lvclass"/>
 				<Item Name="Light Test Case Double.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Case Test Double Child/Light Test Case Double.lvclass"/>
 				<Item Name="Mock Report.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Mock Report/Mock Report.lvclass"/>
 			</Item>
@@ -37,6 +39,7 @@
 			<Item Name="Text Report Test.lvclass" Type="LVClass" URL="../../tests/Text Report Test/Text Report Test.lvclass"/>
 			<Item Name="XML Report Test.lvclass" Type="LVClass" URL="../../tests/XML Report Test/XML Report Test.lvclass"/>
 			<Item Name="Plugin Loader Tests.lvclass" Type="LVClass" URL="../../tests/Plugin Loader Tests/Plugin Loader Tests.lvclass"/>
+			<Item Name="Runnable Next Test.lvclass" Type="LVClass" URL="../../tests/Runnable Next Test/Runnable Next Test.lvclass"/>
 		</Item>
 		<Item Name="LUnitCLI" Type="Folder">
 			<Item Name="LUnitCLI.lvclass" Type="LVClass" URL="../LUnitCLI/LUnitCLI.lvclass"/>
@@ -430,39 +433,6 @@
 				<Item Name="LVNodeAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVNodeAndColumnTypeDef.ctl">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
@@ -506,7 +476,17 @@
 				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
 				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
 				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
-				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Runnable.lvclass"/>
+				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
+				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
+				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
+				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
+				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
+				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
@@ -530,7 +510,6 @@
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/LUnit</Property>
@@ -575,7 +554,7 @@
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D0ED5F4E-1A24-443B-96D0-F9019E148BF1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{67E52B72-9F65-4709-AD6A-4EEDCD24F685}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -792,9 +771,9 @@
 				<Property Name="Source[41].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[41].itemID" Type="Ref">/My Computer/API</Property>
-				<Property Name="Source[41].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[41].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[41].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[41].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[41].properties[1].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[41].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[41].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[41].sourceInclusion" Type="Str">Include</Property>
@@ -852,7 +831,7 @@
 				<Property Name="Source[53].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Append.vi</Property>
 				<Property Name="Source[53].type" Type="Str">VI</Property>
 				<Property Name="Source[54].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[54].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Remove Items.vi</Property>
+				<Property Name="Source[54].itemID" Type="Ref"></Property>
 				<Property Name="Source[54].type" Type="Str">VI</Property>
 				<Property Name="Source[55].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[55].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/List.vi</Property>

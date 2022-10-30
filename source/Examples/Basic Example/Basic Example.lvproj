@@ -43,7 +43,6 @@
 			</Item>
 			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../../../API/LUnit Test Case/LUnit Test Case.lvclass"/>
 			<Item Name="Result.lvlib" Type="Library" URL="../../../Core/Result/Result.lvlib"/>
-			<Item Name="Result Observer.lvclass" Type="LVClass" URL="../../../Core/Result Observer/Result Observer.lvclass"/>
 			<Item Name="Runnable.lvclass" Type="LVClass" URL="../../../Core/Runnable/Runnable.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
