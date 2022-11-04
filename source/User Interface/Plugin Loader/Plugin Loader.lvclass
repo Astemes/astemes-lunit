@@ -23,11 +23,11 @@
 	<Item Name="Load Plugin.vi" Type="VI" URL="../Load Plugin.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!=!!?!!!1$F"M&gt;7&gt;J&lt;CZM&gt;G.M98.T!!!'5'RV:WFO!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!-0````]'5'RV:WFO!!"5!0!!$!!$!!1!"1!%!!1!"!!%!!1!"A!%!!=!"!-!!(A!!!U)!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!!!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 	</Item>
 	<Item Name="Plugins.ctl" Type="VI" URL="../Plugins.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#B!!!!!1#:!0%!!!!!!!!!!B61&lt;(6H;7YA4'^B:'6S,GRW9WRB=X-,5'RV:WFO=SZD&gt;'Q!&lt;U!7!!137%V-)(*F='^S&gt;#ZM&gt;G.M98.T%V2F?(1A5G6Q&lt;X*U,GRW9WRB=X-:1W^W:8*B:W5A17ZB&lt;(F[:8)O&lt;(:D&lt;'&amp;T=RJ&amp;?'6D&gt;82J&lt;WYA5(*P:GFM:8)O&lt;(:D&lt;'&amp;T=Q!'5'RV:WFO!!!"!!!!!!!!</Property>
