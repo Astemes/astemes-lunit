@@ -24,23 +24,19 @@ pipeline {
 					initPythonVenv "requirements.txt"
 				}
 			}
-		}/*
+		}
 		stage('Test') {
 			steps {
 				runLUnit "${LV_PROJECT_PATH}"
 				junit "reports\\*.xml"
 			}
-		}*/
+		}
 		stage('Build') {
 			steps {
 				//Execute LabVIEW build spec
 				buildLVBuildSpec "${LV_PROJECT_PATH}", "${LV_BUILD_SPEC}"
 				//Build mkdocs documentation
 				buildDocs "${PROJECT_TITLE}", "${REPO_URL}", "${AUTHOR}", "${INITIAL_RELEASE}"
-
-
-				///DELETE!
-				buildVIPackage "${LV_VIPB_PATH}", "${LV_VERSION}", "${COMMIT_TAG}"
 			}
 		}
 		stage('Deploy') {
