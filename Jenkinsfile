@@ -24,19 +24,23 @@ pipeline {
 					initPythonVenv "requirements.txt"
 				}
 			}
-		}
+		}/*
 		stage('Test') {
 			steps {
 				runLUnit "${LV_PROJECT_PATH}"
 				junit "reports\\*.xml"
 			}
-		}
+		}*/
 		stage('Build') {
 			steps {
 				//Execute LabVIEW build spec
 				buildLVBuildSpec "${LV_PROJECT_PATH}", "${LV_BUILD_SPEC}"
 				//Build mkdocs documentation
 				buildDocs "${PROJECT_TITLE}", "${REPO_URL}", "${AUTHOR}", "${INITIAL_RELEASE}"
+
+
+				///DELETE!
+				buildVIPackage "${LV_VIPB_PATH}", "${LV_VERSION}", "${COMMIT_TAG}"
 			}
 		}
 		stage('Deploy') {
@@ -50,7 +54,6 @@ pipeline {
 			}
 			steps{
 				//Build VIPM package
-				buildVIPackage "${LV_VIPB_PATH}", "${LV_VERSION}", "${COMMIT_TAG}"
 				script{VIP_FILE_PATH = buildVIPackage "${LV_VIPB_PATH}", "${LV_VERSION}", "${COMMIT_TAG}"}
 				deployGithubPages()
 				deployGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${VIP_FILE_PATH}"
