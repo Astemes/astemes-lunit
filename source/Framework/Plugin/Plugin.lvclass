@@ -3,7 +3,7 @@
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*#!!!*Q(C=\&gt;5^4M.!%)&lt;B$U2"GZ)/Z1)5=Y8U6,H#N/G3FD*8G.9348KKC**OLJ#+GH!%?,U:!B'))0&amp;&lt;9,/*`;VX^IG^-F,&lt;DK5D0?T&lt;OH?XD`1T&amp;2^&gt;;^K=KIYX`&gt;XG`0GA`^*T`]\Y[GJ@W`%\`&gt;XL_E^&amp;V,UR`W&gt;`X`P^?T&lt;^&lt;``&lt;\WY8?R@JN[`:!`5P)FL3AO9U5T`61Z)H?:)H?:)H?:!(?:!(?:!(O:-\O:-\O:-\O:%&lt;O:%&lt;O:%&lt;?&gt;P*23ZSE5.+*E]G3IIG":+,I3DZ3$S**`%E(E[6?"*0YEE]C9&gt;,F(A34_**0)G(95I]C3@R**\%1[EGS&lt;;4YUE]F&amp;@A#4S"*`!%(K:5Y!E!Q72"Y;!)$!7&gt;Q5(A#4S"BU-&amp;HM!4?!*0Y+&amp;&lt;A3@Q"*\!%XA9UOZ+.%W`E_/BD"S0YX%]DM@R5&amp;K/R`%Y(M@D?*B/DM@R/!BH1K=Y"$G$H!O=%]@D?0C3YX%]DM@R/"[[WB0S&gt;G&gt;[4&lt;_4YT%]BM@Q'"\$1QE:(M.D?!S0Y;'M$)`B-4S'R`!QF1S0Y4%]"M39F/FF&amp;$-''B=:A?(BL[U7;U]JGM4;,N8C63V+V7*4,3,6YF!^&gt;.8$6$UEV=V8X646T6,&gt;".705[&amp;6'.5EKM(^B6LTO;)N;1P;H$;DD7EDWJ!W[)&gt;_]98L^6KLV5L,Z6+,R5,T_6STW5TD]6CDU5D$Y6#$Q7$\'DBFX\Y1&gt;N^,N^/&lt;S&gt;XU_ORW?HF_0\W;X*`=4(\A@_E@?$@K5#`L=I]?!@X=WV!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.IsInterface" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
