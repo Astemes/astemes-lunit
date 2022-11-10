@@ -790,10 +790,10 @@
 				<Property Name="Source[46].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Teardown.vi</Property>
 				<Property Name="Source[46].type" Type="Str">VI</Property>
 				<Property Name="Source[47].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[47].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/List.vi</Property>
+				<Property Name="Source[47].itemID" Type="Ref"></Property>
 				<Property Name="Source[47].type" Type="Str">VI</Property>
 				<Property Name="Source[48].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[48].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Filter.vi</Property>
+				<Property Name="Source[48].itemID" Type="Ref"></Property>
 				<Property Name="Source[48].type" Type="Str">VI</Property>
 				<Property Name="Source[49].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[49].Container.depDestIndex" Type="Int">0</Property>
