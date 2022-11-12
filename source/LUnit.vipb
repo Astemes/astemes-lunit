@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2022-10-30 13:22:48" Creator="Anton Sundqvist" Comments="" ID="dc4d6ad1cc89ca679eb1712054071270">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2022-11-12 21:50:07" Creator="Anton Sundqvist" Comments="" ID="420779982474a1b3dd0a6d73dcfb000b">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
     <Library_Version>1.2.0.16</Library_Version>
@@ -48,7 +48,11 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
       <Copyright>Copyright (c) 2020, Astemes</Copyright>
       <Packager>Anton Sundqvist</Packager>
       <URL>https://astemes.github.io/astemes-lunit</URL>
-      <Release_Notes/>
+      <Release_Notes>Version 1.2 is a complete rewrite of LUnit with feature parity to earlier versions. The rewrite was done using test first test driven development and as a consequence the code base is now less complex, significantly more performant and more maintainable. 
+
+For users of LUnit, very little has changed functionally. The performance and responsiveness have been improved through the rewrite. The test scaffolding additionally provides a foundation for further improving on performance and useability.
+
+The reason for the increment of the minor version is a small change to the API. All results are now returned in one event with an enum indicating the type of result. If someone needs to use the legacy format, it is straight forward to develop an adapter, please reach out for support if this is a concern.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -416,7 +420,7 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Fail If Equal.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4AFED5585B46417A583B4BA893A21A67</GUID>
+      <GUID>C2A1CD6BA844205C7BE33CEC9EC97C97</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -577,7 +581,7 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Test Suite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>36F591BC96199FD2F7F951F329DD2A88</GUID>
+      <GUID>5CE77A2706F083AE621E2327178EE4D0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
