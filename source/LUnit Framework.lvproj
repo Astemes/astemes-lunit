@@ -477,6 +477,12 @@
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Runnable.lvclass"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
+				<Item Name="Set Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Set Assertion Type.vi"/>
+				<Item Name="Add test result.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Add test result.vi"/>
+				<Item Name="LUnit Record Assertion Result.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Record Assertion Result.vi"/>
+				<Item Name="LUnit Aggregate Assertion Results.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Aggregate Assertion Results.vi"/>
+				<Item Name="LUnit Merge Status.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Method Result/LUnit Merge Status.vi"/>
+				<Item Name="LUnit Concatenate result strings.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Concatenate result strings.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
@@ -506,7 +512,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{86FCB19C-1FDD-419C-965A-93BB19BFAE86}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -544,7 +550,7 @@
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{48FDE3D0-94B8-4BCC-AF1B-E378DEB57335}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DF793ED3-9809-4EBC-81AE-753856305E5C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -903,6 +909,12 @@
 				<Property Name="Source[61].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[61].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[61].type" Type="Str">VI</Property>
+				<Property Name="Source[62].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[62].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Remove.vi</Property>
+				<Property Name="Source[62].type" Type="Str">VI</Property>
+				<Property Name="Source[63].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[63].itemID" Type="Ref">/My Computer/Menu/Tools Menu/New Test Case.lvlib/Create New Test Case.vi</Property>
+				<Property Name="Source[63].type" Type="Str">VI</Property>
 				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
@@ -915,7 +927,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">62</Property>
+				<Property Name="SourceCount" Type="Int">64</Property>
 			</Item>
 		</Item>
 	</Item>
