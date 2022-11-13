@@ -51,6 +51,17 @@ Yes, absolutely!
 LUnit is released by [Astemes](https://www.astemes.com) under the MIT license.
 If you find it useful, please consider starring the project on GitHub and VIPM.
 
+## Versioning
+
+LUnit uses semantic version in the format major.minor.fix.build. 
+The build version is of little significance as it only denotes the number of the build.
+As new features (functionality, documentation, bugfixes, etc.) are released the fix version is incremented.
+These updates should be non-breaking and will not require any changes to the client code. 
+A minor version increment indicates that there is some minor impact to users of LUnit as described in the corresponding release notes.
+As an example, versions 1.1 and 1.2 introduces minor changes to the API used for programatically running tests.
+A major version update would mean that code developed using an earlier version might need modification.
+There are currently no plans to make any major updates.
+
 ## Support
 
 LUnit is an open source toolkit provided as is and without guarantees by [Astemes](https://www.astemes.com). If you encounter issues, use GitHub Issues to report and track the progress. If you have a suggestion for a solution, please consider making pull request. For paid-for professional support, please [contact Astemes directly](https://www.astemes.com/contact).
