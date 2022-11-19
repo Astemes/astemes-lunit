@@ -539,14 +539,13 @@
 				<Property Name="Destination[7].path" Type="Path">../builds/LUnitCLI/National Instruments/Shared/LabVIEW CLI/Operations/LUnit</Property>
 				<Property Name="Destination[8].destName" Type="Str">LUnit Framework.lvlib</Property>
 				<Property Name="Destination[8].libraryName" Type="Str">LUnit Framework.lvlib</Property>
-				<Property Name="Destination[8].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/NI_AB_PROJECTNAME.llb</Property>
-				<Property Name="Destination[8].type" Type="Str">LLB</Property>
+				<Property Name="Destination[8].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit</Property>
 				<Property Name="Destination[9].destName" Type="Str">Example Finder</Property>
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/examples/exbins</Property>
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08C36964-FEC8-447A-ADC4-4CAF3DD1AE31}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DF793ED3-9809-4EBC-81AE-753856305E5C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
