@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2022-11-23 21:46:32" Creator="Anton Sundqvist" Comments="" ID="5ffba2db5288d32fd1d58a1d955fb5f2">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2022-11-25 23:00:13" Creator="Anton Sundqvist" Comments="" ID="66737a96c0bedbe40acae51ff2b56bbe">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
     <Library_Version>1.2.0.16</Library_Version>
@@ -48,11 +48,11 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
       <Copyright>Copyright (c) 2020, Astemes</Copyright>
       <Packager>Anton Sundqvist</Packager>
       <URL>https://astemes.github.io/astemes-lunit</URL>
-      <Release_Notes>Version 1.2 is a complete rewrite of LUnit with feature parity to earlier versions. The rewrite was done using test first test driven development and as a consequence the code base is now less complex, significantly more performant and more maintainable. 
+      <Release_Notes>Version 1.2 is a complete rewrite of LUnit with feature parity to earlier versions. The rewrite was done using test first test driven development and as a consequence the code base is now smaller, less complex, significantly more performant and more maintainable. 
 
-For users of LUnit, very little has changed functionally. The performance and responsiveness have been improved through the rewrite. The test scaffolding additionally provides a foundation for further improving on performance and useability.
+For users of LUnit, very little has changed functionally. The performance and responsiveness have been improved through the rewrite. The test scaffolding additionally provides a foundation for further improving on performance and useability. Please contribute ideas.
 
-The reason for the increment of the minor version is a small change to the API. All results are now returned in one event with an enum indicating the type of result. If someone needs to use the legacy format, it is straight forward to develop an adapter, please reach out for support if this is a concern.</Release_Notes>
+The reason for the increment of the minor version is a change to the API for running test programmatically. The old API is still available, with one minor change. All results are now returned in one event with an enum indicating the type of result. If someone needs to use the legacy format, it is straight forward to develop an adapter, please reach out for support if this is a concern.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -420,7 +420,7 @@ The reason for the increment of the minor version is a small change to the API. 
         <Path>..\builds\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B562AADED9F093A641673183337E401C</GUID>
+      <GUID>93CD0A3F973069B95D1E9C73AE39F755</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -455,7 +455,7 @@ The reason for the increment of the minor version is a small change to the API. 
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0463AD38CB6FC7BF1B817C4F2549E1D0</GUID>
+      <GUID>E7EB72555F17D5C1B83CD6F7D08F0B3E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
