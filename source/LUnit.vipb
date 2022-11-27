@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2022-11-25 23:00:13" Creator="Anton Sundqvist" Comments="" ID="66737a96c0bedbe40acae51ff2b56bbe">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2022-11-27 22:25:59" Creator="Anton Sundqvist" Comments="" ID="2bc6bd7f2bdf9cf5903fea3c6601d650">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
     <Library_Version>1.2.0.16</Library_Version>
@@ -236,8 +236,8 @@ The reason for the increment of the minor version is a change to the API for run
       <Windows_7>true</Windows_7>
       <Windows_Vista>true</Windows_Vista>
       <Windows_XP>true</Windows_XP>
-      <Mac_OS>false</Mac_OS>
-      <Linux>false</Linux>
+      <Mac_OS>true</Mac_OS>
+      <Linux>true</Linux>
       <Built_LV_Version>false</Built_LV_Version>
       <Built_LV_Version_or_greater>true</Built_LV_Version_or_greater>
       <Windows_8>true</Windows_8>
@@ -420,7 +420,7 @@ The reason for the increment of the minor version is a change to the API for run
         <Path>..\builds\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>93CD0A3F973069B95D1E9C73AE39F755</GUID>
+      <GUID>E3792BB82A788946B821AA36B94A2F05</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -455,7 +455,7 @@ The reason for the increment of the minor version is a change to the API for run
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E7EB72555F17D5C1B83CD6F7D08F0B3E</GUID>
+      <GUID>5FBF563A4B159340EA547E55A9E3EC4A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
