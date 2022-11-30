@@ -4,7 +4,7 @@
 A LabVIEW Unit Testing Framework built on the [xUnit](https://en.wikipedia.org/wiki/XUnit) unit testing industry standard and inspired by [JKI VI Tester](https://github.com/JKISoftware/JKI-VI-Tester).
 LUnit helps you test drive your LabVIEW development and provides the following key features.
 
-- Fast test execution
+- Fast test execution\*
 - Clear and informative results view
 - Run specific tests quickly from right-click menu
 - Test results visible directly in LabVIEW project
@@ -16,6 +16,18 @@ LUnit helps you test drive your LabVIEW development and provides the following k
 - LabVIEW API
 
 Full documentation available on [https://astemes.github.io/astemes-lunit/](https://astemes.github.io/astemes-lunit/).
+
+\*Test execution speed is really best-in-class. 
+Below is a comparison between LUnit and two other popular unit testing toolkits\*\*.
+The benchmark is available [here](https://github.com/Astemes/astemes-lunit/tree/main/sandbox/Benchmark) and consists of 160 tests in 20 test case classes.
+The times reported are averages over 5 runs started by the `Run All` feature of each framework.
+As the tests themselves are empty, the benchmark measures only the overhead added by the framework.
+
+<img src="docs/10_Basics/img/Benchmark.png" alt="Benchmark"  width="400"/>
+
+\*\* The numbers are results from two test environment and you will get different results with other setups.
+The message is that LUnit is somewhere in the range of 2x-10x faster than other available tools.
+If you find significantly differing results, please get in touch.
 
 ## Prerequisites
 
@@ -34,6 +46,7 @@ The release contains a VIPM package which is installed using VIPM.
 Once installed, LUnit is integrated into the LabVIEW development environment and the functionality is accessed through the Tools->LUnit menu.
 From the menu, you may create a new tests or open the LUnit UI to run tests.
 Tests may also be executed directly from the project explorer by right-clicking on a Test Case and selecting `Run Test Case...` from the menu.
+There is also a toolbar button added to the LabVIEW Project Explorer to run all tests in project or create a new test case.
 
 ## Documentation
 
