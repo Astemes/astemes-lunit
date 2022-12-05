@@ -545,7 +545,7 @@
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{41A7180E-FFCC-4C8C-8983-3A5786C480CC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B68248FE-BACB-4ED2-8B26-96FEA7A4B738}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -746,11 +746,9 @@
 				<Property Name="Source[39].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[39].itemID" Type="Ref">/My Computer/Menu</Property>
-				<Property Name="Source[39].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[39].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[39].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[39].properties[1].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[39].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[39].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[39].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[39].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">8</Property>
