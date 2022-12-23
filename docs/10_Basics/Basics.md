@@ -36,6 +36,19 @@ To perform tests you will use the assertions available in the provided palette, 
 
 ![Simple test case](img/simple_test_case.png)
 
+## Using Assertions
+
+The result of each test is determined using assertions.
+Thesere is a set of assertions to choose from as shown in the figure above and the names should be self explanatory.
+One test method may contain multiple assertions and the result from each assertion will show up in the result view.
+
+One pro-tip is that the ``Pass if Equal.vi`` assertion also works well for array data types.
+The result of comparing arrays will show up in the result view as shown below.
+
+![Comparing Arrays](img/array_comparison.jpg)
+
+Please note that the ``Pass if Equal.vi`` assetion will fail if either the type or the value does not match. 
+
 ## Running the Test Case
 
 To run the test case you can now right click it in the project window and select the ``Run Test Case...`` menu option.
