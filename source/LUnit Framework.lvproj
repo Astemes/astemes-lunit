@@ -547,7 +547,7 @@
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B386AA27-F6F6-4654-85F8-4DCEC53C83FB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{93736E8F-14B5-4FC9-AE9E-78571CD4F142}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -918,19 +918,108 @@
 				<Property Name="Source[67].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[67].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass</Property>
 				<Property Name="Source[67].type" Type="Str">Library</Property>
+				<Property Name="Source[68].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[68].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass/Clear Index.vi</Property>
+				<Property Name="Source[68].type" Type="Str">VI</Property>
+				<Property Name="Source[69].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[69].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass/Find Tests.vi</Property>
+				<Property Name="Source[69].type" Type="Str">VI</Property>
 				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Excluded Dependencies</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="Source[70].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[70].itemID" Type="Ref">/My Computer/Framework/Single Thread Test Runner.lvclass/Create.vi</Property>
+				<Property Name="Source[70].type" Type="Str">VI</Property>
+				<Property Name="Source[71].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[71].itemID" Type="Ref">/My Computer/Framework/Parallell Test Runner.lvclass/Create.vi</Property>
+				<Property Name="Source[71].type" Type="Str">VI</Property>
+				<Property Name="Source[72].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[72].itemID" Type="Ref">/My Computer/User Interface/Result Model by Reference.lvclass/Create.vi</Property>
+				<Property Name="Source[72].type" Type="Str">VI</Property>
+				<Property Name="Source[73].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[73].itemID" Type="Ref">/My Computer/User Interface/Result Model by Reference.lvclass/Get Model Data.vi</Property>
+				<Property Name="Source[73].type" Type="Str">VI</Property>
+				<Property Name="Source[74].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[74].itemID" Type="Ref">/My Computer/User Interface/Result Model by Reference.lvclass/Destroy.vi</Property>
+				<Property Name="Source[74].type" Type="Str">VI</Property>
+				<Property Name="Source[75].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[75].itemID" Type="Ref">/My Computer/User Interface/Result Model by Reference.lvclass/Start Test.vi</Property>
+				<Property Name="Source[75].type" Type="Str">VI</Property>
+				<Property Name="Source[76].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[76].itemID" Type="Ref">/My Computer/User Interface/Result Model by Reference.lvclass/Result.vi</Property>
+				<Property Name="Source[76].type" Type="Str">VI</Property>
+				<Property Name="Source[77].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[77].itemID" Type="Ref">/My Computer/User Interface/Result Model by Reference.lvclass/Get Statistics.vi</Property>
+				<Property Name="Source[77].type" Type="Str">VI</Property>
+				<Property Name="Source[78].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[78].itemID" Type="Ref">/My Computer/User Interface/Result Model by Reference.lvclass/Add Tests.vi</Property>
+				<Property Name="Source[78].type" Type="Str">VI</Property>
+				<Property Name="Source[79].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[79].itemID" Type="Ref">/My Computer/User Interface/Result Model by Reference.lvclass/Get Summary.vi</Property>
+				<Property Name="Source[79].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Plugins/Icon Decorator.lvlib/Icon Decorator.lvclass</Property>
 				<Property Name="Source[8].type" Type="Str">Library</Property>
+				<Property Name="Source[80].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[80].itemID" Type="Ref">/My Computer/User Interface/Result Model by Reference.lvclass/Get Tree Items.vi</Property>
+				<Property Name="Source[80].type" Type="Str">VI</Property>
+				<Property Name="Source[81].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[81].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass/Start Test.vi</Property>
+				<Property Name="Source[81].type" Type="Str">VI</Property>
+				<Property Name="Source[82].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[82].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass/Result.vi</Property>
+				<Property Name="Source[82].type" Type="Str">VI</Property>
+				<Property Name="Source[83].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[83].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass/Get Statistics.vi</Property>
+				<Property Name="Source[83].type" Type="Str">VI</Property>
+				<Property Name="Source[84].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[84].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass/Add Tests.vi</Property>
+				<Property Name="Source[84].type" Type="Str">VI</Property>
+				<Property Name="Source[85].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[85].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass/Get Summary.vi</Property>
+				<Property Name="Source[85].type" Type="Str">VI</Property>
+				<Property Name="Source[86].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[86].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass/Get Tree Items.vi</Property>
+				<Property Name="Source[86].type" Type="Str">VI</Property>
+				<Property Name="Source[87].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[87].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[87].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[87].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass/Private</Property>
+				<Property Name="Source[87].type" Type="Str">Container</Property>
+				<Property Name="Source[88].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[88].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[88].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[88].itemID" Type="Ref">/My Computer/User Interface/Process.lvclass/Protected</Property>
+				<Property Name="Source[88].type" Type="Str">Container</Property>
+				<Property Name="Source[89].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[89].itemID" Type="Ref">/My Computer/User Interface/Plugin Loader.lvclass/Load Plugin.vi</Property>
+				<Property Name="Source[89].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">68</Property>
+				<Property Name="Source[90].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[90].itemID" Type="Ref">/My Computer/User Interface/Plugin Loader.lvclass/Plugins.ctl</Property>
+				<Property Name="Source[90].type" Type="Str">VI</Property>
+				<Property Name="Source[91].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[91].itemID" Type="Ref">/My Computer/User Interface/Error Handler.lvclass/Handle Errors.vi</Property>
+				<Property Name="Source[91].type" Type="Str">VI</Property>
+				<Property Name="Source[92].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[92].itemID" Type="Ref">/My Computer/User Interface/Error Handler.lvclass/Log Error to File.vi</Property>
+				<Property Name="Source[92].type" Type="Str">VI</Property>
+				<Property Name="Source[93].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[93].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[93].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[93].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass/Private</Property>
+				<Property Name="Source[93].type" Type="Str">Container</Property>
+				<Property Name="Source[94].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[94].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[94].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[94].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass/Types</Property>
+				<Property Name="Source[94].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">95</Property>
 			</Item>
 		</Item>
 	</Item>
