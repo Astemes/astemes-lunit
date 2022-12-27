@@ -547,7 +547,7 @@
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3D865D40-EFF6-4E34-8CFC-E8041E7A57DF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B386AA27-F6F6-4654-85F8-4DCEC53C83FB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -915,6 +915,9 @@
 				<Property Name="Source[66].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[66].itemID" Type="Ref">/My Computer/User Interface/Error Handler.lvclass</Property>
 				<Property Name="Source[66].type" Type="Str">Library</Property>
+				<Property Name="Source[67].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[67].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass</Property>
+				<Property Name="Source[67].type" Type="Str">Library</Property>
 				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
@@ -927,7 +930,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">67</Property>
+				<Property Name="SourceCount" Type="Int">68</Property>
 			</Item>
 		</Item>
 	</Item>
