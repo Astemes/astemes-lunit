@@ -193,6 +193,7 @@
 			<Item Name="Plugin Loader.lvclass" Type="LVClass" URL="../User Interface/Plugin Loader/Plugin Loader.lvclass"/>
 			<Item Name="Execution UI.lvclass" Type="LVClass" URL="../User Interface/Execution UI/Execution UI.lvclass"/>
 			<Item Name="Result Model.lvclass" Type="LVClass" URL="../User Interface/Result Model/Result Model.lvclass"/>
+			<Item Name="Result Model by Reference.lvclass" Type="LVClass" URL="../User Interface/Result Model by Reference/Result Model by Reference.lvclass"/>
 			<Item Name="Error Handler.lvclass" Type="LVClass" URL="../User Interface/Error Handler/Error Handler.lvclass"/>
 		</Item>
 		<Item Name="Plugins" Type="Folder">
@@ -563,7 +564,7 @@
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/User Interface/Execution UI.lvclass</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/User Interface/Result Model by Reference.lvclass</Property>
 				<Property Name="Source[13].type" Type="Str">Library</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[14].itemID" Type="Ref">/My Computer/LICENSE</Property>
