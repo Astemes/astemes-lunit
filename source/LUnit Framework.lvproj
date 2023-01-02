@@ -26,6 +26,7 @@
 			</Item>
 			<Item Name="Test Case Test.lvclass" Type="LVClass" URL="../../tests/Test Case Test/Test Case Test.lvclass"/>
 			<Item Name="LUnit Test Suite Tests.lvclass" Type="LVClass" URL="../../tests/Test Suite Tests/LUnit Test Suite Tests.lvclass"/>
+			<Item Name="Test Suite Enumeration Test.lvclass" Type="LVClass" URL="../../tests/Test Suite Enumeration Test/Test Suite Enumeration Test.lvclass"/>
 			<Item Name="Test Case Assertions Test.lvclass" Type="LVClass" URL="../../tests/Test Case Assertion Tests/Test Case Assertions Test.lvclass"/>
 			<Item Name="Result Observation Test.lvclass" Type="LVClass" URL="../../tests/Result Observation Test/Result Observation Test.lvclass"/>
 			<Item Name="Test FInder Test.lvclass" Type="LVClass" URL="../../tests/Test Finder Test/Test FInder Test.lvclass"/>
