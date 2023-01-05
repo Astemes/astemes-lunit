@@ -23,6 +23,7 @@
 				<Item Name="Mock Report.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Mock Report/Mock Report.lvclass"/>
 				<Item Name="Test Case Test Double Child with Override.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Case Test Double Child with Override/Test Case Test Double Child with Override.lvclass"/>
 				<Item Name="Comparison Test Double.lvclass" Type="LVClass" URL="../../tests/Comparison Test Double/Comparison Test Double.lvclass"/>
+				<Item Name="Case Test Double.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Debug Test Case Test Double/Case Test Double.lvclass"/>
 			</Item>
 			<Item Name="Test Case Test.lvclass" Type="LVClass" URL="../../tests/Test Case Test/Test Case Test.lvclass"/>
 			<Item Name="LUnit Test Suite Tests.lvclass" Type="LVClass" URL="../../tests/Test Suite Tests/LUnit Test Suite Tests.lvclass"/>
@@ -485,6 +486,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Debug Test Case Test Double.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Debug Test Case Test Double/Debug Test Case Test Double.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
