@@ -486,7 +486,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Debug Test Case Test Double.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Debug Test Case Test Double/Debug Test Case Test Double.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
@@ -510,7 +509,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{86FCB19C-1FDD-419C-965A-93BB19BFAE86}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -548,7 +547,7 @@
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{93736E8F-14B5-4FC9-AE9E-78571CD4F142}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{373F944B-E6EB-40BB-AF35-845E07257AC2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -1020,7 +1019,22 @@
 				<Property Name="Source[94].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[94].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass/Types</Property>
 				<Property Name="Source[94].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">95</Property>
+				<Property Name="Source[95].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[95].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Run.vi</Property>
+				<Property Name="Source[95].type" Type="Str">VI</Property>
+				<Property Name="Source[96].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[96].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Name.vi</Property>
+				<Property Name="Source[96].type" Type="Str">VI</Property>
+				<Property Name="Source[97].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[97].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Make List.vi</Property>
+				<Property Name="Source[97].type" Type="Str">VI</Property>
+				<Property Name="Source[98].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[98].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Next.vi</Property>
+				<Property Name="Source[98].type" Type="Str">VI</Property>
+				<Property Name="Source[99].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[99].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Next Recursively.vi</Property>
+				<Property Name="Source[99].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">100</Property>
 			</Item>
 		</Item>
 	</Item>
