@@ -547,7 +547,7 @@
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{373F944B-E6EB-40BB-AF35-845E07257AC2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{46D062DC-B595-4647-869A-F50B96B5AF6F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -608,8 +608,13 @@
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Menu/Tools Menu/Launcher.vi</Property>
+				<Property Name="Source[20].newName" Type="Str">LUnit UI.vi</Property>
+				<Property Name="Source[20].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[20].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[20].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
-				<Property Name="Source[21].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Menu/Tools Menu/New Test Case.lvlib</Property>
 				<Property Name="Source[21].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[21].type" Type="Str">Library</Property>
@@ -903,8 +908,13 @@
 				<Property Name="Source[62].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[62].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Remove.vi</Property>
 				<Property Name="Source[62].type" Type="Str">VI</Property>
-				<Property Name="Source[63].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[63].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[63].itemID" Type="Ref">/My Computer/Menu/Tools Menu/New Test Case.lvlib/Create New Test Case.vi</Property>
+				<Property Name="Source[63].newName" Type="Str">New Test Case.vi</Property>
+				<Property Name="Source[63].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[63].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[63].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[63].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[63].type" Type="Str">VI</Property>
 				<Property Name="Source[64].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[64].itemID" Type="Ref">/My Computer/Framework/Plugin.lvclass</Property>
