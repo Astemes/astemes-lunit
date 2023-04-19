@@ -236,6 +236,11 @@
 			</Item>
 		</Item>
 		<Item Name="Support" Type="Folder">
+			<Item Name="Filters" Type="Folder">
+				<Item Name="Filter.lvclass" Type="LVClass" URL="../Support/Filters/Filter/Filter.lvclass"/>
+				<Item Name="Static Filter.lvclass" Type="LVClass" URL="../Support/Filters/Static Filter/Static Filter.lvclass"/>
+				<Item Name="Inherited Tests Filter.lvclass" Type="LVClass" URL="../Support/Filters/Inherited Tests Filter/Inherited Tests Filter.lvclass"/>
+			</Item>
 			<Item Name="Configuration Manager.lvclass" Type="LVClass" URL="../User Interface/Configuration Manager/Configuration Manager.lvclass"/>
 			<Item Name="Project Loader.lvclass" Type="LVClass" URL="../Support/Project Loader/Project Loader.lvclass"/>
 			<Item Name="Utilities.lvlib" Type="Library" URL="../Support/Utilities.lvlib"/>
@@ -244,6 +249,7 @@
 			<Item Name="Project Provider.lvlib" Type="Library" URL="../Project Provider/Project Provider.lvlib"/>
 		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
+		<Item Name="Filter Test.lvclass" Type="LVClass" URL="../../tests/Filter Test/Filter Test.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi">
