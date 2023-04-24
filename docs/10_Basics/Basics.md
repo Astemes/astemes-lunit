@@ -82,8 +82,20 @@ While it is important to run the whole suite to catch regression issues, this do
 
 A good workflow is to keep a separate LabVIEW project file as a test suite where all tests are collected.
 Tests may be moved from the active project into this test suite and the test suite may then be added to the active LabVIEW project as a project item. 
-All tests within the test suite project may then be executed using the right clikc menu option, but will not be executed when running all tests in current project from the tools menu option.
+All tests within the test suite project may then be executed using the right clikc menu option, but will not be executed when running all tests in current project from the tools menu option and will not need to be loaded with the project.
 
 ![Run nested project](img/run_nested_project.png)
 
 When executing tests in a Continuous Integration environemnt, this test suite LabVIEW project file is a good entry point for running tests.
+
+In LUnit version 1.3.1, an additional feature was introduced to help speeding up test execution by skipping slow or unrelated tests.
+A test method (`vi`) or entire test case class (`lvclass`) may be marked with an underscore `_` character as the first character, making it into a `dashed` test class or test case.
+`Dashed` tests may be skipped when running through the user interface by using the menu option `Ignore Dashed Tests` as shown below.
+
+![Dashed tests](img/dashed_tests.jpg)
+
+Notice that the test "_test Broken.vi" and the entire "_test Failing Test Case.lvclass" were not executed during the test run in the previous image.
+By toggling the `Ignore Dashed Tests` menu option, it is straight forward to optimize test execution for either execution speed or test coverage.
+In a typical test driven development workflow, test execution speed must be very fast as the tests are executed repeatedly on time scale of minutes.
+It is however important to catch regressions by regularly running the full test suite, including the dashed tests.
+When running LUnit using the API, as would be the case on a Continuous Integration server, dashed tests are never skipped.
