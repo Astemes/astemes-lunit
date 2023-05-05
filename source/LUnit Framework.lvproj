@@ -493,8 +493,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Compare Variants.vim" Type="VI" URL="../API/LUnit Test Case/Private/Compare Variants.vim"/>
-			<Item Name="Describe Comparison.vim" Type="VI" URL="../API/LUnit Test Case/Private/Describe Comparison.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
