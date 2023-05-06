@@ -68,10 +68,10 @@ If you find it useful, please consider starring the project on GitHub and VIPM.
 
 LUnit uses semantic version in the format major.minor.fix.build. 
 The build version is of little significance as it only denotes the number of the build.
-As new features (functionality, documentation, bugfixes, etc.) are released the fix version is incremented.
-These updates should be non-breaking and will not require any changes to the client code. 
-A minor version increment indicates that there is some minor impact to users of LUnit as described in the corresponding release notes.
-As an example, versions 1.1 and 1.2 introduces minor changes to the API used for programatically running tests.
+The fix indicates a bug fix, minor feature, or other improvement. 
+As new major features are released or the number of minor feature releases accumulates, the minor version is incremented.
+Minor version updates are uploaded to VIPM and NI Tools Network.
+These updates should be non-breaking and should not require any changes to the client code.
 A major version update would mean that code developed using an earlier version might need modification.
 There are currently no plans to make any major updates.
 
