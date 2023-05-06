@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2022-11-27 22:25:59" Creator="Anton Sundqvist" Comments="" ID="2bc6bd7f2bdf9cf5903fea3c6601d650">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2023-05-06 22:26:11" Creator="Anton Sundqvist" Comments="" ID="5a6159986906efd29266a8405922d9c5">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
     <Library_Version>1.2.0.16</Library_Version>
@@ -48,11 +48,10 @@ Documentation is available on https://astemes.github.io/astemes-lunit/.</Descrip
       <Copyright>Copyright (c) 2020, Astemes</Copyright>
       <Packager>Anton Sundqvist</Packager>
       <URL>https://astemes.github.io/astemes-lunit</URL>
-      <Release_Notes>Version 1.2 is a complete rewrite of LUnit with feature parity to earlier versions. The rewrite was done using test first test driven development and as a consequence the code base is now smaller, less complex, significantly more performant and more maintainable. 
-
-For users of LUnit, very little has changed functionally. The performance and responsiveness have been improved through the rewrite. The test scaffolding additionally provides a foundation for further improving on performance and useability. Please contribute ideas.
-
-The reason for the increment of the minor version is a change to the API for running test programmatically. The old API is still available, with one minor change. All results are now returned in one event with an enum indicating the type of result. If someone needs to use the legacy format, it is straight forward to develop an adapter, please reach out for support if this is a concern.</Release_Notes>
+      <Release_Notes>This release contains the following improvements: 
+- New feature: Ignore tests by adding an underscore "_" as the first character in the test name. These test may be toggled on and off using the File menu option. For further details, see [the documentation](https://astemes.github.io/astemes-lunit/10_Basics/) 
+- Performance: Improves the performance of test discovery when running tests using the API. Thanks to Sam Taggart for contributions to this improvement. 
+- Bugfix: Errors during test execution now appears in test description </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -420,7 +419,7 @@ The reason for the increment of the minor version is a change to the API for run
         <Path>..\builds\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E3792BB82A788946B821AA36B94A2F05</GUID>
+      <GUID>18CF40CE71FBEEBB3DF4B3F367F0AD82</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -455,7 +454,7 @@ The reason for the increment of the minor version is a change to the API for run
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5FBF563A4B159340EA547E55A9E3EC4A</GUID>
+      <GUID>9CEBCEA2384BE43196F845F305AFF582</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
