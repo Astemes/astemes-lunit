@@ -15,7 +15,7 @@ LUnit helps you test drive your LabVIEW development and provides the following k
 - Native CLI and support for CI
 - LabVIEW API
 
-Full documentation available on [https://lunit.astemes.com](https://astemes.com/lunit/).
+Full documentation available on [https://lunit.astemes.com](https://lunit.astemes.com/).
 
 \*Test execution speed is really best-in-class. 
 Below is a comparison between LUnit and two other popular unit testing toolkits\*\*.
