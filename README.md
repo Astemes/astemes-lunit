@@ -50,7 +50,7 @@ There is also a toolbar button added to the LabVIEW Project Explorer to run all 
 
 ## Documentation
 
-Documentation is available on [https://astemes.github.io/astemes-lunit/](https://astemes.github.io/astemes-lunit/).
+Documentation is available at [https://lunit.astemes.com](https://lunit.astemes.com).
 A presentation introducing LUnit was given at GLA Summit 2021 and the video recording is available [here](https://www.youtube.com/watch?v=Kys_w2RNffw&t=131s).
 
 ## Examples
