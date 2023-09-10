@@ -26,7 +26,7 @@ As the tests themselves are empty, the benchmark measures only the overhead adde
 <img src="docs/10_Basics/img/Benchmark.png" alt="Benchmark"  width="400"/>
 
 \*\* The numbers are results from two test environment and you will get different results with other setups.
-The message is that LUnit is somewhere in the range of 2x-10x faster than other available tools.
+The conclusion is that LUnit is somewhere in the range of 2x-10x faster than other available tools.
 If you find significantly differing results, please get in touch.
 
 ## Prerequisites
