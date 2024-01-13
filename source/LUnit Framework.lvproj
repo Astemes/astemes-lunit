@@ -492,6 +492,7 @@
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
 				<Item Name="Read Class Ancestry Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Read Class Ancestry Without Loading.vi"/>
 				<Item Name="Is Class Not Interface Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Is Class Not Interface Without Loading.vi"/>
+				<Item Name="Test Suite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Suite.lvclass"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
@@ -556,7 +557,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/examples/exbins</Property>
 				<Property Name="DestinationCount" Type="Int">14</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A8380B47-4071-4253-B40A-C4BD773B37F5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F8CD2F01-DCC0-4A80-B719-80939DDD3074}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -584,6 +585,13 @@
 				<Property Name="Source[102].type" Type="Str">Library</Property>
 				<Property Name="Source[103].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[103].itemID" Type="Ref">/My Computer/API/Test Suite Factory.lvclass</Property>
+				<Property Name="Source[103].newName" Type="Str">LUnit Test Suite Factory.lvclass</Property>
+				<Property Name="Source[103].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[103].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[103].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[103].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[103].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[103].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[103].type" Type="Str">Library</Property>
 				<Property Name="Source[104].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[104].itemID" Type="Ref">/My Computer/API/LUnit Inheriting Test Case.lvclass/Suite.vi</Property>
