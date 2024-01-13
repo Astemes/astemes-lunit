@@ -19,18 +19,18 @@
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.1</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="LUnit Inheriting Test Case.lvclass" Type="Parent" URL="../../../../source/API/LUnit Inheriting Test Case/LUnit Test Case/LUnit Inheriting Test Case.lvclass"/>
+		<Item Name="LUnit Inheriting Test Case.lvclass" Type="Parent" URL="../../../../source/API/LUnit Inheriting Test Case/LUnit Inheriting Test Case.lvclass"/>
 	</Item>
 	<Item Name="Test Case Test Double Parent.ctl" Type="Class Private Data" URL="Test Case Test Double Parent.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Test Inherit Method.vi" Type="VI" URL="../Test Inherit Method.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;M!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;*!=!!?!!!G*&amp;2F=X1A1W&amp;T:3"5:8.U)%2P&gt;7*M:3"198*F&lt;H1O&lt;(:D&lt;'&amp;T=Q!!)&amp;2F=X1A1W&amp;T:3"5:8.U)%2P&gt;7*M:3"198*F&lt;H1A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;"!=!!?!!!G*&amp;2F=X1A1W&amp;T:3"5:8.U)%2P&gt;7*M:3"198*F&lt;H1O&lt;(:D&lt;'&amp;T=Q!!(V2F=X1A1W&amp;T:3"5:8.U)%2P&gt;7*M:3"198*F&lt;H1A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;@!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;*!=!!?!!!G*&amp;2F=X1A1W&amp;T:3"5:8.U)%2P&gt;7*M:3"198*F&lt;H1O&lt;(:D&lt;'&amp;T=Q!!)&amp;2F=X1A1W&amp;T:3"5:8.U)%2P&gt;7*M:3"198*F&lt;H1A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;"!=!!?!!!G*&amp;2F=X1A1W&amp;T:3"5:8.U)%2P&gt;7*M:3"198*F&lt;H1O&lt;(:D&lt;'&amp;T=Q!!(V2F=X1A1W&amp;T:3"5:8.U)%2P&gt;7*M:3"198*F&lt;H1A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*)!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
 	</Item>
 </LVClass>

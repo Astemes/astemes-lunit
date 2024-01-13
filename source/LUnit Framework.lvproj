@@ -146,7 +146,7 @@
 		<Item Name="API" Type="Folder">
 			<Item Name="Execution API.lvclass" Type="LVClass" URL="../User Interface/Execution API/Execution API.lvclass"/>
 			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../API/LUnit Test Case/LUnit Test Case.lvclass"/>
-			<Item Name="LUnit Inheriting Test Case.lvclass" Type="LVClass" URL="../API/LUnit Inheriting Test Case/LUnit Test Case/LUnit Inheriting Test Case.lvclass"/>
+			<Item Name="LUnit Inheriting Test Case.lvclass" Type="LVClass" URL="../API/LUnit Inheriting Test Case/LUnit Inheriting Test Case.lvclass"/>
 			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../API/LUnit Test Suite/LUnit Test Suite.lvclass"/>
 			<Item Name="Test Suite Factory.lvclass" Type="LVClass" URL="../API/Test Suite Factory/Test Suite Factory.lvclass"/>
 		</Item>
@@ -498,7 +498,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Find Class Ancestry.vi" Type="VI" URL="../API/LUnit Inheriting Test Case/LUnit Test Case/Private/Find Class Ancestry.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
