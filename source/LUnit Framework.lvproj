@@ -1047,10 +1047,10 @@
 				<Property Name="Source[97].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Make List.vi</Property>
 				<Property Name="Source[97].type" Type="Str">VI</Property>
 				<Property Name="Source[98].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[98].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Next.vi</Property>
+				<Property Name="Source[98].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Private/Next Runnable in Suite.vi</Property>
 				<Property Name="Source[98].type" Type="Str">VI</Property>
 				<Property Name="Source[99].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[99].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Next Recursively.vi</Property>
+				<Property Name="Source[99].itemID" Type="Ref">/My Computer/API/LUnit Test Suite.lvclass/Next.vi</Property>
 				<Property Name="Source[99].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">100</Property>
 			</Item>
