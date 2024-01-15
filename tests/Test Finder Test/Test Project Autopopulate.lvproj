@@ -11,7 +11,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Test Finder Test Dummy.lvlib" Type="Library" URL="../Test Finder Test Dummy.lvlib"/>
+		<Item Name="New Folder" Type="Folder"/>
+		<Item Name="Test Case Test Double Child" Type="Folder" URL="../../Test Doubles/Test Case Test Double Child">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
