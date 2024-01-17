@@ -43,8 +43,8 @@ For this to make sense, a dynamic dispatch test method will need some kind of me
 A pattern used for this is illustrated in the example called `Test Inheritance`.
 In this pattern the class under test is configured by setting the class under test in the Setup.vi method
 
-As of LUnit version 1.4, test cases using inheritance must descend from the `Inheriting Test Case.lvclass` located at *<vi.lib>/Astemes/LUnit*.
-As the use of dynamic test methods is much less common than static methods, the complexity of handling test inheritance has been factored out into the helper class.
+As of LUnit version 1.4, test cases using inheritance must descend from the `Inheriting Test Case.lvclass` located at *\<vi.lib\>/Astemes/LUnit*.
+As the use of dynamic test methods is much less common than static methods, the complexity of handling test inheritance has been factored out into this class.
 
 ![Inheriting Test Case](img/Inheriting%20Test%20Case.png)
 
