@@ -336,8 +336,8 @@ The concept is slightly overloaded by the LUnit framework to allow for minimal c
 For this to make sense, a dynamic dispatch test method will need some kind of mechanism for knowing the context which it runs within, <em>i.e.</em> what to test.
 A pattern used for this is illustrated in the example called <code>Test Inheritance</code>.
 In this pattern the class under test is configured by setting the class under test in the Setup.vi method</p>
-<p>As of LUnit version 1.4, test cases using inheritance must descend from the <code>Inheriting Test Case.lvclass</code> located at <em><vi.lib>/Astemes/LUnit</vi.lib></em>.
-As the use of dynamic test methods is much less common than static methods, the complexity of handling test inheritance has been factored out into the helper class.</p>
+<p>As of LUnit version 1.4, test cases using inheritance must descend from the <code>Inheriting Test Case.lvclass</code> located at <em>\&lt;vi.lib&gt;/Astemes/LUnit</em>.
+As the use of dynamic test methods is much less common than static methods, the complexity of handling test inheritance has been factored out into this class.</p>
 <p><img alt="Inheriting Test Case" src="img/Inheriting%20Test%20Case.png"/></p>
 <h2 id="assertions">Assertions</h2>
 <p>Tests are evaluated by one or more assertions called in the test method.
