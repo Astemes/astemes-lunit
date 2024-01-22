@@ -42,6 +42,7 @@
 			<Item Name="Error Handler Tests.lvclass" Type="LVClass" URL="../../tests/Error Handler Tests/Error Handler Tests.lvclass"/>
 			<Item Name="Report Generator Test.lvclass" Type="LVClass" URL="../../tests/Report Test/Report Generator Test.lvclass"/>
 			<Item Name="Text Report Test.lvclass" Type="LVClass" URL="../../tests/Text Report Test/Text Report Test.lvclass"/>
+			<Item Name="Advanced Asseritions Test.lvclass" Type="LVClass" URL="../../tests/Advanced Asseritions Test/Advanced Asseritions Test.lvclass"/>
 			<Item Name="Plugin Loader Tests.lvclass" Type="LVClass" URL="../../tests/Plugin Loader Tests/Plugin Loader Tests.lvclass"/>
 			<Item Name="Runnable Next Test.lvclass" Type="LVClass" URL="../../tests/Runnable Next Test/Runnable Next Test.lvclass"/>
 			<Item Name="XML Report Test.lvclass" Type="LVClass" URL="../../tests/XML Report Test/XML Report Test.lvclass"/>
@@ -144,6 +145,7 @@
 			<Item Name="Runnable.lvclass" Type="LVClass" URL="../Core/Runnable/Runnable.lvclass"/>
 		</Item>
 		<Item Name="API" Type="Folder">
+			<Item Name="Advanced Assertions.lvlib" Type="Library" URL="../API/Advanced Assertions/Advanced Assertions.lvlib"/>
 			<Item Name="Execution API.lvclass" Type="LVClass" URL="../User Interface/Execution API/Execution API.lvclass"/>
 			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../API/LUnit Test Case/LUnit Test Case.lvclass"/>
 			<Item Name="LUnit Inheriting Test Case.lvclass" Type="LVClass" URL="../API/LUnit Inheriting Test Case/LUnit Inheriting Test Case.lvclass"/>
@@ -495,6 +497,11 @@
 				<Item Name="Test Suite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Suite.lvclass"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
+				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
+				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
+				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
+				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="/&lt;resource&gt;/DOMUserDefRef.dll"/>
@@ -521,7 +528,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{86FCB19C-1FDD-419C-965A-93BB19BFAE86}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -535,6 +542,8 @@
 				<Property Name="Destination[12].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Palette/API</Property>
 				<Property Name="Destination[13].destName" Type="Str">plugins</Property>
 				<Property Name="Destination[13].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/plugins</Property>
+				<Property Name="Destination[14].destName" Type="Str">Advanced Assertions Sub-Palette</Property>
+				<Property Name="Destination[14].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Palette/Advanced Assertions</Property>
 				<Property Name="Destination[2].destName" Type="Str">Examples</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/LUnit/examples/Astemes/LUnit</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
@@ -554,9 +563,9 @@
 				<Property Name="Destination[8].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit</Property>
 				<Property Name="Destination[9].destName" Type="Str">Example Finder</Property>
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/examples/exbins</Property>
-				<Property Name="DestinationCount" Type="Int">14</Property>
+				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F8CD2F01-DCC0-4A80-B719-80939DDD3074}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{42721E4F-0085-4FDA-85F0-CE722CE0BC63}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -607,9 +616,26 @@
 				<Property Name="Source[108].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[108].itemID" Type="Ref">/My Computer/API/LUnit Inheriting Test Case.lvclass/Private/Find Inherited VIs.vi</Property>
 				<Property Name="Source[108].type" Type="Str">VI</Property>
+				<Property Name="Source[109].destinationIndex" Type="Int">14</Property>
+				<Property Name="Source[109].itemID" Type="Ref">/My Computer/API/Advanced Assertions.lvlib</Property>
+				<Property Name="Source[109].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[109].newName" Type="Str">LUnit Advanced Assertions.lvlib</Property>
+				<Property Name="Source[109].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[109].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[109].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[109].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[109].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[109].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[109].type" Type="Str">Library</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Framework/Parallell Test Runner.lvclass</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
+				<Property Name="Source[110].destinationIndex" Type="Int">14</Property>
+				<Property Name="Source[110].itemID" Type="Ref">/My Computer/API/Advanced Assertions.lvlib/Fail If Specific Error.vi</Property>
+				<Property Name="Source[110].type" Type="Str">VI</Property>
+				<Property Name="Source[111].destinationIndex" Type="Int">14</Property>
+				<Property Name="Source[111].itemID" Type="Ref">/My Computer/API/Advanced Assertions.lvlib/Pass If Specific Error.vi</Property>
+				<Property Name="Source[111].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/User Interface/Execution UI.lvclass</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
@@ -1094,7 +1120,7 @@
 				<Property Name="Source[99].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[99].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Suite.vi</Property>
 				<Property Name="Source[99].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">109</Property>
+				<Property Name="SourceCount" Type="Int">112</Property>
 			</Item>
 		</Item>
 	</Item>
