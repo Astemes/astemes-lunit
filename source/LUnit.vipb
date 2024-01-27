@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2024-01-27 19:54:19" Creator="Anton Sundqvist" Comments="" ID="d984708fccd80feb64492ab7a6c4be38">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2024-01-27 20:28:51" Creator="Anton Sundqvist" Comments="" ID="f7e5010151322a82724a45c916f04ee9">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
     <Library_Version>1.2.0.16</Library_Version>
@@ -49,13 +49,16 @@ Documentation is available on https://lunit.astemes.com.</Description>
       <Packager>Anton Sundqvist</Packager>
       <URL>https://lunit.astemes.com</URL>
       <Release_Notes>This release (v1.4.x) contains the following improvements: 
+- The command line interface has been separated into its own package (LUnit CLI)*
 - "Run All" now executes only failed tests on second run. If no tests have failed, all tests are run.
 - Assertions added testing for specific error code
 - Assertions added for testing if element in array/set/map
 - Support for test discovery in auto-populating folders
 - Updated Templates
 - Improved clarity in failure messages comparing different types of numerics
-- Test inheritance feature moved to sub-class of Test Case</Release_Notes>
+- Test inheritance feature moved to sub-class of Test Case
+
+* The reason for not including it in the main package is becuase installing the CLI requires write access to C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI. This is not granted by default and caused bad user experience as the installation would return an error. The CLI is typically not needed in a normal installation.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -434,7 +437,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\Advanced Assetions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FCF7AD8039BCEBE53AF66211332C089B</GUID>
+      <GUID>D71760FA42835AA3E4A78F2F83351D18</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -469,7 +472,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F04BF6DE5CF410B2002022CF6E559C1</GUID>
+      <GUID>17FF49C8D4E94A722FAE6578B5CEBBA1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -546,7 +549,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Advanced Assertions\Fail If In Collection.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C19F896C54E3458123F3AB70D6793E1</GUID>
+      <GUID>5BA5483EBEA89CE7CF94B4FECB6FAD9F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

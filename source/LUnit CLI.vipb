@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2024-01-27 20:18:28" Creator="Anton Sundqvist" Comments="" ID="0c2f31fad82507492f4d2fffa28a327b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2024-01-27 20:25:19" Creator="Anton Sundqvist" Comments="" ID="424b7d59864a25188caa51aade30bc72">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit_CLI</Package_File_Name>
     <Library_Version>1.2.0.16</Library_Version>
@@ -37,7 +37,9 @@ LUnit documentation is available on https://lunit.astemes.com.</Description>
       <Copyright>Copyright (c) 2020, Astemes</Copyright>
       <Packager>Anton Sundqvist</Packager>
       <URL>https://lunit.astemes.com</URL>
-      <Release_Notes/>
+      <Release_Notes>This package was split out of the main LUnit package into its own package as of version 1.4.18 o LUnit.
+
+The reason for doing this is that installing the CLI support requires write access to C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI, which is  not granted by default. For this reason. it appeared as a missing dependency and caused bad user experience.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
