@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2024-01-27 20:28:51" Creator="Anton Sundqvist" Comments="" ID="f7e5010151322a82724a45c916f04ee9">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2024-01-29 09:21:29" Creator="Anton Sundqvist" Comments="" ID="c4ede29381c1a5908feea88badd0274d">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
     <Library_Version>1.2.0.16</Library_Version>
@@ -57,6 +57,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
 - Updated Templates
 - Improved clarity in failure messages comparing different types of numerics
 - Test inheritance feature moved to sub-class of Test Case
+- Add support for global fixtures through addon https://github.com/Astemes/astemes-lunit-global-fixture/
 
 * The reason for not including it in the main package is becuase installing the CLI requires write access to C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI. This is not granted by default and caused bad user experience as the installation would return an error. The CLI is typically not needed in a normal installation.</Release_Notes>
     </Description>
@@ -437,7 +438,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\Advanced Assetions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D71760FA42835AA3E4A78F2F83351D18</GUID>
+      <GUID>44C7D768E597D068DD913A76901A5355</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -472,7 +473,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>17FF49C8D4E94A722FAE6578B5CEBBA1</GUID>
+      <GUID>004E11800DB9EC0EC21A84220B0A2D6A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -549,7 +550,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Advanced Assertions\Fail If In Collection.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5BA5483EBEA89CE7CF94B4FECB6FAD9F</GUID>
+      <GUID>18D68051FA921A61C61AADBB925DA71B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
