@@ -54,7 +54,7 @@ pipeline {
 				//Build VIPM package
 				script{VIP_FILE_PATH = buildVIPackage "${LV_VIPB_PATH}", "${LV_VERSION}", "${COMMIT_TAG}"}
 				script{CLI_VIP_FILE_PATH = buildVIPackage "${LV_CLI_VIPB_PATH}", "${LV_VERSION}", "${COMMIT_TAG}"}
-				deployGithubPages()
+				deployGithubPages "${WORKSPACE}"
 				deployGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${VIP_FILE_PATH}"
 				addFileToGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${CLI_VIP_FILE_PATH}"
 			}
