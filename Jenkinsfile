@@ -34,6 +34,7 @@ pipeline {
 		}
 		stage('Build') {
 			steps {
+				clearMutationHistory()
 				//Execute LabVIEW build spec
 				buildLVBuildSpec "${LV_PROJECT_PATH}", "${LV_BUILD_SPEC}"
 				//Build mkdocs documentation
