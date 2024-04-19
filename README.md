@@ -31,7 +31,8 @@ If you find significantly differing results, please get in touch.
 
 ## Prerequisites
 
-To use LUnit you will need to have LabVIEW 2020 or later installed.
+To use LUnit you will need to have LabVIEW 2020 32-bit, LabVIEW 2020 SP1 64-bit, or later installed.
+Please note that LabVIEW 2020 64-bit requires SP1 to work as expected.
 As LUnit was developed using the LabVIEW Community Edition there is currently no support for older versions of LabVIEW.
 Operation system requirements are Windows 10 (version 1909)/8.1 Update 12/7 SP13, Windows Server 2016, Windows Server 2012 R22, or Windows Server 2008 R2 SP13.
 
@@ -45,7 +46,12 @@ The release contains a VIPM package which is installed using VIPM.
 
 Once installed, LUnit is integrated into the LabVIEW development environment and the functionality is accessed through the Tools->LUnit menu.
 From the menu, you may create a new tests or open the LUnit UI to run tests.
-Tests may also be executed directly from the project explorer by right-clicking on a Test Case and selecting `Run Test Case...` from the menu.
+
+When you have created a Test Case class, you can create new test VI:s using the provided template or by creating static or dynamic dispatch VI:s on the Test Case class.
+Static dispatch is recommended, unless you are using the test inheritance feature, as they have less overhead and does not lock the Test Case classes when the UI is loaded.
+
+All tests within a Test Case class may executed from the project explorer, by right-clicking on a Test Case and selecting `Run Test Case...` from the menu.
+As of LUnit version 1.5, a test VI may be executed by simply running it in LabVIEW using the run arrow.
 There is also a toolbar button added to the LabVIEW Project Explorer to run all tests in project or create a new test case.
 
 ## Documentation
