@@ -31,8 +31,8 @@ If you find significantly differing results, please get in touch.
 
 ## Prerequisites
 
-To use LUnit you will need to have LabVIEW 2020 32-bit, LabVIEW 2020 SP1 64-bit, or later installed.
-Please note that LabVIEW 2020 64-bit requires SP1 to work as expected.
+To use LUnit you will need to have LabVIEW 2020 32-bit, LabVIEW 2020 64-bit SP1, or any later version of LabVIEW installed.
+Please note that for 64-bit LabVIEW, version LabVIEW 2020 SP1 or later is required to work as expected.
 As LUnit was developed using the LabVIEW Community Edition there is currently no support for older versions of LabVIEW.
 Operation system requirements are Windows 10 (version 1909)/8.1 Update 12/7 SP13, Windows Server 2016, Windows Server 2012 R22, or Windows Server 2008 R2 SP13.
 
