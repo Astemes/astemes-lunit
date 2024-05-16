@@ -162,14 +162,23 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
 	</Item>
-	<Item Name="Test Get Failed or Not Executed Tests Filter Not Executed if Failed Tests.vi" Type="VI" URL="../Test Get Failed or Not Executed Tests Filter Not Executed if Failed Tests.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'%!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;Z!=!!?!!!M+F*F=X6M&gt;#".&lt;W2F&lt;#"3:8.V&lt;(1A5G6D&lt;X*E;7ZH)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!*F*F=X6M&gt;#".&lt;W2F&lt;#"3:8.V&lt;(1A5G6D&lt;X*E;7ZH)&amp;2F=X1A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;R!=!!?!!!M+F*F=X6M&gt;#".&lt;W2F&lt;#"3:8.V&lt;(1A5G6D&lt;X*E;7ZH)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!*6*F=X6M&gt;#".&lt;W2F&lt;#"3:8.V&lt;(1A5G6D&lt;X*E;7ZH)&amp;2F=X1A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+	<Item Name="Test Get Failed or Not Executed Returns Not Executed if no Fails.vi" Type="VI" URL="../Test Get Failed or Not Executed Returns Not Executed if no Fails.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;E!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;Z!=!!?!!!M+F*F=X6M&gt;#".&lt;W2F&lt;#"3:8.V&lt;(1A5G6D&lt;X*E;7ZH)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!*F*F=X6M&gt;#".&lt;W2F&lt;#"3:8.V&lt;(1A5G6D&lt;X*E;7ZH)&amp;2F=X1A&lt;X6U!!"=1(!!(A!!,#J3:8.V&lt;(1A47^E:7QA5G6T&gt;7RU)&amp;*F9W^S:'FO:S"5:8.U,GRW9WRB=X-!!#63:8.V&lt;(1A47^E:7QA5G6T&gt;7RU)&amp;*F9W^S:'FO:S"5:8.U)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!%!!1!"!!'!Q!!?!!!#1!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!=!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073741826</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+	</Item>
+	<Item Name="Test Get Failed or Not Executed Tests Filter Not Executed if Failed Tests.vi" Type="VI" URL="../Test Get Failed or Not Executed Tests Filter Not Executed if Failed Tests.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;E!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;Z!=!!?!!!M+F*F=X6M&gt;#".&lt;W2F&lt;#"3:8.V&lt;(1A5G6D&lt;X*E;7ZH)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!*F*F=X6M&gt;#".&lt;W2F&lt;#"3:8.V&lt;(1A5G6D&lt;X*E;7ZH)&amp;2F=X1A&lt;X6U!!"=1(!!(A!!,#J3:8.V&lt;(1A47^E:7QA5G6T&gt;7RU)&amp;*F9W^S:'FO:S"5:8.U,GRW9WRB=X-!!#63:8.V&lt;(1A47^E:7QA5G6T&gt;7RU)&amp;*F9W^S:'FO:S"5:8.U)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!%!!1!"!!'!Q!!?!!!#1!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!=!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
 	</Item>
 	<Item Name="Test Get Failed or Not Executed Tests Filters Passed.vi" Type="VI" URL="../Test Get Failed or Not Executed Tests Filters Passed.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'%!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;Z!=!!?!!!M+F*F=X6M&gt;#".&lt;W2F&lt;#"3:8.V&lt;(1A5G6D&lt;X*E;7ZH)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!*F*F=X6M&gt;#".&lt;W2F&lt;#"3:8.V&lt;(1A5G6D&lt;X*E;7ZH)&amp;2F=X1A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;R!=!!?!!!M+F*F=X6M&gt;#".&lt;W2F&lt;#"3:8.V&lt;(1A5G6D&lt;X*E;7ZH)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!*6*F=X6M&gt;#".&lt;W2F&lt;#"3:8.V&lt;(1A5G6D&lt;X*E;7ZH)&amp;2F=X1A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>

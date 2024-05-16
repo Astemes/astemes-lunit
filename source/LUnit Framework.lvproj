@@ -504,7 +504,9 @@
 				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="DOMUserDefRef.dll" Type="Document" URL="/&lt;resource&gt;/DOMUserDefRef.dll"/>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
