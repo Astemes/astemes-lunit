@@ -11,6 +11,7 @@
 		<Item Name="LUnit_signed.ini" Type="Document" URL="../GProviders/LUnit_signed.ini"/>
 	</Item>
 	<Item Name="Icons" Type="Folder">
+		<Item Name="Check.png" Type="Document" URL="../Icons/Check.png"/>
 		<Item Name="Error.png" Type="Document" URL="../Icons/Error.png"/>
 		<Item Name="Fail.png" Type="Document" URL="../Icons/Fail.png"/>
 		<Item Name="NewTestCase.png" Type="Document" URL="../Icons/NewTestCase.png"/>
