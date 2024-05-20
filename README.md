@@ -57,6 +57,7 @@ There is also a toolbar button added to the LabVIEW Project Explorer to run all 
 ## Documentation
 
 Documentation is available at [https://lunit.astemes.com](https://lunit.astemes.com).
+A 15 minute demonstration and introduction to LUnit, recorded in 2024, is available [here](https://www.youtube.com/watch?v=Cxb1FUIsC04).
 A presentation introducing LUnit was given at GLA Summit 2021 and the video recording is available [here](https://www.youtube.com/watch?v=Kys_w2RNffw&t=131s).
 
 ## Examples
