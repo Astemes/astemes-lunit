@@ -125,6 +125,7 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="mxLvSetToolbar.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetToolbar.vi"/>
+				<Item Name="mxLvGetFilePath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetFilePath.vi"/>
 			</Item>
 			<Item Name="CLI Interface" Type="Folder">
 				<Item Name="CoreOperation.lvclass" Type="LVClass" URL="/&lt;nishared&gt;/LabVIEW CLI/Operations/CoreOperation/CoreOperation.lvclass"/>
@@ -507,7 +508,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="mxLvGetFilePath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetFilePath.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
@@ -568,7 +568,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/examples/exbins</Property>
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1C443373-095D-4D81-AE49-9A447B0E05EF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DEB5792F-C84C-4AAC-8A44-FFB007741467}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
