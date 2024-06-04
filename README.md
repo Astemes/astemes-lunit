@@ -28,6 +28,7 @@ As the tests themselves are empty, the benchmark measures only the overhead adde
 \*\* The numbers are results from two test environment and you will get different results with other setups.
 The conclusion is that LUnit is somewhere in the range of 2x-10x faster than other available tools.
 If you find significantly differing results, please get in touch.
+As of version 1.6 of LUnit the performance was further improved by more than 2x when running tests in parallell, which is not shown in numbers above.
 
 ## Prerequisites
 
