@@ -538,7 +538,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{86FCB19C-1FDD-419C-965A-93BB19BFAE86}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">29</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -575,7 +575,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/examples/exbins</Property>
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DEB5792F-C84C-4AAC-8A44-FFB007741467}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7715D10B-8D38-4CE0-AEE0-61143C51AC83}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -652,6 +652,12 @@
 				<Property Name="Source[113].destinationIndex" Type="Int">14</Property>
 				<Property Name="Source[113].itemID" Type="Ref">/My Computer/API/Advanced Assertions.lvlib/Fail If In Collection.vim</Property>
 				<Property Name="Source[113].type" Type="Str">VI</Property>
+				<Property Name="Source[114].destinationIndex" Type="Int">14</Property>
+				<Property Name="Source[114].itemID" Type="Ref">/My Computer/API/Advanced Assertions.lvlib/Pass If Matching String.vi</Property>
+				<Property Name="Source[114].type" Type="Str">VI</Property>
+				<Property Name="Source[115].destinationIndex" Type="Int">14</Property>
+				<Property Name="Source[115].itemID" Type="Ref">/My Computer/API/Advanced Assertions.lvlib/Fail If Matching String.vi</Property>
+				<Property Name="Source[115].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/User Interface/Execution UI.lvclass</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
@@ -1136,7 +1142,7 @@
 				<Property Name="Source[99].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[99].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Suite.vi</Property>
 				<Property Name="Source[99].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">114</Property>
+				<Property Name="SourceCount" Type="Int">116</Property>
 			</Item>
 		</Item>
 	</Item>
