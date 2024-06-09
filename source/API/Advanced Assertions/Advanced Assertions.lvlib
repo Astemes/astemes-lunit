@@ -8,4 +8,6 @@
 	<Item Name="Pass If Specific Error.vi" Type="VI" URL="../Pass If Specific Error.vi"/>
 	<Item Name="Pass If In Collection.vim" Type="VI" URL="../Pass If In Collection.vim"/>
 	<Item Name="Fail If In Collection.vim" Type="VI" URL="../Fail If In Collection.vim"/>
+	<Item Name="Pass If Matching String.vi" Type="VI" URL="../Pass If Matching String.vi"/>
+	<Item Name="Fail If Matching String.vi" Type="VI" URL="../Fail If Matching String.vi"/>
 </Library>
