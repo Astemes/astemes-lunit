@@ -20,6 +20,7 @@
 	</Item>
 	<Item Name="LUnit" Type="Folder">
 		<Item Name="Create New Test Case.vi" Type="VI" URL="../LUnit/Create New Test Case.vi"/>
+		<Item Name="Generate Library Icon.vi" Type="VI" URL="../LUnit/Generate Library Icon.vi"/>
 		<Item Name="Global_Init.vi" Type="VI" URL="../LUnit/Global_Init.vi"/>
 		<Item Name="Global_Interface.vi" Type="VI" URL="../LUnit/Global_Interface.vi"/>
 		<Item Name="Global_OnCommand.vi" Type="VI" URL="../LUnit/Global_OnCommand.vi"/>
