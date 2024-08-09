@@ -12,4 +12,5 @@
 	<Item Name="Get Default Report Path.vi" Type="VI" URL="../Get Default Report Path.vi"/>
 	<Item Name="Get Error Log Directory Path.vi" Type="VI" URL="../Get Error Log Directory Path.vi"/>
 	<Item Name="Get Index Directory Path.vi" Type="VI" URL="../Get Index Directory Path.vi"/>
+	<Item Name="Get Plugin Directory Path.vi" Type="VI" URL="../Get Plugin Directory Path.vi"/>
 </Library>
