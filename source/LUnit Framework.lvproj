@@ -487,6 +487,7 @@
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Framework/Plugin/Plugin.lvclass"/>
 			<Item Name="Result Observer.lvclass" Type="LVClass" URL="../Framework/Result Observer/Result Observer.lvclass"/>
 			<Item Name="Test Runner.lvclass" Type="LVClass" URL="../Framework/Test Runner/Test Runner.lvclass"/>
+			<Item Name="Report Interface.lvclass" Type="LVClass" URL="../Framework/Report Interface/Report Interface.lvclass"/>
 			<Item Name="Test Finder.lvclass" Type="LVClass" URL="../Framework/Test Finder/Test Finder.lvclass"/>
 			<Item Name="Single Thread Test Runner.lvclass" Type="LVClass" URL="../Framework/Single Thread Test Runner/Single Thread Test Runner.lvclass"/>
 			<Item Name="Parallell Test Runner.lvclass" Type="LVClass" URL="../Framework/Parallell Test Runner/Parallell Test Runner.lvclass"/>
@@ -955,7 +956,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/examples/exbins</Property>
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7715D10B-8D38-4CE0-AEE0-61143C51AC83}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3D64D8D5-9329-4D15-8D04-4FC6DFE3718D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -1038,6 +1039,9 @@
 				<Property Name="Source[115].destinationIndex" Type="Int">14</Property>
 				<Property Name="Source[115].itemID" Type="Ref">/My Computer/API/Advanced Assertions.lvlib/Fail If Matching String.vi</Property>
 				<Property Name="Source[115].type" Type="Str">VI</Property>
+				<Property Name="Source[116].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[116].itemID" Type="Ref">/My Computer/Framework/Report Interface.lvclass</Property>
+				<Property Name="Source[116].type" Type="Str">Library</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/User Interface/Execution UI.lvclass</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
@@ -1522,7 +1526,7 @@
 				<Property Name="Source[99].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[99].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Suite.vi</Property>
 				<Property Name="Source[99].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">116</Property>
+				<Property Name="SourceCount" Type="Int">117</Property>
 			</Item>
 		</Item>
 	</Item>
