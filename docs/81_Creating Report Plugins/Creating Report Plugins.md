@@ -4,8 +4,9 @@ If you'd like to create your own reporting plugin, this can be done following th
 The only requirements for a reporting plugin is that it implements two specific interfaces and is placed in a specific folder within vi.lib.
 
 ## Getting started
-To create a custom reporting plugin, you will need to create a class implementing the `LUnit Report Interface.lvclass` and `LUnit Plugin.lvclass`.
-The later is a legacy dependency and the plugin methods does not need to be implemented.
+To create a custom reporting plugin, you will need to create a class inheriting from `LUnit Report.lvclass`.
+This parent class implements the `LUnit Report Interface.lvclass` and `LUnit Plugin.lvclass` and these will therefore be inherited.
+The later plugin is a legacy dependency and the plugin methods does not need to be implemented.
 The dependency on `LUnit Plugin.lvclass` will be deprecated in a future release, but this will not break integration of classes implementing it.
 The easiest way to get started is to copy one of the existing plugins, which are located at `C:\Program Files (x86)\National Instruments\LabVIEW 202X\vi.lib\Astemes\LUnit\plugins`.
 It is recommended to use LabVIEW 2020 to ensure backward compatibility.
