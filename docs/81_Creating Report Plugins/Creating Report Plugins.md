@@ -21,5 +21,7 @@ Please refer to the Framework Architecture document and the unit tests in the LU
 ## Deploying your plugin
 To deploy the plugin, it should be placed in the plugin directory at `C:\Program Files (x86)\National Instruments\LabVIEW 202X\vi.lib\Astemes\LUnit\plugins`.
 The plugin name should begin with the `LUnit` prefix. 
+The `.lvclass` file should be directly in the `plugins` directory, but the member VI:s of the class will need to be placed in a sub directory to avoid naming conflicts.
+
 After doing this, the plugin should appear in the drop-down menu in the reporting configuration dialog.
 To automate this, making a VIPM package is recommended and sharing it with the community through VIPM is encouraged.
