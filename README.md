@@ -23,7 +23,7 @@ The benchmark is available [here](https://github.com/Astemes/astemes-lunit/tree/
 The times reported are averages over 5 runs started by the `Run All` feature of each framework.
 As the tests themselves are empty, the benchmark measures only the overhead added by the framework.
 
-<img src="docs/10_Basics/img/Benchmark.png" alt="Benchmark"  width="400"/>
+<img src="https://raw.githubusercontent.com/Astemes/astemes-lunit/main/docs/10_Basics/img/Benchmark.png" alt="Benchmark"  width="400"/>
 
 \*\* The numbers are results from two test environment and you will get different results with other setups.
 The conclusion is that LUnit is somewhere in the range of 2x-10x faster than other available tools.
