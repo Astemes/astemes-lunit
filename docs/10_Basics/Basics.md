@@ -11,13 +11,17 @@ To follow along with the instructions on this page you will need to have LabVIEW
 All tests you write will belong to a test case.
 The test case is implemented as a LabVIEW class, but in order to use it you will not need to know anything about object oriented programming.
 
-To get started, create an empty project and add a test case to it from the ``Tools > LUnit > New Test Case...`` menu option.
+To get started, create an empty project and add a test case to it by clicking the New Test Case button in the toolbar of the LabVIEW project.
+
+![Project integration](img/project_Integration.png)
+
+You can also do the same from the ``Tools > LUnit > New Test Case...`` menu option.
 
 ![Tools Menu > Lunit > new test case](img/tools_menu_new_tc.jpg)
 
 Save the test case in a convenient location.
 Some like to keep the tests next to the code they are testing, and other keep them in a separate folder called ``Tests`` or similar.
-I personally find the later option with a separte top level directory the most convenient.
+I personally find the later option with a separate top level directory the most convenient.
 
 ## Adding a Test Method
 
@@ -29,7 +33,7 @@ To create a new test method, right-click on the Test Static Test Method.vit and 
 ![New from template](img/new_static_from_template.png)
 
 You can create test methods any way you like and you are free to delete the template methods if you choose to.
-It is important however that the connector pane uses the same pattern of terminals as the template and that the name starts with the word ``test``.
+It is important however that the connector pane uses the same pattern of terminals as the template and that the name of the vi starts with the word ``test``.
 
 You should now make your test method test something useful by implementing the block diagram of the vi.
 To perform tests you will use the assertions available in the provided palette, or using quick drop.
@@ -39,7 +43,7 @@ To perform tests you will use the assertions available in the provided palette, 
 ## Using Assertions
 
 The result of each test is determined using assertions.
-Thesere is a set of assertions to choose from as shown in the figure above and the names should be self explanatory.
+There is a set of assertions to choose from, as shown in the figure above, and the names should be self explanatory.
 One test method may contain multiple assertions and the result from each assertion will show up in the result view.
 
 One pro-tip is that the ``Pass if Equal.vi`` assertion also works well for array data types.
@@ -47,17 +51,20 @@ The result of comparing arrays will show up in the result view as shown below.
 
 ![Comparing Arrays](img/array_comparison.jpg)
 
-Please note that the ``Pass if Equal.vi`` assetion will fail if either the type or the value does not match. 
+Please note that the ``Pass if Equal.vi`` assertion will fail if either the type or the value does not match. 
 
 ## Running the Test Case
 
-To run the test case you can now right click it in the project window and select the ``Run Test Case...`` menu option.
+You can run a single test vi (using the Run Arrow) and it will run and show the user interface with the results of the test.
+
+To run all tests contained in a test case, you can right click it in the project window and select the ``Run Test Case...`` menu option.
 
 ![Run from right click menu](img/run_test_case.png)
 
 This will open the test execution user interface and run the test case.
 Alternatively you can also launch the user interface from the tools menu through the ``Tools > LUnit > LUnit UI...`` menu option.
 This will open the user interface and show all tests in the current project.
+As the test is run, the results are also shown as visual icons overlays in the project explorer.
 
 ![Run from right click menu](img/test_execution_ui.png)
 
@@ -76,7 +83,7 @@ It does make sense to organize tests in some manner, especially as the number of
 There are many common practices around where to keep tests and how to organize the folder structure on disk. 
 In general it is useful to keep tests separated from the source, as there should be no dependency from the source on the test code.
 
-While developing, it is convenient to keep the tests within the active LabVIEW project, as they may then be run quickly through the [project integration](#running-the-test-case) and you can run all the tests in the project throught the tools menu option.
+While developing, it is convenient to keep the tests within the active LabVIEW project, as they may then be run quickly through the [project integration](#running-the-test-case) and you can run all the tests in the project through the tools menu option.
 As test suites grow, it becomes less convenient as the test time accumulates with larger test suites and some of the tests might not be relevant to the feature under development.
 While it is important to run the whole suite to catch regression issues, this does not have to be done as frequently as tests covering the new feature.
 
@@ -86,7 +93,7 @@ All tests within the test suite project may then be executed using the right cli
 
 ![Run nested project](img/run_nested_project.png)
 
-When executing tests in a Continuous Integration environemnt, this test suite LabVIEW project file is a good entry point for running tests.
+When executing tests in a Continuous Integration environment, this test suite LabVIEW project file is a good entry point for running tests.
 
 In LUnit version 1.3.1, an additional feature was introduced to help speeding up test execution by skipping slow or unrelated tests.
 A test method (`vi`) or entire test case class (`lvclass`) may be marked with an underscore `_` character as the first character, making it into a `dashed` test class or test case.
