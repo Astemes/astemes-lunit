@@ -1,6 +1,7 @@
 # LUnit Basics
 
 This document walks through the basic workflow using LUnit to test LabVIEW code.
+If you prefer to watch a video, there is an introduction available on [this link](https://www.youtube.com/watch?v=Cxb1FUIsC04).
 
 ## Prerequisites
 
