@@ -527,6 +527,13 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 			</Item>
+			<Item Name="Organizing Tests" Type="Folder">
+				<Item Name="Component A Test Suite.lvlib" Type="Library" URL="../Examples/Organizing Tests/Component A/Component A Test Suite.lvlib"/>
+				<Item Name="Component B Test Suite.lvlib" Type="Library" URL="../Examples/Organizing Tests/Component B/Component B Test Suite.lvlib"/>
+				<Item Name="Organizing Tests.lvproj" Type="Document" URL="../Examples/Organizing Tests/Organizing Tests.lvproj"/>
+				<Item Name="Component A.lvproj" Type="Document" URL="../Examples/Organizing Tests/Component A/Component A.lvproj"/>
+				<Item Name="Component B.lvproj" Type="Document" URL="../Examples/Organizing Tests/Component B/Component B.lvproj"/>
+			</Item>
 		</Item>
 		<Item Name="User Interface" Type="Folder">
 			<Item Name="Process.lvclass" Type="LVClass" URL="../User Interface/Process/Process.lvclass"/>
@@ -920,7 +927,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{86FCB19C-1FDD-419C-965A-93BB19BFAE86}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">31</Property>
+				<Property Name="Bld_version.build" Type="Int">32</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -957,7 +964,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/examples/exbins</Property>
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3C6CD36C-98AB-4B4B-B5F4-1ED4A484459A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A22236A3-409D-484B-BF20-4F282D6DF519}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -1043,6 +1050,11 @@
 				<Property Name="Source[116].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[116].itemID" Type="Ref">/My Computer/Framework/Report Interface.lvclass</Property>
 				<Property Name="Source[116].type" Type="Str">Library</Property>
+				<Property Name="Source[117].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[117].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[117].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[117].itemID" Type="Ref">/My Computer/Examples/Organizing Tests</Property>
+				<Property Name="Source[117].type" Type="Str">Container</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/User Interface/Execution UI.lvclass</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
@@ -1527,7 +1539,7 @@
 				<Property Name="Source[99].destinationIndex" Type="Int">10</Property>
 				<Property Name="Source[99].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Suite.vi</Property>
 				<Property Name="Source[99].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">117</Property>
+				<Property Name="SourceCount" Type="Int">118</Property>
 			</Item>
 		</Item>
 	</Item>
