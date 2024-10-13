@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2024-10-13 12:40:55" Creator="Anton Sundqvist" Comments="" ID="5b9a3e93f2b0366d1238f30fc3904a9e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2024-10-13 12:59:14" Creator="Anton Sundqvist" Comments="" ID="a78199a1277c4feacc2798158658436c">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
     <Library_Version>1.7.0.16</Library_Version>
@@ -56,6 +56,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
 - Add "verify" as valid test method prefix in addition to "test"
 - Allow for test names containing . and +
 - Highlight BD when opening test from UI
+- Add example for organizing tests in nested projects
 - Minor bugfixes</Release_Notes>
     </Description>
     <Destinations>
@@ -147,6 +148,9 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>LUnit/LICENSE</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -253,20 +257,6 @@ Documentation is available on https://lunit.astemes.com.</Description>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Fail.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Fail.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Fail If Error.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -320,7 +310,77 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\Advanced Assetions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>303B0040DF0C5C4938F71EB50104987A</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Pass.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Pass.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Fail If.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Fail If.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Pass If Error.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Pass If Error.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Fail If Equal.vim</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Fail If Equal.vim</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Fail.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Fail.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>3C2D28DCB0B50B1A7FEE3816F1395A65</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -341,7 +401,21 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>7B090E750B2C83F44D57623186BC2E3B</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>LUnit Run Tests.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Tests.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>A208DE46AAF8D6FC06E698E9E6F2BBAF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -404,7 +478,49 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Advanced Assertions\Pass If Matching String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AD8BFED5E50B55A3664C00D9EBF304D7</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Pass If In Collection.vim</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Advanced Assertions\Pass If In Collection.vim</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Fail If Matching String.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Advanced Assertions\Fail If Matching String.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Pass If Specific Error.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Advanced Assertions\Pass If Specific Error.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>A1E2141C0DBDE076392F0F349494EE83</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
