@@ -71,15 +71,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
-	<Item Name="Test Child Only Correct on Added Method Capitalize Extenssion.vi" Type="VI" URL="../Test Child Only Correct on Added Method Capitalize Extenssion.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;9!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%B!=!!?!!!H*6*F=X6M&gt;#".&lt;W2F&lt;#"5:8.U)%6O&gt;7VF=G&amp;U;7^O,GRW9WRB=X-!&amp;F*F=X6M&gt;#".&lt;W2F&lt;#"5:8.U=S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!2E"Q!"Y!!#=F5G6T&gt;7RU)%VP:'6M)&amp;2F=X1A27ZV&lt;76S982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!65G6T&gt;7RU)%VP:'6M)&amp;2F=X2T)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!#1!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
-	</Item>
 	<Item Name="Test Child Only Correct on Added Method.vi" Type="VI" URL="../Test Child Only Correct on Added Method.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;9!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%B!=!!?!!!H*6*F=X6M&gt;#".&lt;W2F&lt;#"5:8.U)%6O&gt;7VF=G&amp;U;7^O,GRW9WRB=X-!&amp;F*F=X6M&gt;#".&lt;W2F&lt;#"5:8.U=S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!2E"Q!"Y!!#=F5G6T&gt;7RU)%VP:'6M)&amp;2F=X1A27ZV&lt;76S982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!65G6T&gt;7RU)%VP:'6M)&amp;2F=X2T)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!#1!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
