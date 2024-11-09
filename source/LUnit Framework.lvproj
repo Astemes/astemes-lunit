@@ -479,7 +479,6 @@
 			<Item Name="Advanced Assertions.lvlib" Type="Library" URL="../API/Advanced Assertions/Advanced Assertions.lvlib"/>
 			<Item Name="Execution API.lvclass" Type="LVClass" URL="../User Interface/Execution API/Execution API.lvclass"/>
 			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../API/LUnit Test Case/LUnit Test Case.lvclass"/>
-			<Item Name="LUnit Inheriting Test Case.lvclass" Type="LVClass" URL="../API/LUnit Inheriting Test Case/LUnit Inheriting Test Case.lvclass"/>
 			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../API/LUnit Test Suite/LUnit Test Suite.lvclass"/>
 			<Item Name="Test Suite Factory.lvclass" Type="LVClass" URL="../API/Test Suite Factory/Test Suite Factory.lvclass"/>
 		</Item>
@@ -493,21 +492,6 @@
 			<Item Name="Parallell Test Runner.lvclass" Type="LVClass" URL="../Framework/Parallell Test Runner/Parallell Test Runner.lvclass"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="Test Inheritance" Type="Folder">
-				<Item Name="Animal Classes" Type="Folder">
-					<Item Name="Animal.lvclass" Type="LVClass" URL="../Examples/Test Inheritance/Animal Classes/Animal/Animal.lvclass"/>
-					<Item Name="Dog.lvclass" Type="LVClass" URL="../Examples/Test Inheritance/Animal Classes/Dog/Dog.lvclass"/>
-					<Item Name="Hippo.lvclass" Type="LVClass" URL="../Examples/Test Inheritance/Animal Classes/Hippo/Hippo.lvclass"/>
-					<Item Name="Hungry Hippo.lvclass" Type="LVClass" URL="../Examples/Test Inheritance/Animal Classes/Hungry Hippo/Hungry Hippo.lvclass"/>
-				</Item>
-				<Item Name="Animal Test Classes" Type="Folder">
-					<Item Name="Animal Test.lvclass" Type="LVClass" URL="../Examples/Test Inheritance/Animal Test Classes/Animal Test/Animal Test.lvclass"/>
-					<Item Name="Dog Test.lvclass" Type="LVClass" URL="../Examples/Test Inheritance/Animal Test Classes/Dog Test/Dog Test.lvclass"/>
-					<Item Name="Hippo Test.lvclass" Type="LVClass" URL="../Examples/Test Inheritance/Animal Test Classes/Hippo Test/Hippo Test.lvclass"/>
-					<Item Name="Hungry Hippo Test.lvclass" Type="LVClass" URL="../Examples/Test Inheritance/Animal Test Classes/Hungry Hippo Test/Hungry Hippo Test.lvclass"/>
-				</Item>
-				<Item Name="Test Inheritance.lvproj" Type="Document" URL="../Examples/Test Inheritance/Test Inheritance.lvproj"/>
-			</Item>
 			<Item Name="API Demo" Type="Folder">
 				<Item Name="API Demo.vi" Type="VI" URL="../Examples/API Demo/API Demo.vi">
 					<Property Name="marked" Type="Int">0</Property>
@@ -819,17 +803,6 @@
 				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
 				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
 				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
-				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
-				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
-				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
-				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
-				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
-				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
-				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
-				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Runnable.lvclass"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
 				<Item Name="Read Class Ancestry Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Read Class Ancestry Without Loading.vi"/>
@@ -981,7 +954,7 @@
 				<Property Name="Source[101].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Name.vi</Property>
 				<Property Name="Source[101].type" Type="Str">VI</Property>
 				<Property Name="Source[102].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[102].itemID" Type="Ref">/My Computer/API/LUnit Inheriting Test Case.lvclass</Property>
+				<Property Name="Source[102].itemID" Type="Ref"></Property>
 				<Property Name="Source[102].newName" Type="Str">Inheriting Test Case.lvclass</Property>
 				<Property Name="Source[102].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[102].properties[0].value" Type="Bool">false</Property>
@@ -1067,7 +1040,7 @@
 				<Property Name="Source[15].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Examples/Test Inheritance</Property>
+				<Property Name="Source[15].itemID" Type="Ref"></Property>
 				<Property Name="Source[15].type" Type="Str">Container</Property>
 				<Property Name="Source[16].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[16].Container.applyPrefix" Type="Bool">true</Property>
