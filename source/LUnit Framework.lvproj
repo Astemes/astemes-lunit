@@ -17,14 +17,11 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Doubles" Type="Folder">
 				<Item Name="Test Case Test Double.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Case Test Double/Test Case Test Double.lvclass"/>
-				<Item Name="Test Case Test Double Child.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Case Test Double/Test Case Test Double Child.lvclass"/>
 				<Item Name="Light Test Case Double Copy.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Light Test Case Double Copy/Light Test Case Double Copy.lvclass"/>
 				<Item Name="Light Test Case Double.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Case Test Double Child/Light Test Case Double.lvclass"/>
 				<Item Name="Mock Report.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Mock Report/Mock Report.lvclass"/>
-				<Item Name="Test Case Test Double Child with Override.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Case Test Double Child with Override/Test Case Test Double Child with Override.lvclass"/>
 				<Item Name="Comparison Test Double.lvclass" Type="LVClass" URL="../../tests/Comparison Test Double/Comparison Test Double.lvclass"/>
 				<Item Name="Case Test Double.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Debug Test Case Test Double/Case Test Double.lvclass"/>
-				<Item Name="Test Case Test Double Parent.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Case Test Double Parent/Test Case Test Double Parent.lvclass"/>
 				<Item Name="Mock Result Observer.lvclass" Type="LVClass" URL="../../tests/Mock Result Observer/Mock Result Observer.lvclass"/>
 			</Item>
 			<Item Name="Test Case Test.lvclass" Type="LVClass" URL="../../tests/Test Case Test/Test Case Test.lvclass"/>
