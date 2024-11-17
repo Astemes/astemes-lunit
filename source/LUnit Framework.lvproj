@@ -565,11 +565,9 @@
 			<Item Name="Filters" Type="Folder">
 				<Item Name="Filter.lvclass" Type="LVClass" URL="../Support/Filters/Filter/Filter.lvclass"/>
 				<Item Name="Static Filter.lvclass" Type="LVClass" URL="../Support/Filters/Static Filter/Static Filter.lvclass"/>
-				<Item Name="Inherited Tests Filter.lvclass" Type="LVClass" URL="../Support/Filters/Inherited Tests Filter/Inherited Tests Filter.lvclass"/>
 				<Item Name="Dashed Filter.lvclass" Type="LVClass" URL="../Support/Filters/Dashed Filter/Dashed Filter.lvclass"/>
 			</Item>
 			<Item Name="Configuration Manager.lvclass" Type="LVClass" URL="../User Interface/Configuration Manager/Configuration Manager.lvclass"/>
-			<Item Name="Project Loader.lvclass" Type="LVClass" URL="../Support/Project Loader/Project Loader.lvclass"/>
 			<Item Name="Utilities.lvlib" Type="Library" URL="../Support/Utilities.lvlib"/>
 			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../Support/Post-Install Custom Action.vi"/>
 		</Item>
