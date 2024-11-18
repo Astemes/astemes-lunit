@@ -461,7 +461,6 @@
 			<Item Name="Execution API.lvclass" Type="LVClass" URL="../User Interface/Execution API/Execution API.lvclass"/>
 			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../API/LUnit Test Case/LUnit Test Case.lvclass"/>
 			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../API/LUnit Test Suite/LUnit Test Suite.lvclass"/>
-			<Item Name="Test Suite Factory.lvclass" Type="LVClass" URL="../API/Test Suite Factory/Test Suite Factory.lvclass"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Framework/Plugin/Plugin.lvclass"/>
@@ -471,6 +470,7 @@
 			<Item Name="Test Finder.lvclass" Type="LVClass" URL="../Framework/Test Finder/Test Finder.lvclass"/>
 			<Item Name="Single Thread Test Runner.lvclass" Type="LVClass" URL="../Framework/Single Thread Test Runner/Single Thread Test Runner.lvclass"/>
 			<Item Name="Parallell Test Runner.lvclass" Type="LVClass" URL="../Framework/Parallell Test Runner/Parallell Test Runner.lvclass"/>
+			<Item Name="Test Suite Factory.lvclass" Type="LVClass" URL="../API/Test Suite Factory/Test Suite Factory.lvclass"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="API Demo" Type="Folder">
@@ -496,12 +496,21 @@
 			</Item>
 		</Item>
 		<Item Name="User Interface" Type="Folder">
-			<Item Name="Process.lvclass" Type="LVClass" URL="../User Interface/Process/Process.lvclass"/>
+			<Item Name="Support" Type="Folder">
+				<Item Name="Filters" Type="Folder">
+					<Item Name="Filter.lvclass" Type="LVClass" URL="../Support/Filters/Filter/Filter.lvclass"/>
+					<Item Name="Static Filter.lvclass" Type="LVClass" URL="../Support/Filters/Static Filter/Static Filter.lvclass"/>
+					<Item Name="Dashed Filter.lvclass" Type="LVClass" URL="../Support/Filters/Dashed Filter/Dashed Filter.lvclass"/>
+				</Item>
+				<Item Name="Error Handler.lvclass" Type="LVClass" URL="../User Interface/Error Handler/Error Handler.lvclass"/>
+				<Item Name="Configuration Manager.lvclass" Type="LVClass" URL="../User Interface/Configuration Manager/Configuration Manager.lvclass"/>
+				<Item Name="Utilities.lvlib" Type="Library" URL="../Support/Utilities.lvlib"/>
+				<Item Name="Process.lvclass" Type="LVClass" URL="../User Interface/Process/Process.lvclass"/>
+			</Item>
 			<Item Name="Plugin Loader.lvclass" Type="LVClass" URL="../User Interface/Plugin Loader/Plugin Loader.lvclass"/>
 			<Item Name="Execution UI.lvclass" Type="LVClass" URL="../User Interface/Execution UI/Execution UI.lvclass"/>
 			<Item Name="Result Model.lvclass" Type="LVClass" URL="../User Interface/Result Model/Result Model.lvclass"/>
 			<Item Name="Result Model by Reference.lvclass" Type="LVClass" URL="../User Interface/Result Model by Reference/Result Model by Reference.lvclass"/>
-			<Item Name="Error Handler.lvclass" Type="LVClass" URL="../User Interface/Error Handler/Error Handler.lvclass"/>
 		</Item>
 		<Item Name="Plugins" Type="Folder">
 			<Item Name="Coverage Analyzer.lvlib" Type="Library" URL="../Plugins/Coverage Analyzer.lvlib"/>
@@ -540,20 +549,11 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Support" Type="Folder">
-			<Item Name="Filters" Type="Folder">
-				<Item Name="Filter.lvclass" Type="LVClass" URL="../Support/Filters/Filter/Filter.lvclass"/>
-				<Item Name="Static Filter.lvclass" Type="LVClass" URL="../Support/Filters/Static Filter/Static Filter.lvclass"/>
-				<Item Name="Dashed Filter.lvclass" Type="LVClass" URL="../Support/Filters/Dashed Filter/Dashed Filter.lvclass"/>
-			</Item>
-			<Item Name="Configuration Manager.lvclass" Type="LVClass" URL="../User Interface/Configuration Manager/Configuration Manager.lvclass"/>
-			<Item Name="Utilities.lvlib" Type="Library" URL="../Support/Utilities.lvlib"/>
-			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../Support/Post-Install Custom Action.vi"/>
-		</Item>
 		<Item Name="Project Providers" Type="Folder">
 			<Item Name="Project Provider.lvlib" Type="Library" URL="../Project Provider/Project Provider.lvlib"/>
 		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
+		<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../Support/Post-Install Custom Action.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi">
@@ -874,7 +874,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{86FCB19C-1FDD-419C-965A-93BB19BFAE86}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">32</Property>
+				<Property Name="Bld_version.build" Type="Int">33</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -888,6 +888,10 @@
 				<Property Name="Destination[12].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/plugins</Property>
 				<Property Name="Destination[13].destName" Type="Str">Advanced Assertions Sub-Palette</Property>
 				<Property Name="Destination[13].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Palette/Advanced Assertions</Property>
+				<Property Name="Destination[14].destName" Type="Str">LUnit UI</Property>
+				<Property Name="Destination[14].libraryName" Type="Str">LUnit UI.lvlib</Property>
+				<Property Name="Destination[14].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit</Property>
+				<Property Name="Destination[14].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[2].destName" Type="Str">Examples</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/LUnit/examples/Astemes/LUnit</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
@@ -907,23 +911,23 @@
 				<Property Name="Destination[8].path" Type="Path">../builds/LUnit/examples/exbins</Property>
 				<Property Name="Destination[9].destName" Type="Str">vi.lib</Property>
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit</Property>
-				<Property Name="DestinationCount" Type="Int">14</Property>
+				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4749AA56-B6C4-47C1-9809-9AD048D5A48A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A028C482-A119-4B62-B5CC-E9C1F052EE69}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].newName" Type="Str">LUnit Result.lvlib</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">7</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Framework/Single Thread Test Runner.lvclass</Property>
 				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[100].destinationIndex" Type="Int">9</Property>
-				<Property Name="Source[100].itemID" Type="Ref">/My Computer/API/Test Suite Factory.lvclass/Suite from Project.vi</Property>
+				<Property Name="Source[100].itemID" Type="Ref">/My Computer/Framework/Test Suite Factory.lvclass/Suite from Project.vi</Property>
 				<Property Name="Source[100].type" Type="Str">VI</Property>
 				<Property Name="Source[101].destinationIndex" Type="Int">9</Property>
-				<Property Name="Source[101].itemID" Type="Ref">/My Computer/API/Test Suite Factory.lvclass/Suite from Test Case Path.vi</Property>
+				<Property Name="Source[101].itemID" Type="Ref">/My Computer/Framework/Test Suite Factory.lvclass/Suite from Test Case Path.vi</Property>
 				<Property Name="Source[101].type" Type="Str">VI</Property>
 				<Property Name="Source[102].destinationIndex" Type="Int">13</Property>
 				<Property Name="Source[102].itemID" Type="Ref">/My Computer/API/Advanced Assertions.lvlib</Property>
@@ -957,7 +961,7 @@
 				<Property Name="Source[109].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[109].itemID" Type="Ref">/My Computer/Framework/Report Interface.lvclass</Property>
 				<Property Name="Source[109].type" Type="Str">Library</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">7</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Framework/Parallell Test Runner.lvclass</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
 				<Property Name="Source[110].Container.applyDestination" Type="Bool">true</Property>
@@ -965,6 +969,20 @@
 				<Property Name="Source[110].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[110].itemID" Type="Ref">/My Computer/Examples/Organizing Tests</Property>
 				<Property Name="Source[110].type" Type="Str">Container</Property>
+				<Property Name="Source[111].destinationIndex" Type="Int">9</Property>
+				<Property Name="Source[111].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass/Find Nested Projects.vi</Property>
+				<Property Name="Source[111].type" Type="Str">VI</Property>
+				<Property Name="Source[112].destinationIndex" Type="Int">9</Property>
+				<Property Name="Source[112].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass/Load Project Suite from Index.vi</Property>
+				<Property Name="Source[112].type" Type="Str">VI</Property>
+				<Property Name="Source[113].destinationIndex" Type="Int">9</Property>
+				<Property Name="Source[113].itemID" Type="Ref">/My Computer/Framework/Single Thread Test Runner.lvclass/Abort.vi</Property>
+				<Property Name="Source[113].type" Type="Str">VI</Property>
+				<Property Name="Source[114].destinationIndex" Type="Int">9</Property>
+				<Property Name="Source[114].itemID" Type="Ref">/My Computer/Post-Install Custom Action.vi</Property>
+				<Property Name="Source[114].newName" Type="Str">LUnit Post-Install Custom Action.vi</Property>
+				<Property Name="Source[114].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[114].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/User Interface/Execution UI.lvclass</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
@@ -1095,11 +1113,12 @@
 				<Property Name="Source[31].itemID" Type="Ref">/My Computer/Examples</Property>
 				<Property Name="Source[31].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[31].type" Type="Str">Container</Property>
+				<Property Name="Source[32].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[32].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[32].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[32].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[32].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[32].destinationIndex" Type="Int">7</Property>
+				<Property Name="Source[32].destinationIndex" Type="Int">14</Property>
 				<Property Name="Source[32].itemID" Type="Ref">/My Computer/User Interface</Property>
 				<Property Name="Source[32].newName" Type="Str">LUnit </Property>
 				<Property Name="Source[32].properties[0].type" Type="Str">Allow debugging</Property>
@@ -1110,7 +1129,7 @@
 				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[32].type" Type="Str">Container</Property>
 				<Property Name="Source[33].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[33].itemID" Type="Ref">/My Computer/User Interface/Process.lvclass</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/User Interface/Support/Process.lvclass</Property>
 				<Property Name="Source[33].type" Type="Str">Library</Property>
 				<Property Name="Source[34].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[34].Container.applyInclusion" Type="Bool">true</Property>
@@ -1184,7 +1203,7 @@
 				<Property Name="Source[43].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[43].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[43].destinationIndex" Type="Int">9</Property>
-				<Property Name="Source[43].itemID" Type="Ref">/My Computer/API/Test Suite Factory.lvclass/Private</Property>
+				<Property Name="Source[43].itemID" Type="Ref">/My Computer/Framework/Test Suite Factory.lvclass/Private</Property>
 				<Property Name="Source[43].type" Type="Str">Container</Property>
 				<Property Name="Source[44].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[44].Container.depDestIndex" Type="Int">0</Property>
@@ -1218,7 +1237,7 @@
 				<Property Name="Source[50].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[50].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[50].destinationIndex" Type="Int">9</Property>
-				<Property Name="Source[50].itemID" Type="Ref">/My Computer/Support</Property>
+				<Property Name="Source[50].itemID" Type="Ref">/My Computer/User Interface/Support</Property>
 				<Property Name="Source[50].newName" Type="Str">LUnit </Property>
 				<Property Name="Source[50].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[50].properties[0].value" Type="Bool">false</Property>
@@ -1301,15 +1320,15 @@
 				<Property Name="Source[60].itemID" Type="Ref">/My Computer/User Interface/Plugin Loader.lvclass</Property>
 				<Property Name="Source[60].type" Type="Str">Library</Property>
 				<Property Name="Source[61].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[61].itemID" Type="Ref">/My Computer/User Interface/Error Handler.lvclass</Property>
+				<Property Name="Source[61].itemID" Type="Ref">/My Computer/User Interface/Support/Error Handler.lvclass</Property>
 				<Property Name="Source[61].type" Type="Str">Library</Property>
 				<Property Name="Source[62].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[62].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass</Property>
 				<Property Name="Source[62].type" Type="Str">Library</Property>
-				<Property Name="Source[63].destinationIndex" Type="Int">7</Property>
+				<Property Name="Source[63].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[63].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass/Clear Index.vi</Property>
 				<Property Name="Source[63].type" Type="Str">VI</Property>
-				<Property Name="Source[64].destinationIndex" Type="Int">7</Property>
+				<Property Name="Source[64].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[64].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass/Find Tests.vi</Property>
 				<Property Name="Source[64].type" Type="Str">VI</Property>
 				<Property Name="Source[65].destinationIndex" Type="Int">9</Property>
@@ -1374,13 +1393,13 @@
 				<Property Name="Source[81].type" Type="Str">VI</Property>
 				<Property Name="Source[82].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[82].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[82].destinationIndex" Type="Int">7</Property>
+				<Property Name="Source[82].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[82].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass/Private</Property>
 				<Property Name="Source[82].type" Type="Str">Container</Property>
 				<Property Name="Source[83].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[83].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[83].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[83].itemID" Type="Ref">/My Computer/User Interface/Process.lvclass/Protected</Property>
+				<Property Name="Source[83].itemID" Type="Ref">/My Computer/User Interface/Support/Process.lvclass/Protected</Property>
 				<Property Name="Source[83].type" Type="Str">Container</Property>
 				<Property Name="Source[84].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[84].itemID" Type="Ref">/My Computer/User Interface/Plugin Loader.lvclass/Load Plugin.vi</Property>
@@ -1389,10 +1408,10 @@
 				<Property Name="Source[85].itemID" Type="Ref">/My Computer/User Interface/Plugin Loader.lvclass/Plugins.ctl</Property>
 				<Property Name="Source[85].type" Type="Str">VI</Property>
 				<Property Name="Source[86].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[86].itemID" Type="Ref">/My Computer/User Interface/Error Handler.lvclass/Handle Errors.vi</Property>
+				<Property Name="Source[86].itemID" Type="Ref">/My Computer/User Interface/Support/Error Handler.lvclass/Handle Errors.vi</Property>
 				<Property Name="Source[86].type" Type="Str">VI</Property>
 				<Property Name="Source[87].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[87].itemID" Type="Ref">/My Computer/User Interface/Error Handler.lvclass/Log Error to File.vi</Property>
+				<Property Name="Source[87].itemID" Type="Ref">/My Computer/User Interface/Support/Error Handler.lvclass/Log Error to File.vi</Property>
 				<Property Name="Source[87].type" Type="Str">VI</Property>
 				<Property Name="Source[88].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[88].Container.depDestIndex" Type="Int">0</Property>
@@ -1404,7 +1423,7 @@
 				<Property Name="Source[89].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[89].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass/Types</Property>
 				<Property Name="Source[89].type" Type="Str">Container</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">7</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
 				<Property Name="Source[90].destinationIndex" Type="Int">9</Property>
@@ -1432,8 +1451,7 @@
 				<Property Name="Source[97].itemID" Type="Ref">/My Computer/API/LUnit Test Case.lvclass/Name.vi</Property>
 				<Property Name="Source[97].type" Type="Str">VI</Property>
 				<Property Name="Source[98].destinationIndex" Type="Int">9</Property>
-				<Property Name="Source[98].itemID" Type="Ref">/My Computer/API/Test Suite Factory.lvclass</Property>
-				<Property Name="Source[98].newName" Type="Str">LUnit Test Suite Factory.lvclass</Property>
+				<Property Name="Source[98].itemID" Type="Ref">/My Computer/Framework/Test Suite Factory.lvclass</Property>
 				<Property Name="Source[98].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[98].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[98].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1442,9 +1460,9 @@
 				<Property Name="Source[98].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[98].type" Type="Str">Library</Property>
 				<Property Name="Source[99].destinationIndex" Type="Int">9</Property>
-				<Property Name="Source[99].itemID" Type="Ref">/My Computer/API/Test Suite Factory.lvclass/Suite from Library.vi</Property>
+				<Property Name="Source[99].itemID" Type="Ref">/My Computer/Framework/Test Suite Factory.lvclass/Suite from Library.vi</Property>
 				<Property Name="Source[99].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">111</Property>
+				<Property Name="SourceCount" Type="Int">115</Property>
 			</Item>
 		</Item>
 	</Item>
