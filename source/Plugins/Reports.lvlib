@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Report Interface.lvclass" Type="LVClass" URL="../../Framework/Report Interface/Report Interface.lvclass"/>
 	<Item Name="Report Generator.lvclass" Type="LVClass" URL="../Report Generator/Report Generator.lvclass"/>
 	<Item Name="Report.lvclass" Type="LVClass" URL="../Report/Report.lvclass"/>
 	<Item Name="XML Report.lvclass" Type="LVClass" URL="../XML Report/XML Report.lvclass"/>

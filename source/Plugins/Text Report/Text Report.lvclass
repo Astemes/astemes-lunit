@@ -24,7 +24,7 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Report Interface.lvclass" Type="Parent" URL="../../../Framework/Report Interface/Report Interface.lvclass"/>
+		<Item Name="Reports.lvlib:Report Interface.lvclass" Type="Parent" URL="../../../Framework/Report Interface/Report Interface.lvclass"/>
 		<Item Name="Reports.lvlib:Report.lvclass" Type="Parent" URL="../../Report/Report.lvclass"/>
 	</Item>
 	<Item Name="Text Report.ctl" Type="Class Private Data" URL="Text Report.ctl">

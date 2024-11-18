@@ -466,11 +466,10 @@
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Framework/Plugin/Plugin.lvclass"/>
 			<Item Name="Result Observer.lvclass" Type="LVClass" URL="../Framework/Result Observer/Result Observer.lvclass"/>
 			<Item Name="Test Runner.lvclass" Type="LVClass" URL="../Framework/Test Runner/Test Runner.lvclass"/>
-			<Item Name="Report Interface.lvclass" Type="LVClass" URL="../Framework/Report Interface/Report Interface.lvclass"/>
 			<Item Name="Test Finder.lvclass" Type="LVClass" URL="../Framework/Test Finder/Test Finder.lvclass"/>
 			<Item Name="Single Thread Test Runner.lvclass" Type="LVClass" URL="../Framework/Single Thread Test Runner/Single Thread Test Runner.lvclass"/>
 			<Item Name="Parallell Test Runner.lvclass" Type="LVClass" URL="../Framework/Parallell Test Runner/Parallell Test Runner.lvclass"/>
-			<Item Name="Test Suite Factory.lvclass" Type="LVClass" URL="../API/Test Suite Factory/Test Suite Factory.lvclass"/>
+			<Item Name="Test Suite Factory.lvclass" Type="LVClass" URL="../Framework/Test Suite Factory/Test Suite Factory.lvclass"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="API Demo" Type="Folder">
@@ -498,13 +497,13 @@
 		<Item Name="User Interface" Type="Folder">
 			<Item Name="Support" Type="Folder">
 				<Item Name="Filters" Type="Folder">
-					<Item Name="Filter.lvclass" Type="LVClass" URL="../Support/Filters/Filter/Filter.lvclass"/>
-					<Item Name="Static Filter.lvclass" Type="LVClass" URL="../Support/Filters/Static Filter/Static Filter.lvclass"/>
-					<Item Name="Dashed Filter.lvclass" Type="LVClass" URL="../Support/Filters/Dashed Filter/Dashed Filter.lvclass"/>
+					<Item Name="Filter.lvclass" Type="LVClass" URL="../User Interface/Support/Filters/Filter/Filter.lvclass"/>
+					<Item Name="Static Filter.lvclass" Type="LVClass" URL="../User Interface/Support/Filters/Static Filter/Static Filter.lvclass"/>
+					<Item Name="Dashed Filter.lvclass" Type="LVClass" URL="../User Interface/Support/Filters/Dashed Filter/Dashed Filter.lvclass"/>
 				</Item>
 				<Item Name="Error Handler.lvclass" Type="LVClass" URL="../User Interface/Error Handler/Error Handler.lvclass"/>
 				<Item Name="Configuration Manager.lvclass" Type="LVClass" URL="../User Interface/Configuration Manager/Configuration Manager.lvclass"/>
-				<Item Name="Utilities.lvlib" Type="Library" URL="../Support/Utilities.lvlib"/>
+				<Item Name="Utilities.lvlib" Type="Library" URL="../User Interface/Support/Utilities.lvlib"/>
 				<Item Name="Process.lvclass" Type="LVClass" URL="../User Interface/Process/Process.lvclass"/>
 			</Item>
 			<Item Name="Plugin Loader.lvclass" Type="LVClass" URL="../User Interface/Plugin Loader/Plugin Loader.lvclass"/>
@@ -553,7 +552,7 @@
 			<Item Name="Project Provider.lvlib" Type="Library" URL="../Project Provider/Project Provider.lvlib"/>
 		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
-		<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../Support/Post-Install Custom Action.vi"/>
+		<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../User Interface/Support/Post-Install Custom Action.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi">
@@ -874,7 +873,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{86FCB19C-1FDD-419C-965A-93BB19BFAE86}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">33</Property>
+				<Property Name="Bld_version.build" Type="Int">34</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -913,7 +912,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit</Property>
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A028C482-A119-4B62-B5CC-E9C1F052EE69}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{66076C28-E1B2-426A-9131-28DBC84E9C02}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -959,7 +958,7 @@
 				<Property Name="Source[108].itemID" Type="Ref">/My Computer/API/Advanced Assertions.lvlib/Fail If Matching String.vi</Property>
 				<Property Name="Source[108].type" Type="Str">VI</Property>
 				<Property Name="Source[109].destinationIndex" Type="Int">9</Property>
-				<Property Name="Source[109].itemID" Type="Ref">/My Computer/Framework/Report Interface.lvclass</Property>
+				<Property Name="Source[109].itemID" Type="Ref">/My Computer/Plugins/Reports.lvlib/Report Interface.lvclass</Property>
 				<Property Name="Source[109].type" Type="Str">Library</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Framework/Parallell Test Runner.lvclass</Property>
@@ -1058,6 +1057,7 @@
 				<Property Name="Source[26].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[26].type" Type="Str">Container</Property>
+				<Property Name="Source[27].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[27].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[27].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[27].Container.applyProperties" Type="Bool">true</Property>
