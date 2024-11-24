@@ -24,7 +24,7 @@ How to use test doubles to avoid testing with real world IO is an interesting to
 
 While it is very important to test the code on actual hardware, it does not make sense in most cases to run unit tests on a real-time target. 
 To do so would slow down test execution and requires access to the target during development.
-There are some differences and peculiarities to keep in mind when executing code in an RT environemnt, *e.g.* file paths and unsupported features, but apart from that the code should work the same as under Windows.
+There are some differences and peculiarities to keep in mind when executing code in an RT environment, *e.g.* file paths and unsupported features, but apart from that the code should work the same as under Windows.
 This means that a failing test under Windows should fail on the RT system as well. 
 Even if the reverse is not allways true, it is often best to assume it is and fall back on debugging when it is not.
 If running tests on the RT system is necessary, please see [this section](#running-lunit-on-a-real-time-target)

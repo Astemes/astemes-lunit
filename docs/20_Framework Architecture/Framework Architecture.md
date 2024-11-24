@@ -7,11 +7,11 @@ The core was rewritten as of version 1.2 and the discussion below is accurate on
 ## General Architecture
 
 The framework defines a Runnable interface, which, as the name, implies defines a class as runnable.
-The base Test Case class implements the runnable interface and an xecution of a test is done by instantiating an object of a Test Case class and running it.
+The base Test Case class implements the runnable interface and an execution of a test is done by instantiating an object of a Test Case class and running it.
 To run more than one test, multiple instances of the Test Case class are instantiated.
 
 Multiple tests may be aggregated into a Test Suite object, which also implements the Runnable interface, and may be executed by calling the Run VI on the Test Suite.
-While a Test Case will always be done after one call to the Run VI, a Test Suite may require multiple calls before beeing done.
+While a Test Case will always be done after one call to the Run VI, a Test Suite may require multiple calls before being done.
 Test Suites may form composites (suites of suites), but this is not visible through the Runnable interface.
 
 Test Suites are typically generated through test discovery using factory VIs located in the Test Suite class. 
@@ -26,33 +26,17 @@ These methods are executed before and after each test method in the test case.
 ## Test Methods
 
 A test method is a VI belonging to a class inheriting from the Test Case class.
+It is not recommended to make test methods have Dynamic Dispatch terminals.
 The test method name must start with the letters `test` in either upper or lower case.
-The conector pane of the test case must use the 4-2-2-4 pattern and have the standard connectors for static or dynamic dispatch methods.
+The connector pane of the test case must use the 4-2-2-4 pattern and have the standard connectors for static or dynamic dispatch methods.
 
 ![Test method connector pane](img/test_method_connector_pane.png)
-
-## Static and Dynamic Test Methods
-
-A Test Method may be implemented as either a dynamic or static dispatch vi, just like for any LabVIEW class.
-The concept is slightly overloaded by the LUnit framework to allow for minimal code duplication when testing class hierarchies.
-
-A static test method will only be executed for the test case in which it has been defined.
-
-A dynamic test method will be executed for the test case where it is defined and for any test case inheriting from the test case defining it.
-For this to make sense, a dynamic dispatch test method will need some kind of mechanism for knowing the context which it runs within, *i.e.* what to test.
-A pattern used for this is illustrated in the example called `Test Inheritance`.
-In this pattern the class under test is configured by setting the class under test in the Setup.vi method
-
-As of LUnit version 1.4, test cases using inheritance must descend from the `Inheriting Test Case.lvclass` located at *\<vi.lib\>/Astemes/LUnit*.
-As the use of dynamic test methods is much less common than static methods, the complexity of handling test inheritance has been factored out into this class.
-
-![Inheriting Test Case](img/Inheriting%20Test%20Case.png)
 
 ## Assertions
 
 Tests are evaluated by one or more assertions called in the test method.
 The assertions are available from the LUnit palette and the quick drop menu.
-Assertions are evalueated when the test case executes and the result of the assertions are reported by the framework.
+Assertions are evaluated when the test case executes and the result of the assertions are reported by the framework.
 Multiple assertions may be used in a single test method and results from all assertions will be available in the test report.
 A test case will fail if one or more of the assertions fail.
 Likewise a test case will produce an error result if one or more of the assertions receives an error on the `Error In` terminal.
@@ -62,9 +46,9 @@ Likewise a test case will produce an error result if one or more of the assertio
 ## Test Runner
 
 A test runner is a process executing a Test Suite and collecting the results.
-LUnit supports spawning multiple parallell test runners, which can significantly reduce the test time for large test suites.
+LUnit supports spawning multiple parallel test runners, which can significantly reduce the test time for large test suites.
 Test runners may run in separate threads and can leverage a multithreaded processor to run tests concurrently.
-When the Parallell Test Runner is enabled, tests are grouped into one suite for each Test Case class and all these are then executed in separate threads.
+When the Parallel Test Runner is enabled, tests are grouped into one suite for each Test Case class and all these are then executed in separate threads.
 
 ## Test Finder
 
@@ -74,7 +58,7 @@ To force the test finder to recreate the index, use the refresh test index butto
 
 ## LabVIEW API
 
-An API is provided for executing tests programatically from LabVIEW.
+An API is provided for executing tests programmatically from LabVIEW.
 The use of the API is illustrated in the `LUnit API Demo` example.
 
 ![LUnit API](img/LUnit_api.PNG)

@@ -29,6 +29,8 @@ I personally find the later option with a separate top level directory the most 
 Now you have a test case and may add some test methods to the test case.
 A test method is a vi belonging to the test case class and will get executed by the framework.
 
+It is **not** recommended to make test vi:s *dynamic dispatch*.
+
 To create a new test method, right-click on the Test Static Test Method.vit and select ``New from Template``. **Important:** You need to save the test method using a name starting with the upper or lower case letters ``test``.
 
 ![New from template](img/new_static_from_template.png)
@@ -90,7 +92,7 @@ While it is important to run the whole suite to catch regression issues, this do
 
 A good workflow is to keep a separate LabVIEW project file as a test suite where all tests are collected.
 Tests may be moved from the active project into this test suite and the test suite may then be added to the active LabVIEW project as a project item. 
-All tests within the test suite project may then be executed using the right clikc menu option, but will not be executed when running all tests in current project from the tools menu option and will not need to be loaded with the project.
+All tests within the test suite project may then be executed using the right click menu option, but will not be executed when running all tests in current project from the tools menu option and will not need to be loaded with the project.
 
 ![Run nested project](img/run_nested_project.png)
 
