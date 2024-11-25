@@ -27,8 +27,8 @@ These methods are executed before and after each test method in the test case.
 
 A test method is a VI belonging to a class inheriting from the Test Case class.
 It is not recommended to make test methods have Dynamic Dispatch terminals.
-The test method name must start with the letters `test` in either upper or lower case.
-The connector pane of the test case must use the 4-2-2-4 pattern and have the standard connectors for static or dynamic dispatch methods.
+As of version 1.8, it is not longer required for test method names to start with the letters `test`.
+The connector pane of the test case must use the 4-2-2-4 pattern and have the standard connectors for static dispatch methods (the error input being optional as there will never be any upstreams errors coming into the test vi).
 
 ![Test method connector pane](img/test_method_connector_pane.png)
 
@@ -72,7 +72,7 @@ Because of the low level nature, this API is more volatile and may break in late
 ## Low Level API
 
 Before going on, see the warning in the previous section.
-Now continue on yout own risk.
+Now continue on your own risk.
 
 The low level API may be use to run tests in various ways.
 Tests are executed using the provided methods and results are returned using User Events, which may be registered for using the provided API method.

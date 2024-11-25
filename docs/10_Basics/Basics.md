@@ -30,13 +30,14 @@ Now you have a test case and may add some test methods to the test case.
 A test method is a vi belonging to the test case class and will get executed by the framework.
 
 It is **not** recommended to make test vi:s *dynamic dispatch*.
+If tests are configured as *dynamic dispatch*, the name of the VI must start with the four letters *test*.
 
-To create a new test method, right-click on the Test Static Test Method.vit and select ``New from Template``. **Important:** You need to save the test method using a name starting with the upper or lower case letters ``test``.
+To create a new test method, right-click on the Test Static Test Method.vit and select ``New from Template``.
 
 ![New from template](img/new_static_from_template.png)
 
 You can create test methods any way you like and you are free to delete the template methods if you choose to.
-It is important however that the connector pane uses the same pattern of terminals as the template and that the name of the vi starts with the word ``test``.
+It is important however that the connector pane uses the same pattern of terminals as the template.
 
 You should now make your test method test something useful by implementing the block diagram of the vi.
 To perform tests you will use the assertions available in the provided palette, or using quick drop.
@@ -70,6 +71,11 @@ This will open the user interface and show all tests in the current project.
 As the test is run, the results are also shown as visual icons overlays in the project explorer.
 
 ![Run from right click menu](img/test_execution_ui.png)
+
+## Adding utility VI:s
+
+It is common that code is reused between tests belonging to a test case class, and could then be placed in subVI:s or so called test utility vi:s.
+If you create such vi:s belonging to the class, make sure to restrict the access scope (*i.e* make the vi:s ``protected`` or ``protected``), as the UI enumerates all public vi:s in the class.
 
 ## Using the Setup and Teardown methods
 
