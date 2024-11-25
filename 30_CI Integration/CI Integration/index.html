@@ -263,13 +263,17 @@
 <p>LUnit was designed to easily and natively integrate into continuous integration (CI) pipelines.
 To achieve this, a way of executing tests from the command line is needed and the results need to be available in a format which may be digested by the CI system.</p>
 <h2 id="executing-tests-from-the-command-line">Executing Tests from the Command Line</h2>
+<p>The command line interface (CLI) has been migrated out of the main LUnit project.
+The reason for this is that the CLI is installed on the system level and requires to be installed as administrator.
+To install the native CLI, please use <a href="https://www.vipm.io/package/astemes_lib_lunit_cli/">this package</a>. 
+There is also a G-CLI package, maintained by Sam at SAS Workshops, which can be found <a href="https://www.vipm.io/package/sas_workshops_lib_lunit_for_g_cli/">here</a> (please note that this document does not apply the G-CLI).</p>
 <p>LUnit installs a command line operation using the LabVIEW native <a href="https://zone.ni.com/reference/en-XX/help/371361R-01/lvhowto/cli_running_operations/">LabVIEWCLI by NI</a>.
 This operation is named LUnit and may be called using LabVIEWCLI -OperationName LUnit.
-An example ilustrating the useage of the CLI i provided at <code>...\LabVIEW 20XX\examples\Astemes\LUnit\LUnit CLI Demo.vi</code>.
+An example illustrating the usage of the CLI i provided at <code>...\LabVIEW 20XX\examples\Astemes\LUnit\LUnit CLI Demo.vi</code>.
 A path to load tests from is provided using the -ProjectPath argument and the report directory is specified using the -ReportPath argument.</p>
 <p>When executing tests from the command line, the test case index is cleared and re-created by default each time.
 This ensures that all inherited test methods are detected*, at the expense of some overhead for test discovery.
-The <code>-ClearIndex</code> flag may be used to override this behaviour and re-use the index to improve the execution time.</p>
+The <code>-ClearIndex</code> flag may be used to override this behavior and re-use the index to improve the execution time.</p>
 <table>
 <thead>
 <tr>
@@ -284,7 +288,7 @@ The <code>-ClearIndex</code> flag may be used to override this behaviour and re-
 </tr>
 <tr>
 <td><nobr><code>-TestRunners</code></nobr></td>
-<td>Specifies the number of parallell test runners to spawn. Default value is 1.</td>
+<td>Specifies the number of parallel test runners to spawn. Default value is 1.</td>
 </tr>
 <tr>
 <td><nobr><code>-ReportPath</code></nobr></td>
@@ -301,7 +305,7 @@ You will need to make sure that the connection is not blocked by firewalls.</p>
 <h2 id="capturing-the-test-results">Capturing the Test Results</h2>
 <p>Test results are saved in a text based format at the location specified when executing the command line operation.</p>
 <p>LUnit has a built in xml-format for test reports which is using the same structure as the one used by JUnit testing framework and specified <a href="https://llg.cubic.org/docs/junit/">here</a>.
-To use the JUnit xml format, you must provide a file path with the <code>.xml</code> extenssion.
+To use the JUnit xml format, you must provide a file path with the <code>.xml</code> extension.
 Once the tests have finished, the result file is available at the specified path.
 File may now be digested by most CI tools.
 For Jenkins this is done using the <a href="https://plugins.jenkins.io/junit/">JUnit plugin</a>.</p>
@@ -329,7 +333,7 @@ Below is an example showing a basic configuration.</p>
 </code></pre>
 <p>The pipeline above declares three environment variables used to configure the call to LUnit using the LabVIEW CLI.
 The first is the path to the project file relative to the workspace, <em>i.e.</em> the path relative to the root of the repository where the Jenkinsfile is located.
-The second is the number of parallell test runners to spawn, here configured to one. 
+The second is the number of parallel test runners to spawn, here configured to one. 
 The third parameter is the port configured for VI server in LabVIEW under Tools-&gt;Options-&gt;VI Server.</p>
 <p>The report is saved in the path <code>lunit_reports</code> using the file name <code>lunit.xml</code> with incrementing index.
 After the execution of tests using the bat command the junit plugin is called to digest the report files generated.
