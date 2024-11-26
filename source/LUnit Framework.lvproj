@@ -40,7 +40,6 @@
 			<Item Name="Report Generator Test.lvclass" Type="LVClass" URL="../../tests/Report Test/Report Generator Test.lvclass"/>
 			<Item Name="Text Report Test.lvclass" Type="LVClass" URL="../../tests/Text Report Test/Text Report Test.lvclass"/>
 			<Item Name="Advanced Asseritions Test.lvclass" Type="LVClass" URL="../../tests/Advanced Asseritions Test/Advanced Asseritions Test.lvclass"/>
-			<Item Name="Plugin Loader Tests.lvclass" Type="LVClass" URL="../../tests/Plugin Loader Tests/Plugin Loader Tests.lvclass"/>
 			<Item Name="Runnable Next Test.lvclass" Type="LVClass" URL="../../tests/Runnable Next Test/Runnable Next Test.lvclass"/>
 			<Item Name="XML Report Test.lvclass" Type="LVClass" URL="../../tests/XML Report Test/XML Report Test.lvclass"/>
 			<Item Name="Compare Assertion Test.lvclass" Type="LVClass" URL="../../tests/Compare Assertion Test/Compare Assertion Test.lvclass"/>
