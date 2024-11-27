@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2024-10-13 21:07:24" Creator="Anton Sundqvist" Comments="" ID="8edcb4fab6b75c9a8162c67db6aa693c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2024-11-27 19:32:08" Creator="Anton Sundqvist" Comments="" ID="3e77cc107eacd94bd8405bb059fcf595">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
-    <Library_Version>1.7.2.21</Library_Version>
+    <Library_Version>1.8.2.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\LUnit</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM</Library_Output_Folder>
@@ -36,9 +36,8 @@
 - Test results visible directly in LabVIEW project explorer
 - Instant loading of UI
 - Parallel test execution managed by framework
-- Dynamic test methods for testing of class hierarchies
-- Native CLI and support for CI
 - LabVIEW API
+- Support for extenssion through add-ons
 
 LUnit is integrated into the LabVIEW development environment and the functionality is accessed through the Tools-&gt;LUnit menu. From the menu, you may create a new tests or open the LUnit UI to run tests. Tests may also be executed directly from the project explorer by right-clicking on a Test Case and selecting Run Test Case... from the menu.
 
@@ -48,16 +47,13 @@ Documentation is available on https://lunit.astemes.com.</Description>
       <Copyright>Copyright (c) 2020, Astemes</Copyright>
       <Packager>Anton Sundqvist</Packager>
       <URL>https://lunit.astemes.com</URL>
-      <Release_Notes>This release (v1.7.x) contains the following improvements and new features: 
-- Add default banner to test case classes when created
-- Cosmetic improvements to report generation dialog
-- Add documented support for third party reporting extenssions
-- Minor devex improvements
-- Add "verify" as valid test method prefix in addition to "test"
-- Allow for test names containing . and +
-- Highlight BD when opening test from UI
-- Add example for organizing tests in nested projects
-- Minor bugfixes</Release_Notes>
+      <Release_Notes>This release (v1.8.x) contains the following improvements and new features: 
+- Tests are no longer required to have the "test" prefix in the name. Now the only requirement is that the VI is public. &lt;b&gt;If you have utility vi:s belonging to a test class , the access scope should be set to either private or protected.&lt;/b&gt;
+- Test vi:s implemented as Dynamic Dispatch (not recommended) still require the "test" prefix.
+- Test Inheritance features migrated to own add-on package
+- Fix error at comparison of numeric arrays when the tolerance input is wired
+- Add result boolean indicator to API
+- </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -138,12 +134,6 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>LUnit</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -154,12 +144,6 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>LUnit/LICENSE</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>LUnitCLI</Path>
-      </Exclusions>
       <Exclusions>
         <Path>LICENSE</Path>
       </Exclusions>
@@ -409,7 +393,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F00BB954D7FDF7C15F6B0D0F0ECFEF4E</GUID>
+      <GUID>5A01FFE6273BF0158FCD01A283451760</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -514,7 +498,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Advanced Assertions\Fail If Specific Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>37071FAAD30F6700309F96DF6412B1D4</GUID>
+      <GUID>A7971C45A4066047F876B8C942544DAC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -549,7 +533,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4B0EB792E39E593F4B68BDD1F9F9ED21</GUID>
+      <GUID>C4CD111449440127ABCBFA867044EDB9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
