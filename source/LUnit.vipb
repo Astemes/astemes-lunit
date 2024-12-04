@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2024-11-27 19:32:08" Creator="Anton Sundqvist" Comments="" ID="3e77cc107eacd94bd8405bb059fcf595">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2024-12-04 08:04:14" Creator="Anton Sundqvist" Comments="" ID="65bc2ce5774c850ce3e357a024c29020">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
     <Library_Version>1.8.2.21</Library_Version>
@@ -207,7 +207,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
     </Install_Requirements>
     <LabVIEW>
       <close_labview_before_install>false</close_labview_before_install>
-      <restart_labview_after_install>true</restart_labview_after_install>
+      <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
       <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
@@ -393,7 +393,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5A01FFE6273BF0158FCD01A283451760</GUID>
+      <GUID>9A5F10CE31E9C4C9C147A0C599F31F1D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -498,7 +498,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Advanced Assertions\Fail If Specific Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A7971C45A4066047F876B8C942544DAC</GUID>
+      <GUID>9F67B8C9188686A596FE381E9344B3E8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -533,7 +533,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C4CD111449440127ABCBFA867044EDB9</GUID>
+      <GUID>043CE4E63F42E65584783C9A16A88BEB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
