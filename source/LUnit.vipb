@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2024-12-04 08:04:14" Creator="Anton Sundqvist" Comments="" ID="65bc2ce5774c850ce3e357a024c29020">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2024-12-08 13:32:28" Creator="Anton Sundqvist" Comments="" ID="30546dead51932d8c87952796fc4324f">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
-    <Library_Version>1.8.2.21</Library_Version>
+    <Library_Version>1.8.11.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\LUnit</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM</Library_Output_Folder>
@@ -53,7 +53,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
 - Test Inheritance features migrated to own add-on package
 - Fix error at comparison of numeric arrays when the tolerance input is wired
 - Add result boolean indicator to API
-- </Release_Notes>
+- Improved test index cache invalidation</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -393,7 +393,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9A5F10CE31E9C4C9C147A0C599F31F1D</GUID>
+      <GUID>68204D59A6B12F436158F66E5979D7F6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -498,7 +498,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Advanced Assertions\Fail If Specific Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9F67B8C9188686A596FE381E9344B3E8</GUID>
+      <GUID>2E6CA24368C8E503FFA5850C27ABF26E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -533,7 +533,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>043CE4E63F42E65584783C9A16A88BEB</GUID>
+      <GUID>90D57B0F5FA2F15BC5C3BDA9C0BDC486</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
