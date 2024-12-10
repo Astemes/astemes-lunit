@@ -970,10 +970,10 @@
 				<Property Name="Source[110].itemID" Type="Ref">/My Computer/Examples/Organizing Tests</Property>
 				<Property Name="Source[110].type" Type="Str">Container</Property>
 				<Property Name="Source[111].destinationIndex" Type="Int">9</Property>
-				<Property Name="Source[111].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass/Find Nested Projects.vi</Property>
+				<Property Name="Source[111].itemID" Type="Ref"></Property>
 				<Property Name="Source[111].type" Type="Str">VI</Property>
 				<Property Name="Source[112].destinationIndex" Type="Int">9</Property>
-				<Property Name="Source[112].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass/Load Project Suite from Index.vi</Property>
+				<Property Name="Source[112].itemID" Type="Ref"></Property>
 				<Property Name="Source[112].type" Type="Str">VI</Property>
 				<Property Name="Source[113].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[113].itemID" Type="Ref">/My Computer/Framework/Single Thread Test Runner.lvclass/Abort.vi</Property>
@@ -1327,7 +1327,7 @@
 				<Property Name="Source[62].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass</Property>
 				<Property Name="Source[62].type" Type="Str">Library</Property>
 				<Property Name="Source[63].destinationIndex" Type="Int">9</Property>
-				<Property Name="Source[63].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass/Clear Index.vi</Property>
+				<Property Name="Source[63].itemID" Type="Ref"></Property>
 				<Property Name="Source[63].type" Type="Str">VI</Property>
 				<Property Name="Source[64].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[64].itemID" Type="Ref">/My Computer/Framework/Test Finder.lvclass/Find Tests.vi</Property>
