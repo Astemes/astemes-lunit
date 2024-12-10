@@ -15,35 +15,36 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Test Doubles" Type="Folder">
-				<Item Name="Test Case Test Double.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Case Test Double/Test Case Test Double.lvclass"/>
+				<Item Name="Case Test Double.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Debug Test Case Test Double/Case Test Double.lvclass"/>
+				<Item Name="Comparison Test Double.lvclass" Type="LVClass" URL="../../tests/Comparison Test Double/Comparison Test Double.lvclass"/>
 				<Item Name="Light Test Case Double Copy.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Light Test Case Double Copy/Light Test Case Double Copy.lvclass"/>
 				<Item Name="Light Test Case Double.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Case Test Double Child/Light Test Case Double.lvclass"/>
 				<Item Name="Mock Report.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Mock Report/Mock Report.lvclass"/>
-				<Item Name="Comparison Test Double.lvclass" Type="LVClass" URL="../../tests/Comparison Test Double/Comparison Test Double.lvclass"/>
-				<Item Name="Case Test Double.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Debug Test Case Test Double/Case Test Double.lvclass"/>
 				<Item Name="Mock Result Observer.lvclass" Type="LVClass" URL="../../tests/Mock Result Observer/Mock Result Observer.lvclass"/>
+				<Item Name="Test Case Test Double.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Case Test Double/Test Case Test Double.lvclass"/>
 			</Item>
-			<Item Name="Test Case Test.lvclass" Type="LVClass" URL="../../tests/Test Case Test/Test Case Test.lvclass"/>
-			<Item Name="LUnit Test Suite Tests.lvclass" Type="LVClass" URL="../../tests/Test Suite Tests/LUnit Test Suite Tests.lvclass"/>
-			<Item Name="Test Suite Enumeration Test.lvclass" Type="LVClass" URL="../../tests/Test Suite Enumeration Test/Test Suite Enumeration Test.lvclass"/>
-			<Item Name="Test Case Assertions Test.lvclass" Type="LVClass" URL="../../tests/Test Case Assertion Tests/Test Case Assertions Test.lvclass"/>
-			<Item Name="Result Observation Test.lvclass" Type="LVClass" URL="../../tests/Result Observation Test/Result Observation Test.lvclass"/>
-			<Item Name="Test FInder Test.lvclass" Type="LVClass" URL="../../tests/Test Finder Test/Test FInder Test.lvclass"/>
-			<Item Name="Result Model Test Enumeration.lvclass" Type="LVClass" URL="../../tests/Result Model Tests/Result Model Test Enumeration.lvclass"/>
-			<Item Name="Result Model Statistics.lvclass" Type="LVClass" URL="../../tests/Result Model Statistics Test/Result Model Statistics.lvclass"/>
-			<Item Name="Result Model Result Recording Test.lvclass" Type="LVClass" URL="../../tests/Result Model Result Recording Test/Result Model Result Recording Test.lvclass"/>
-			<Item Name="Test Runner Test.lvclass" Type="LVClass" URL="../../tests/Test Runner Test/Test Runner Test.lvclass"/>
+			<Item Name="Advanced Asseritions Test.lvclass" Type="LVClass" URL="../../tests/Advanced Asseritions Test/Advanced Asseritions Test.lvclass"/>
+			<Item Name="Compare Assertion Test.lvclass" Type="LVClass" URL="../../tests/Compare Assertion Test/Compare Assertion Test.lvclass"/>
 			<Item Name="Configuration Manager Test.lvclass" Type="LVClass" URL="../../tests/Configuration Manager Test/Configuration Manager Test.lvclass"/>
 			<Item Name="Error Checking Test.lvclass" Type="LVClass" URL="../../tests/Error Checking Test/Error Checking Test.lvclass"/>
 			<Item Name="Error Handler Tests.lvclass" Type="LVClass" URL="../../tests/Error Handler Tests/Error Handler Tests.lvclass"/>
-			<Item Name="Report Generator Test.lvclass" Type="LVClass" URL="../../tests/Report Test/Report Generator Test.lvclass"/>
-			<Item Name="Text Report Test.lvclass" Type="LVClass" URL="../../tests/Text Report Test/Text Report Test.lvclass"/>
-			<Item Name="Advanced Asseritions Test.lvclass" Type="LVClass" URL="../../tests/Advanced Asseritions Test/Advanced Asseritions Test.lvclass"/>
-			<Item Name="Runnable Next Test.lvclass" Type="LVClass" URL="../../tests/Runnable Next Test/Runnable Next Test.lvclass"/>
-			<Item Name="XML Report Test.lvclass" Type="LVClass" URL="../../tests/XML Report Test/XML Report Test.lvclass"/>
-			<Item Name="Compare Assertion Test.lvclass" Type="LVClass" URL="../../tests/Compare Assertion Test/Compare Assertion Test.lvclass"/>
 			<Item Name="Filter Test.lvclass" Type="LVClass" URL="../../tests/Filter Test/Filter Test.lvclass"/>
+			<Item Name="LUnit Test Suite Tests.lvclass" Type="LVClass" URL="../../tests/Test Suite Tests/LUnit Test Suite Tests.lvclass"/>
+			<Item Name="Report Generator Test.lvclass" Type="LVClass" URL="../../tests/Report Test/Report Generator Test.lvclass"/>
+			<Item Name="Result Model Result Recording Test.lvclass" Type="LVClass" URL="../../tests/Result Model Result Recording Test/Result Model Result Recording Test.lvclass"/>
+			<Item Name="Result Model Statistics.lvclass" Type="LVClass" URL="../../tests/Result Model Statistics Test/Result Model Statistics.lvclass"/>
+			<Item Name="Result Model Test Enumeration.lvclass" Type="LVClass" URL="../../tests/Result Model Tests/Result Model Test Enumeration.lvclass"/>
+			<Item Name="Result Observation Test.lvclass" Type="LVClass" URL="../../tests/Result Observation Test/Result Observation Test.lvclass"/>
+			<Item Name="Runnable Next Test.lvclass" Type="LVClass" URL="../../tests/Runnable Next Test/Runnable Next Test.lvclass"/>
+			<Item Name="Test Case Assertions Test.lvclass" Type="LVClass" URL="../../tests/Test Case Assertion Tests/Test Case Assertions Test.lvclass"/>
+			<Item Name="Test Case Test.lvclass" Type="LVClass" URL="../../tests/Test Case Test/Test Case Test.lvclass"/>
+			<Item Name="Test FInder Test.lvclass" Type="LVClass" URL="../../tests/Test Finder Test/Test FInder Test.lvclass"/>
+			<Item Name="Test Runner Test.lvclass" Type="LVClass" URL="../../tests/Test Runner Test/Test Runner Test.lvclass"/>
+			<Item Name="Test Suite Enumeration Test.lvclass" Type="LVClass" URL="../../tests/Test Suite Enumeration Test/Test Suite Enumeration Test.lvclass"/>
+			<Item Name="Text Report Test.lvclass" Type="LVClass" URL="../../tests/Text Report Test/Text Report Test.lvclass"/>
+			<Item Name="XML Report Test.lvclass" Type="LVClass" URL="../../tests/XML Report Test/XML Report Test.lvclass"/>
 		</Item>
 		<Item Name="Excluded Dependencies" Type="Folder">
 			<Item Name="Project Provider" Type="Folder">
@@ -763,12 +764,6 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="NI_Bit Manipulation.lvlib" Type="Library" URL="/&lt;vilib&gt;/Bit Manipulation/NI_Bit Manipulation.lvlib"/>
-				<Item Name="NI_SHA-3.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/security/Message Digest/SHA-3/NI_SHA-3.lvclass"/>
-				<Item Name="NI_Keccak.lvlib" Type="Library" URL="/&lt;vilib&gt;/security/Message Digest/Keccak/NI_Keccak.lvlib"/>
-				<Item Name="NI_SHA-256.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/security/Message Digest/SHA-2/SHA-256/NI_SHA-256.lvclass"/>
-				<Item Name="NI_Message Digest API.lvlib" Type="Library" URL="/&lt;vilib&gt;/security/Message Digest/API/NI_Message Digest API.lvlib"/>
-				<Item Name="NI_SHA-512.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/security/Message Digest/SHA-2/SHA-512/NI_SHA-512.lvclass"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
