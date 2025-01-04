@@ -466,6 +466,7 @@
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Framework/Plugin/Plugin.lvclass"/>
 			<Item Name="Result Observer.lvclass" Type="LVClass" URL="../Framework/Result Observer/Result Observer.lvclass"/>
 			<Item Name="Test Runner.lvclass" Type="LVClass" URL="../Framework/Test Runner/Test Runner.lvclass"/>
+			<Item Name="Report Interface.lvclass" Type="LVClass" URL="../Framework/Report Interface/Report Interface.lvclass"/>
 			<Item Name="Test Finder.lvclass" Type="LVClass" URL="../Framework/Test Finder/Test Finder.lvclass"/>
 			<Item Name="Single Thread Test Runner.lvclass" Type="LVClass" URL="../Framework/Single Thread Test Runner/Single Thread Test Runner.lvclass"/>
 			<Item Name="Parallell Test Runner.lvclass" Type="LVClass" URL="../Framework/Parallell Test Runner/Parallell Test Runner.lvclass"/>
@@ -553,7 +554,6 @@
 		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
 		<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../User Interface/Support/Post-Install Custom Action.vi"/>
-		<Item Name="LUnit UI.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit UI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi">
@@ -834,8 +834,6 @@
 				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
 				<Item Name="LUnit Advanced Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Advanced Assertions/LUnit Advanced Assertions.lvlib"/>
-				<Item Name="LUnit Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Framework.lvlib"/>
-				<Item Name="LUnit Reports.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/plugins/LUnit Reports.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -954,7 +952,7 @@
 				<Property Name="Source[108].itemID" Type="Ref">/My Computer/API/Advanced Assertions.lvlib/Fail If Matching String.vi</Property>
 				<Property Name="Source[108].type" Type="Str">VI</Property>
 				<Property Name="Source[109].destinationIndex" Type="Int">9</Property>
-				<Property Name="Source[109].itemID" Type="Ref">/My Computer/Plugins/Reports.lvlib/Report Interface.lvclass</Property>
+				<Property Name="Source[109].itemID" Type="Ref">/My Computer/Framework/Report Interface.lvclass</Property>
 				<Property Name="Source[109].type" Type="Str">Library</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Framework/Parallell Test Runner.lvclass</Property>
