@@ -30,7 +30,6 @@
 			<Item Name="Configuration Manager Test.lvclass" Type="LVClass" URL="../../tests/Configuration Manager Test/Configuration Manager Test.lvclass"/>
 			<Item Name="Error Checking Test.lvclass" Type="LVClass" URL="../../tests/Error Checking Test/Error Checking Test.lvclass"/>
 			<Item Name="Error Handler Tests.lvclass" Type="LVClass" URL="../../tests/Error Handler Tests/Error Handler Tests.lvclass"/>
-			<Item Name="Filter Test.lvclass" Type="LVClass" URL="../../tests/Filter Test/Filter Test.lvclass"/>
 			<Item Name="LUnit Test Suite Tests.lvclass" Type="LVClass" URL="../../tests/Test Suite Tests/LUnit Test Suite Tests.lvclass"/>
 			<Item Name="Report Generator Test.lvclass" Type="LVClass" URL="../../tests/Report Test/Report Generator Test.lvclass"/>
 			<Item Name="Result Model Result Recording Test.lvclass" Type="LVClass" URL="../../tests/Result Model Result Recording Test/Result Model Result Recording Test.lvclass"/>
@@ -497,11 +496,6 @@
 		</Item>
 		<Item Name="User Interface" Type="Folder">
 			<Item Name="Support" Type="Folder">
-				<Item Name="Filters" Type="Folder">
-					<Item Name="Filter.lvclass" Type="LVClass" URL="../User Interface/Support/Filters/Filter/Filter.lvclass"/>
-					<Item Name="Static Filter.lvclass" Type="LVClass" URL="../User Interface/Support/Filters/Static Filter/Static Filter.lvclass"/>
-					<Item Name="Dashed Filter.lvclass" Type="LVClass" URL="../User Interface/Support/Filters/Dashed Filter/Dashed Filter.lvclass"/>
-				</Item>
 				<Item Name="Configuration Manager.lvclass" Type="LVClass" URL="../User Interface/Configuration Manager/Configuration Manager.lvclass"/>
 				<Item Name="Utilities.lvlib" Type="Library" URL="../User Interface/Support/Utilities.lvlib"/>
 				<Item Name="Process.lvclass" Type="LVClass" URL="../User Interface/Process/Process.lvclass"/>
