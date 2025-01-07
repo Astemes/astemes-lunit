@@ -502,7 +502,6 @@
 					<Item Name="Static Filter.lvclass" Type="LVClass" URL="../User Interface/Support/Filters/Static Filter/Static Filter.lvclass"/>
 					<Item Name="Dashed Filter.lvclass" Type="LVClass" URL="../User Interface/Support/Filters/Dashed Filter/Dashed Filter.lvclass"/>
 				</Item>
-				<Item Name="Error Handler.lvclass" Type="LVClass" URL="../User Interface/Error Handler/Error Handler.lvclass"/>
 				<Item Name="Configuration Manager.lvclass" Type="LVClass" URL="../User Interface/Configuration Manager/Configuration Manager.lvclass"/>
 				<Item Name="Utilities.lvlib" Type="Library" URL="../User Interface/Support/Utilities.lvlib"/>
 				<Item Name="Process.lvclass" Type="LVClass" URL="../User Interface/Process/Process.lvclass"/>
@@ -831,7 +830,7 @@
 				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
 				<Item Name="LUnit Advanced Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Advanced Assertions/LUnit Advanced Assertions.lvlib"/>
-				<Item Name="Describe Comparison of Arrays.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Describe Comparison of Arrays.vi"/>
+				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -843,6 +842,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="/&lt;resource&gt;/DOMUserDefRef.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
@@ -1312,7 +1312,7 @@
 				<Property Name="Source[60].itemID" Type="Ref">/My Computer/User Interface/Plugin Loader.lvclass</Property>
 				<Property Name="Source[60].type" Type="Str">Library</Property>
 				<Property Name="Source[61].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[61].itemID" Type="Ref">/My Computer/User Interface/Support/Error Handler.lvclass</Property>
+				<Property Name="Source[61].itemID" Type="Ref"></Property>
 				<Property Name="Source[61].type" Type="Str">Library</Property>
 				<Property Name="Source[62].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[62].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass</Property>
@@ -1400,10 +1400,10 @@
 				<Property Name="Source[85].itemID" Type="Ref">/My Computer/User Interface/Plugin Loader.lvclass/Plugins.ctl</Property>
 				<Property Name="Source[85].type" Type="Str">VI</Property>
 				<Property Name="Source[86].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[86].itemID" Type="Ref">/My Computer/User Interface/Support/Error Handler.lvclass/Handle Errors.vi</Property>
+				<Property Name="Source[86].itemID" Type="Ref">/My Computer/User Interface/Support/Process.lvclass/Handle Errors.vi</Property>
 				<Property Name="Source[86].type" Type="Str">VI</Property>
 				<Property Name="Source[87].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[87].itemID" Type="Ref">/My Computer/User Interface/Support/Error Handler.lvclass/Log Error to File.vi</Property>
+				<Property Name="Source[87].itemID" Type="Ref"></Property>
 				<Property Name="Source[87].type" Type="Str">VI</Property>
 				<Property Name="Source[88].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[88].Container.depDestIndex" Type="Int">0</Property>
