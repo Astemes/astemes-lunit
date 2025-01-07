@@ -30,7 +30,6 @@
 			<Item Name="Configuration Manager Test.lvclass" Type="LVClass" URL="../../tests/Configuration Manager Test/Configuration Manager Test.lvclass"/>
 			<Item Name="Error Checking Test.lvclass" Type="LVClass" URL="../../tests/Error Checking Test/Error Checking Test.lvclass"/>
 			<Item Name="Error Handler Tests.lvclass" Type="LVClass" URL="../../tests/Error Handler Tests/Error Handler Tests.lvclass"/>
-			<Item Name="Filter Test.lvclass" Type="LVClass" URL="../../tests/Filter Test/Filter Test.lvclass"/>
 			<Item Name="LUnit Test Suite Tests.lvclass" Type="LVClass" URL="../../tests/Test Suite Tests/LUnit Test Suite Tests.lvclass"/>
 			<Item Name="Report Generator Test.lvclass" Type="LVClass" URL="../../tests/Report Test/Report Generator Test.lvclass"/>
 			<Item Name="Result Model Result Recording Test.lvclass" Type="LVClass" URL="../../tests/Result Model Result Recording Test/Result Model Result Recording Test.lvclass"/>
@@ -497,12 +496,6 @@
 		</Item>
 		<Item Name="User Interface" Type="Folder">
 			<Item Name="Support" Type="Folder">
-				<Item Name="Filters" Type="Folder">
-					<Item Name="Filter.lvclass" Type="LVClass" URL="../User Interface/Support/Filters/Filter/Filter.lvclass"/>
-					<Item Name="Static Filter.lvclass" Type="LVClass" URL="../User Interface/Support/Filters/Static Filter/Static Filter.lvclass"/>
-					<Item Name="Dashed Filter.lvclass" Type="LVClass" URL="../User Interface/Support/Filters/Dashed Filter/Dashed Filter.lvclass"/>
-				</Item>
-				<Item Name="Error Handler.lvclass" Type="LVClass" URL="../User Interface/Error Handler/Error Handler.lvclass"/>
 				<Item Name="Configuration Manager.lvclass" Type="LVClass" URL="../User Interface/Configuration Manager/Configuration Manager.lvclass"/>
 				<Item Name="Utilities.lvlib" Type="Library" URL="../User Interface/Support/Utilities.lvlib"/>
 				<Item Name="Process.lvclass" Type="LVClass" URL="../User Interface/Process/Process.lvclass"/>
@@ -709,9 +702,6 @@
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
@@ -834,6 +824,7 @@
 				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
 				<Item Name="LUnit Advanced Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Advanced Assertions/LUnit Advanced Assertions.lvlib"/>
+				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -845,6 +836,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="/&lt;resource&gt;/DOMUserDefRef.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
@@ -868,7 +860,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{86FCB19C-1FDD-419C-965A-93BB19BFAE86}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">34</Property>
+				<Property Name="Bld_version.build" Type="Int">35</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -1314,7 +1306,7 @@
 				<Property Name="Source[60].itemID" Type="Ref">/My Computer/User Interface/Plugin Loader.lvclass</Property>
 				<Property Name="Source[60].type" Type="Str">Library</Property>
 				<Property Name="Source[61].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[61].itemID" Type="Ref">/My Computer/User Interface/Support/Error Handler.lvclass</Property>
+				<Property Name="Source[61].itemID" Type="Ref"></Property>
 				<Property Name="Source[61].type" Type="Str">Library</Property>
 				<Property Name="Source[62].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[62].itemID" Type="Ref">/My Computer/User Interface/Result Model.lvclass</Property>
@@ -1402,10 +1394,10 @@
 				<Property Name="Source[85].itemID" Type="Ref">/My Computer/User Interface/Plugin Loader.lvclass/Plugins.ctl</Property>
 				<Property Name="Source[85].type" Type="Str">VI</Property>
 				<Property Name="Source[86].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[86].itemID" Type="Ref">/My Computer/User Interface/Support/Error Handler.lvclass/Handle Errors.vi</Property>
+				<Property Name="Source[86].itemID" Type="Ref">/My Computer/User Interface/Support/Process.lvclass/Handle Errors.vi</Property>
 				<Property Name="Source[86].type" Type="Str">VI</Property>
 				<Property Name="Source[87].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[87].itemID" Type="Ref">/My Computer/User Interface/Support/Error Handler.lvclass/Log Error to File.vi</Property>
+				<Property Name="Source[87].itemID" Type="Ref"></Property>
 				<Property Name="Source[87].type" Type="Str">VI</Property>
 				<Property Name="Source[88].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[88].Container.depDestIndex" Type="Int">0</Property>
