@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2025-01-06 18:37:18" Creator="Anton Sundqvist" Comments="" ID="9d900e104aee041904a4863eefbecb5d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2025-01-10 07:29:32" Creator="Anton Sundqvist" Comments="" ID="745323244288a6a363bd5618c904de07">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
     <Library_Version>1.8.14.1</Library_Version>
@@ -47,13 +47,8 @@ Documentation is available on https://lunit.astemes.com.</Description>
       <Copyright>Copyright (c) 2020, Astemes</Copyright>
       <Packager>Anton Sundqvist</Packager>
       <URL>https://lunit.astemes.com</URL>
-      <Release_Notes>This release (v1.8.x) contains the following improvements and new features: 
-- Tests are no longer required to have the "test" prefix in the name. Now the only requirement is that the VI is public. &lt;b&gt;If you have utility vi:s belonging to a test class , the access scope should be set to either private or protected.&lt;/b&gt;
-- Test vi:s implemented as Dynamic Dispatch (not recommended) still require the "test" prefix.
-- Test Inheritance features migrated to own add-on package
-- Fix error at comparison of numeric arrays when the tolerance input is wired
-- Add result boolean indicator to API
-- Improved test index cache invalidation</Release_Notes>
+      <Release_Notes>This release (v1.8.17) contains the following improvements and new features: 
+- Fix:: Config file moved under ~/.astemes on linux to prevent access right issues</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -393,7 +388,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56CBC13866D5C5ACF0B8A0A5B2AE4490</GUID>
+      <GUID>BA720546BBC43454C7DB0202EBD237A4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -498,7 +493,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Advanced Assertions\Fail If Specific Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C827479E443EE59B5112ACF901744D13</GUID>
+      <GUID>94198C3CFE74D176A923AD3A2B696A02</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -533,7 +528,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CDC04434135B6FF8C892FCD3ABA67E16</GUID>
+      <GUID>4AE63CD720BEBCB107277F6C52AA58C9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
