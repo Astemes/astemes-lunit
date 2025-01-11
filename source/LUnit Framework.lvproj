@@ -549,6 +549,7 @@
 		</Item>
 		<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
 		<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../User Interface/Support/Post-Install Custom Action.vi"/>
+		<Item Name="Find All Highlights.vi" Type="VI" URL="../../../astemes-string-diff-utils/source/Find All Highlights.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi">
@@ -838,6 +839,10 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="/&lt;resource&gt;/DOMUserDefRef.dll"/>
+			<Item Name="Diff Tool.vi" Type="VI" URL="../../../astemes-string-diff-utils/source/Diff Tool.vi"/>
+			<Item Name="Find Common Chars.vi" Type="VI" URL="../../../astemes-string-diff-utils/source/Find Common Chars.vi"/>
+			<Item Name="Find Added Sections.vi" Type="VI" URL="../../../astemes-string-diff-utils/source/Find Added Sections.vi"/>
+			<Item Name="Find Index to Insert at.vi" Type="VI" URL="../../../astemes-string-diff-utils/tests/Diff Tool Test/Find Index to Insert at.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
