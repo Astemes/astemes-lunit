@@ -456,6 +456,8 @@
 			<Item Name="Runnable.lvclass" Type="LVClass" URL="../Core/Runnable/Runnable.lvclass"/>
 		</Item>
 		<Item Name="API" Type="Folder">
+			<Item Name="Describe Comparison.vi" Type="VI" URL="../API/LUnit Test Case/Private/Describe Comparison.vi"/>
+			<Item Name="Describe Variant.vi" Type="VI" URL="../API/LUnit Test Case/Private/Describe Variant.vi"/>
 			<Item Name="Advanced Assertions.lvlib" Type="Library" URL="../API/Advanced Assertions/Advanced Assertions.lvlib"/>
 			<Item Name="Execution API.lvclass" Type="LVClass" URL="../User Interface/Execution API/Execution API.lvclass"/>
 			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../API/LUnit Test Case/LUnit Test Case.lvclass"/>
