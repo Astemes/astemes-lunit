@@ -23,6 +23,7 @@ pipeline {
 					pullBuildSupport()
 					initPythonVenv "requirements.txt"
 				}
+				pullSubmodules()
 			}
 		}
 		stage('Test') {
