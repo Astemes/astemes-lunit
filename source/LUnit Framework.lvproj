@@ -480,7 +480,7 @@
 				</Item>
 			</Item>
 			<Item Name="Basic Example" Type="Folder">
-				<Item Name="Dummy.lvclass" Type="LVClass" URL="../Examples/Basic Example/Dummy/Dummy.lvclass"/>
+				<Item Name="Example Test Case.lvclass" Type="LVClass" URL="../Examples/Basic Example/Dummy/Example Test Case.lvclass"/>
 				<Item Name="Failing Test Case.lvclass" Type="LVClass" URL="../Examples/Basic Example/Failing Test Case/Failing Test Case.lvclass"/>
 				<Item Name="Passing Test Case.lvclass" Type="LVClass" URL="../Examples/Basic Example/Passing Test Case/Passing Test Case.lvclass"/>
 				<Item Name="Basic Example.lvproj" Type="Document" URL="../Examples/Basic Example/Basic Example.lvproj"/>
@@ -843,6 +843,7 @@
 			<Item Name="Find Common Chars.vi" Type="VI" URL="../../../astemes-string-diff-utils/source/Find Common Chars.vi"/>
 			<Item Name="Find Added Sections.vi" Type="VI" URL="../../../astemes-string-diff-utils/source/Find Added Sections.vi"/>
 			<Item Name="Find Index to Insert at.vi" Type="VI" URL="../../../astemes-string-diff-utils/tests/Diff Tool Test/Find Index to Insert at.vi"/>
+			<Item Name="Find Highlights.vi" Type="VI" URL="../../../astemes-string-diff-utils/source/Find Highlights.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
