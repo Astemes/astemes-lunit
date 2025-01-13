@@ -846,7 +846,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="/&lt;resource&gt;/DOMUserDefRef.dll"/>
-			<Item Name="Describe Variant.vi" Type="VI" URL="../API/LUnit Test Case/Private/Describe Variant.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
