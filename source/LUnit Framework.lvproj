@@ -907,7 +907,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit</Property>
 				<Property Name="DestinationCount" Type="Int">15</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{05736208-5E90-4FBB-9655-803EE4A8D40C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E1C83A76-9EBD-44F1-9D4B-557C6616C2F3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -959,6 +959,24 @@
 				<Property Name="Source[110].destinationIndex" Type="Int">14</Property>
 				<Property Name="Source[110].itemID" Type="Ref">/My Computer/astemes-string-diff-utils</Property>
 				<Property Name="Source[110].type" Type="Str">Container</Property>
+				<Property Name="Source[111].destinationIndex" Type="Int">7</Property>
+				<Property Name="Source[111].itemID" Type="Ref">/My Computer/Framework/Describe Comparison.vi</Property>
+				<Property Name="Source[111].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[111].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[111].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[111].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[111].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[111].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[111].type" Type="Str">VI</Property>
+				<Property Name="Source[112].destinationIndex" Type="Int">7</Property>
+				<Property Name="Source[112].itemID" Type="Ref">/My Computer/Framework/Describe Variant.vi</Property>
+				<Property Name="Source[112].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[112].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[112].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[112].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[112].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[112].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[112].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/User Interface/Execution UI.lvclass</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
@@ -1447,7 +1465,7 @@
 				<Property Name="Source[99].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[99].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[99].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">111</Property>
+				<Property Name="SourceCount" Type="Int">113</Property>
 			</Item>
 		</Item>
 	</Item>
