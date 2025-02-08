@@ -1,0 +1,3 @@
+[submodule "astemes-string-diff-utils"]
+	path = astemes-string-diff-utils
+	url = https://github.com/Astemes/astemes-string-diff-utils

@@ -12,8 +12,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dummy.lvclass" Type="LVClass" URL="../Dummy/Dummy.lvclass"/>
 		<Item Name="Failing Test Case.lvclass" Type="LVClass" URL="../Failing Test Case/Failing Test Case.lvclass"/>
+		<Item Name="Example Test Case.lvclass" Type="LVClass" URL="../Dummy/Example Test Case.lvclass"/>
 		<Item Name="Passing Test Case.lvclass" Type="LVClass" URL="../Passing Test Case/Passing Test Case.lvclass"/>
 		<Item Name="Getting Started.vi" Type="VI" URL="../Getting Started.vi">
 			<Property Name="marked" Type="Int">0</Property>
@@ -27,12 +27,20 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
+				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
+				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
+				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
+				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 			</Item>
 			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../../../API/LUnit Test Case/LUnit Test Case.lvclass"/>
 			<Item Name="Result.lvlib" Type="Library" URL="../../../Core/Result/Result.lvlib"/>
 			<Item Name="Runnable.lvclass" Type="LVClass" URL="../../../Core/Runnable/Runnable.lvclass"/>
+			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../../../API/LUnit Test Suite/LUnit Test Suite.lvclass"/>
+			<Item Name="Advanced Assertions.lvlib" Type="Library" URL="../../../API/Advanced Assertions/Advanced Assertions.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
