@@ -9,10 +9,10 @@ To follow along with the instructions on this page you will need to have LabVIEW
 
 ## Creating a Test Case
 
-All tests you write will belong to a test case.
-The test case is implemented as a LabVIEW class, but in order to use it you will not need to know anything about object oriented programming.
+All tests you write will belong to a test case class.
+This is implemented as a LabVIEW class, but in order to use it you will not need to know anything about object oriented programming.
 
-To get started, create an empty project and add a test case to it by clicking the New Test Case button in the toolbar of the LabVIEW project.
+To get started, create an empty project and add a test case class to it by clicking the New Test Case button in the toolbar of the LabVIEW project.
 
 ![Project integration](img/project_Integration.png)
 
@@ -23,21 +23,22 @@ You can also do the same from the ``Tools > LUnit > New Test Case...`` menu opti
 Save the test case in a convenient location.
 Some like to keep the tests next to the code they are testing, and other keep them in a separate folder called ``Tests`` or similar.
 I personally find the later option with a separate top level directory the most convenient.
+Keep in mind that tests should not be included in builds and there should be no dependencies pointing from your code to the test code.
 
 ## Adding a Test Method
 
 Now you have a test case and may add some test methods to the test case.
 A test method is a vi belonging to the test case class and will get executed by the framework.
-
+The name of the vi **must** start with the four letters "test" (case insensitive).
 It is **not** recommended to make test vi:s *dynamic dispatch*.
-If tests are configured as *dynamic dispatch*, the name of the VI must start with the four letters *test*.
 
 To create a new test method, right-click on the Test Static Test Method.vit and select ``New from Template``.
 
 ![New from template](img/new_static_from_template.png)
 
-You can create test methods any way you like and you are free to delete the template methods if you choose to.
+You can create test methods any way you like and you are free to delete the template method.
 It is important however that the connector pane uses the same pattern of terminals as the template.
+The error in terminal is optional and never used when running tests by the framework.
 
 You should now make your test method test something useful by implementing the block diagram of the vi.
 To perform tests you will use the assertions available in the provided palette, or using quick drop.
