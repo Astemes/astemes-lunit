@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2025-02-10 13:26:32" Creator="Anton Sundqvist" Comments="" ID="46fee4f5367cef6c5c69980f83618b95">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2025-02-10 14:07:47" Creator="Anton Sundqvist" Comments="" ID="769894bc6ffeb0adc458ec54226aee5d">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
     <Library_Version>1.9.0.1</Library_Version>
@@ -57,6 +57,7 @@ This release (v1.9.x) contains the following improvements and new features:
 - Improvement: Performance improvements to test discovery, test loading and UI loading
 - Improvement: Result comparison message calculated on demand and not during test execution.
 - Fix: comparison of equal typedeffed datatypes could in edge cases show as unequal
+- Fix: show description when comparing 2D arrays
 - Fix: minor typos</Release_Notes>
     </Description>
     <Destinations>
@@ -397,7 +398,7 @@ This release (v1.9.x) contains the following improvements and new features:
         <Path>..\builds\LUnit\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C5BFDDD3D4ECBEB7DAB7D592E1DDFF0</GUID>
+      <GUID>AA3F4CB786426E5E069849846E74E9A9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -502,7 +503,7 @@ This release (v1.9.x) contains the following improvements and new features:
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Advanced Assertions\Fail If Specific Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1B6718CF86807737443C60F1C3065EC3</GUID>
+      <GUID>C65B4B0D7D8EFB9B313F18236923D123</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -537,7 +538,7 @@ This release (v1.9.x) contains the following improvements and new features:
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5088B67C17830C0DCD153C4CD0F8D573</GUID>
+      <GUID>0BA37EF462FDA2347D59CBB31B102844</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
