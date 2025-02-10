@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2025-01-10 07:29:32" Creator="Anton Sundqvist" Comments="" ID="745323244288a6a363bd5618c904de07">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2025-02-10 13:26:32" Creator="Anton Sundqvist" Comments="" ID="46fee4f5367cef6c5c69980f83618b95">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
-    <Library_Version>1.8.14.1</Library_Version>
+    <Library_Version>1.9.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\LUnit</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM</Library_Output_Folder>
@@ -47,8 +47,17 @@ Documentation is available on https://lunit.astemes.com.</Description>
       <Copyright>Copyright (c) 2020, Astemes</Copyright>
       <Packager>Anton Sundqvist</Packager>
       <URL>https://lunit.astemes.com</URL>
-      <Release_Notes>This release (v1.8.17) contains the following improvements and new features: 
-- Fix:: Config file moved under ~/.astemes on linux to prevent access right issues</Release_Notes>
+      <Release_Notes>Important TL;DR:
+If you are upgrading: 1.) Test methods must start with the prefix "test" and 2.) If you are using LUnit add-ons, you need to upgrade these also.
+
+This release (v1.9.x) contains the following improvements and new features: 
+- Change: test methods must start with the prefix "test". This reverts the update in v1.8.x, where this requirement was removed. The reason for this is an improvement which significantly reduces test discovery time. 
+- Change: Internal Runnable.lvclass interface updated. This may require add-ons using these interfaces to update for compatibility.
+- Feature: Introduce diff tool which highlights difference between expected and actual result. 
+- Improvement: Performance improvements to test discovery, test loading and UI loading
+- Improvement: Result comparison message calculated on demand and not during test execution.
+- Fix: comparison of equal typedeffed datatypes could in edge cases show as unequal
+- Fix: minor typos</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -388,7 +397,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA720546BBC43454C7DB0202EBD237A4</GUID>
+      <GUID>7C5BFDDD3D4ECBEB7DAB7D592E1DDFF0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -493,7 +502,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Advanced Assertions\Fail If Specific Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>94198C3CFE74D176A923AD3A2B696A02</GUID>
+      <GUID>1B6718CF86807737443C60F1C3065EC3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -528,7 +537,7 @@ Documentation is available on https://lunit.astemes.com.</Description>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4AE63CD720BEBCB107277F6C52AA58C9</GUID>
+      <GUID>5088B67C17830C0DCD153C4CD0F8D573</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
