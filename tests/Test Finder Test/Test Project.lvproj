@@ -12,6 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test Finder Test Dummy.lvlib" Type="Library" URL="../Test Finder Test Dummy.lvlib"/>
+		<Item Name="Test&amp;Case.lvclass" Type="LVClass" URL="../Test&amp;Case/Test&amp;Case.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
