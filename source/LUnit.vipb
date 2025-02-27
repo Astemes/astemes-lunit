@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2025-02-10 14:07:47" Creator="Anton Sundqvist" Comments="" ID="769894bc6ffeb0adc458ec54226aee5d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2025-02-26 11:43:28" Creator="Anton Sundqvist" Comments="" ID="0702a418317b2e73577b33347e2aeb1e">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
     <Library_Version>1.9.0.1</Library_Version>
@@ -47,18 +47,9 @@ Documentation is available on https://lunit.astemes.com.</Description>
       <Copyright>Copyright (c) 2020, Astemes</Copyright>
       <Packager>Anton Sundqvist</Packager>
       <URL>https://lunit.astemes.com</URL>
-      <Release_Notes>Important TL;DR:
-If you are upgrading: 1.) Test methods must start with the prefix "test" and 2.) If you are using LUnit add-ons, you need to upgrade these also.
-
-This release (v1.9.x) contains the following improvements and new features: 
-- Change: test methods must start with the prefix "test". This reverts the update in v1.8.x, where this requirement was removed. The reason for this is an improvement which significantly reduces test discovery time. 
-- Change: Internal Runnable.lvclass interface updated. This may require add-ons using these interfaces to update for compatibility.
-- Feature: Introduce diff tool which highlights difference between expected and actual result. 
-- Improvement: Performance improvements to test discovery, test loading and UI loading
-- Improvement: Result comparison message calculated on demand and not during test execution.
-- Fix: comparison of equal typedeffed datatypes could in edge cases show as unequal
-- Fix: show description when comparing 2D arrays
-- Fix: minor typos</Release_Notes>
+      <Release_Notes>Fix issue #21
+Fix issue #23
+Fix issue #24</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -398,7 +389,7 @@ This release (v1.9.x) contains the following improvements and new features:
         <Path>..\builds\LUnit\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AA3F4CB786426E5E069849846E74E9A9</GUID>
+      <GUID>0CDEE9CB5C65328F19E1CD751246A6DA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -503,7 +494,7 @@ This release (v1.9.x) contains the following improvements and new features:
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Advanced Assertions\Fail If Specific Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C65B4B0D7D8EFB9B313F18236923D123</GUID>
+      <GUID>68E97D4B201479B559CB5269D373D46B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -538,7 +529,7 @@ This release (v1.9.x) contains the following improvements and new features:
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0BA37EF462FDA2347D59CBB31B102844</GUID>
+      <GUID>DA767785A6B14F41BCBFE60A6158322B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
