@@ -915,7 +915,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit</Property>
 				<Property Name="DestinationCount" Type="Int">16</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7FAF7D0B-6DB2-4B98-A587-FAF78BE25640}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{10F00A83-9C41-4483-B82A-B2D92B306433}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -987,7 +987,7 @@
 				<Property Name="Source[112].type" Type="Str">VI</Property>
 				<Property Name="Source[113].destinationIndex" Type="Int">15</Property>
 				<Property Name="Source[113].itemID" Type="Ref">/My Computer/Menu/Quick Drop/QuickDrop Plugin.vi</Property>
-				<Property Name="Source[113].newName" Type="Str">LUnit.vi</Property>
+				<Property Name="Source[113].newName" Type="Str">LUnit QuickDrop Plugin.vi</Property>
 				<Property Name="Source[113].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[113].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[113].propertiesCount" Type="Int">1</Property>
