@@ -839,6 +839,7 @@
 				<Item Name="LUnit Advanced Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Advanced Assertions/LUnit Advanced Assertions.lvlib"/>
 				<Item Name="QuickDrop Plugin Data ver1.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Plugin Data ver1.ctl"/>
 				<Item Name="QuickDrop Parse Plugin Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Parse Plugin Variant.vi"/>
+				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -914,7 +915,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit</Property>
 				<Property Name="DestinationCount" Type="Int">16</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5F462C43-1102-4BE2-88D9-70B25F2153B3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7FAF7D0B-6DB2-4B98-A587-FAF78BE25640}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -986,6 +987,11 @@
 				<Property Name="Source[112].type" Type="Str">VI</Property>
 				<Property Name="Source[113].destinationIndex" Type="Int">15</Property>
 				<Property Name="Source[113].itemID" Type="Ref">/My Computer/Menu/Quick Drop/QuickDrop Plugin.vi</Property>
+				<Property Name="Source[113].newName" Type="Str">LUnit.vi</Property>
+				<Property Name="Source[113].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[113].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[113].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[113].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[113].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/User Interface/Execution UI.lvclass</Property>
