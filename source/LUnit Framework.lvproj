@@ -840,6 +840,13 @@
 				<Item Name="QuickDrop Plugin Data ver1.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Plugin Data ver1.ctl"/>
 				<Item Name="QuickDrop Parse Plugin Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Parse Plugin Variant.vi"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
+				<Item Name="Set Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Set Assertion Type.vi"/>
+				<Item Name="Add test result.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Add test result.vi"/>
+				<Item Name="LUnit Record Assertion Result.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Record Assertion Result.vi"/>
+				<Item Name="LUnit Aggregate Assertion Results.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Aggregate Assertion Results.vi"/>
+				<Item Name="LUnit Merge Status.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Method Result/LUnit Merge Status.vi"/>
+				<Item Name="LUnit Concatenate result strings.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Concatenate result strings.vi"/>
+				<Item Name="Describe Comparison of Arrays.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Describe Comparison of Arrays.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -886,7 +893,7 @@
 				<Property Name="Destination[11].destName" Type="Str">API Sub-Palette</Property>
 				<Property Name="Destination[11].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Palette/API</Property>
 				<Property Name="Destination[12].destName" Type="Str">plugins</Property>
-				<Property Name="Destination[12].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/plugins</Property>
+				<Property Name="Destination[12].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Plugins</Property>
 				<Property Name="Destination[12].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[13].destName" Type="Str">Advanced Assertions Sub-Palette</Property>
 				<Property Name="Destination[13].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Palette/Advanced Assertions</Property>
@@ -915,7 +922,7 @@
 				<Property Name="Destination[6].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[7].destName" Type="Str">LUnit Framework.lvlib</Property>
 				<Property Name="Destination[7].libraryName" Type="Str">LUnit Framework.lvlib</Property>
-				<Property Name="Destination[7].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit</Property>
+				<Property Name="Destination[7].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Framework</Property>
 				<Property Name="Destination[7].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[8].destName" Type="Str">Example Finder</Property>
 				<Property Name="Destination[8].path" Type="Path">../builds/LUnit/examples/exbins</Property>
@@ -924,7 +931,7 @@
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">18</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CDC74134-D759-4C09-9144-5606BE3C8331}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{01FDF53A-C8CC-48D2-9D19-267E536B4439}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
