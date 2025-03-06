@@ -554,7 +554,7 @@
 			<Item Name="Diff Tool.vi" Type="VI" URL="../../astemes-string-diff-utils/source/Diff Tool.vi"/>
 			<Item Name="Find Common Chars.vi" Type="VI" URL="../../astemes-string-diff-utils/source/Find Common Chars.vi"/>
 			<Item Name="Find Added Sections.vi" Type="VI" URL="../../astemes-string-diff-utils/source/Find Added Sections.vi"/>
-			<Item Name="Find Index to Insert at.vi" Type="VI" URL="../../astemes-string-diff-utils/tests/Diff Tool Test/Find Index to Insert at.vi"/>
+			<Item Name="Find Index to Insert at.vi" Type="VI" URL="../../astemes-string-diff-utils/source/Find Index to Insert at.vi"/>
 			<Item Name="Find All Highlights.vi" Type="VI" URL="../../astemes-string-diff-utils/source/Find All Highlights.vi"/>
 			<Item Name="Find Highlights.vi" Type="VI" URL="../../astemes-string-diff-utils/source/Find Highlights.vi"/>
 		</Item>
@@ -897,6 +897,10 @@
 				<Property Name="Destination[15].destName" Type="Str">Quick Drop</Property>
 				<Property Name="Destination[15].path" Type="Path">../builds/LUnit/resource/dialog/QuickDrop/plugins</Property>
 				<Property Name="Destination[15].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[16].destName" Type="Str">vi.lib top level</Property>
+				<Property Name="Destination[16].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit</Property>
+				<Property Name="Destination[17].destName" Type="Str">astemes-string-diff-utils</Property>
+				<Property Name="Destination[17].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/astemes-string-diff-utils</Property>
 				<Property Name="Destination[2].destName" Type="Str">Examples</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/LUnit/examples/Astemes/LUnit</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
@@ -918,9 +922,9 @@
 				<Property Name="Destination[9].destName" Type="Str">vi.lib</Property>
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit</Property>
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">16</Property>
+				<Property Name="DestinationCount" Type="Int">18</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9E81FDF4-DC91-467B-BAE4-ACFCFCFE3F33}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CDC74134-D759-4C09-9144-5606BE3C8331}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -959,7 +963,7 @@
 				<Property Name="Source[108].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[108].itemID" Type="Ref">/My Computer/Framework/Single Thread Test Runner.lvclass/Abort.vi</Property>
 				<Property Name="Source[108].type" Type="Str">VI</Property>
-				<Property Name="Source[109].destinationIndex" Type="Int">9</Property>
+				<Property Name="Source[109].destinationIndex" Type="Int">16</Property>
 				<Property Name="Source[109].itemID" Type="Ref">/My Computer/Post-Install Custom Action.vi</Property>
 				<Property Name="Source[109].newName" Type="Str">LUnit Post-Install Custom Action.vi</Property>
 				<Property Name="Source[109].sourceInclusion" Type="Str">Include</Property>
@@ -969,7 +973,7 @@
 				<Property Name="Source[11].type" Type="Str">Library</Property>
 				<Property Name="Source[110].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[110].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[110].destinationIndex" Type="Int">14</Property>
+				<Property Name="Source[110].destinationIndex" Type="Int">17</Property>
 				<Property Name="Source[110].itemID" Type="Ref">/My Computer/astemes-string-diff-utils</Property>
 				<Property Name="Source[110].type" Type="Str">Container</Property>
 				<Property Name="Source[111].destinationIndex" Type="Int">7</Property>
@@ -1134,7 +1138,7 @@
 				<Property Name="Source[32].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[32].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[32].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[32].destinationIndex" Type="Int">14</Property>
+				<Property Name="Source[32].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[32].itemID" Type="Ref">/My Computer/User Interface</Property>
 				<Property Name="Source[32].newName" Type="Str">LUnit </Property>
 				<Property Name="Source[32].properties[0].type" Type="Str">Allow debugging</Property>
