@@ -878,6 +878,7 @@
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
 				<Property Name="Destination[10].destName" Type="Str">Palette</Property>
@@ -886,11 +887,13 @@
 				<Property Name="Destination[11].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Palette/API</Property>
 				<Property Name="Destination[12].destName" Type="Str">plugins</Property>
 				<Property Name="Destination[12].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/plugins</Property>
+				<Property Name="Destination[12].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[13].destName" Type="Str">Advanced Assertions Sub-Palette</Property>
 				<Property Name="Destination[13].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit/Palette/Advanced Assertions</Property>
 				<Property Name="Destination[14].destName" Type="Str">LUnit UI</Property>
 				<Property Name="Destination[14].libraryName" Type="Str">LUnit UI.lvlib</Property>
 				<Property Name="Destination[14].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit</Property>
+				<Property Name="Destination[14].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[15].destName" Type="Str">Quick Drop</Property>
 				<Property Name="Destination[15].path" Type="Path">../builds/LUnit/resource/dialog/QuickDrop/plugins</Property>
 				<Property Name="Destination[15].preserveHierarchy" Type="Bool">true</Property>
@@ -909,13 +912,15 @@
 				<Property Name="Destination[7].destName" Type="Str">LUnit Framework.lvlib</Property>
 				<Property Name="Destination[7].libraryName" Type="Str">LUnit Framework.lvlib</Property>
 				<Property Name="Destination[7].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit</Property>
+				<Property Name="Destination[7].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[8].destName" Type="Str">Example Finder</Property>
 				<Property Name="Destination[8].path" Type="Path">../builds/LUnit/examples/exbins</Property>
 				<Property Name="Destination[9].destName" Type="Str">vi.lib</Property>
 				<Property Name="Destination[9].path" Type="Path">../builds/LUnit/vi.lib/Astemes/LUnit</Property>
+				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">16</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{10F00A83-9C41-4483-B82A-B2D92B306433}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9E81FDF4-DC91-467B-BAE4-ACFCFCFE3F33}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
