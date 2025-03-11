@@ -456,8 +456,8 @@
 			<Item Name="Runnable.lvclass" Type="LVClass" URL="../Core/Runnable/Runnable.lvclass"/>
 			<Item Name="Advanced Assertions.lvlib" Type="Library" URL="../Core/Advanced Assertions/Advanced Assertions.lvlib"/>
 			<Item Name="Execution API.lvclass" Type="LVClass" URL="../User Interface/Execution API/Execution API.lvclass"/>
-			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../LUnit Test Case.lvclass"/>
-			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../LUnit Test Suite.lvclass"/>
+			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../Core/LUnit Test Case/LUnit Test Case.lvclass"/>
+			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../Core/LUnit Test Suite/LUnit Test Suite.lvclass"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
 			<Item Name="Describe Comparison.vi" Type="VI" URL="../Framework/Utilities/Describe Comparison.vi"/>
@@ -849,7 +849,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="DOMUserDefRef.dll" Type="Document" URL="/&lt;resource&gt;/DOMUserDefRef.dll"/>
+			<Item Name="LUnit Test Case.ctl" Type="VI" URL="../LUnit Test Case.lvclass/LUnit Test Case.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LUnit" Type="Source Distribution">
