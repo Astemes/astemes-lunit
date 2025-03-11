@@ -20,7 +20,7 @@
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.1</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
 		<Item Name="Result Observer.lvclass" Type="Parent" URL="../../../source/Framework/Result Observer/Result Observer.lvclass"/>
-		<Item Name="Test Case.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
+		<Item Name="Test Case.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Astemes/LUnit/Core/LUnit Test Case/Test Case.lvclass"/>
 	</Item>
 	<Item Name="Test Runner Test.ctl" Type="Class Private Data" URL="Test Runner Test.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

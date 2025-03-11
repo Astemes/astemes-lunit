@@ -20,7 +20,7 @@
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.1</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Test Case.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
+		<Item Name="Test Case.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Astemes/LUnit/Core/LUnit Test Case/Test Case.lvclass"/>
 	</Item>
 	<Item Name="Error Checking Test.ctl" Type="Class Private Data" URL="Error Checking Test.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
