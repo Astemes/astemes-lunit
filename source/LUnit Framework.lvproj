@@ -838,7 +838,6 @@
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="LUnit Advanced Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/Core/Advanced Assertions/LUnit Advanced Assertions.lvlib"/>
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
-				<Item Name="Test Case.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Core/LUnit Test Case/Test Case.lvclass/Test Case.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -874,7 +873,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{86FCB19C-1FDD-419C-965A-93BB19BFAE86}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">35</Property>
+				<Property Name="Bld_version.build" Type="Int">36</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -924,7 +923,7 @@
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">18</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{913521DB-8C81-4024-A3F9-69D8DE4081E6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8E16E49E-8D41-4A0A-93C0-8A0B98E590C6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
