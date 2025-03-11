@@ -23,8 +23,8 @@
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 			</Item>
-			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../../../source/Core/LUnit Test Case/LUnit Test Case.lvclass"/>
-			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../../../source/Core/LUnit Test Suite/LUnit Test Suite.lvclass"/>
+			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../../../source/LUnit Test Case.lvclass"/>
+			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../../../source/LUnit Test Suite.lvclass"/>
 			<Item Name="Result.lvlib" Type="Library" URL="../../../source/Core/Result/Result.lvlib"/>
 			<Item Name="Runnable.lvclass" Type="LVClass" URL="../../../source/Core/Runnable/Runnable.lvclass"/>
 		</Item>

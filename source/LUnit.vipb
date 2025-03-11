@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2025-03-05 10:46:36" Creator="Anton Sundqvist" Comments="" ID="b1d56610b1dabcef336e07556566187f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-25 19:33:33" Modified_Date="2025-03-11 08:44:10" Creator="Anton Sundqvist" Comments="" ID="658fe75d94471887767cea02708a0798">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LUnit</Package_File_Name>
-    <Library_Version>1.9.0.1</Library_Version>
+    <Library_Version>1.9.17.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\LUnit</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM</Library_Output_Folder>
@@ -54,7 +54,8 @@ Documentation is available on https://lunit.astemes.com.</Description>
 Fix issue #21
 Fix issue #23
 Fix issue #24
-Fix issue #25</Release_Notes>
+Fix issue #25
+Fix issue #26</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -394,7 +395,7 @@ Fix issue #25</Release_Notes>
         <Path>..\builds\LUnit\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>957E1640800B94C70F008EB565CE9BA5</GUID>
+      <GUID>68DD637B85785A10C9DAD5968A29D5AA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -499,7 +500,7 @@ Fix issue #25</Release_Notes>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\Advanced Assertions\Fail If Specific Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>790F5FC20FE083DAA57698AF0B738A3F</GUID>
+      <GUID>0E54415DA5B1D21B079B21F3250E0A2F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -534,7 +535,7 @@ Fix issue #25</Release_Notes>
         <Path>..\builds\LUnit\vi.lib\Astemes\LUnit\Palette\API\LUnit Run Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>350D680A9AFE200F210CB628287B80B9</GUID>
+      <GUID>CB495B0D1A14AF46E28EB3036A67C85D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

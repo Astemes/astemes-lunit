@@ -35,12 +35,13 @@
 				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 			</Item>
-			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../../../API/LUnit Test Case/LUnit Test Case.lvclass"/>
 			<Item Name="Result.lvlib" Type="Library" URL="../../../Core/Result/Result.lvlib"/>
 			<Item Name="Runnable.lvclass" Type="LVClass" URL="../../../Core/Runnable/Runnable.lvclass"/>
-			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../../../API/LUnit Test Suite/LUnit Test Suite.lvclass"/>
-			<Item Name="Advanced Assertions.lvlib" Type="Library" URL="../../../API/Advanced Assertions/Advanced Assertions.lvlib"/>
+			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../../../LUnit Test Suite.lvclass"/>
+			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../../../LUnit Test Case.lvclass"/>
+			<Item Name="Advanced Assertions.lvlib" Type="Library" URL="../../../Core/Advanced Assertions/Advanced Assertions.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
