@@ -85,7 +85,7 @@
 			<Property Name="marked" Type="Int">0</Property>
 		</Item>
 		<Item Name="Number of test runners.vi" Type="VI" URL="../Number of test runners.vi"/>
-		<Item Name="LUnit Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Framework.lvlib"/>
+		<Item Name="LUnit Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/Framework/LUnit Framework.lvlib"/>
 		<Item Name="LUnit API.vi" Type="VI" URL="../LUnit API.vi"/>
 		<Item Name="VITester API.vi" Type="VI" URL="../VITester API.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -109,19 +109,10 @@
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
-				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="LUnit Register Events.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/API/LUnit Register Events.vi"/>
 				<Item Name="Define Test.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/classes/Test/Define Test.vi"/>
 				<Item Name="Assert.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/classes/Assert/Assert.vi"/>
@@ -129,53 +120,53 @@
 				<Item Name="Assert Error.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/classes/Assert/Assert Error.vi"/>
 				<Item Name="Assert True.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/classes/Assert/Assert True.vi"/>
 				<Item Name="LUnit Method Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Method Result.lvclass/LUnit Method Result.ctl"/>
-				<Item Name="LUnit Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Utilities.lvlib"/>
-				<Item Name="LUnit Reports.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/plugins/LUnit Reports.lvlib"/>
-				<Item Name="LUnit Configuration Manager.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Configuration Manager.lvclass"/>
+				<Item Name="LUnit Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/User Interface/Support/LUnit Utilities.lvlib"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="NI_Message Digest API.lvlib" Type="Library" URL="/&lt;vilib&gt;/security/Message Digest/API/NI_Message Digest API.lvlib"/>
 				<Item Name="LUnit Read Test Method Name.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Read Test Method Name.vi"/>
-				<Item Name="LUnit Execution API.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Execution API.lvclass"/>
-				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Runnable.lvclass"/>
-				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
-				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
-				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
-				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
-				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
-				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
-				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
-				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
-				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
-				<Item Name="NI_SHA-256.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/security/Message Digest/SHA-2/SHA-256/NI_SHA-256.lvclass"/>
-				<Item Name="NI_Bit Manipulation.lvlib" Type="Library" URL="/&lt;vilib&gt;/Bit Manipulation/NI_Bit Manipulation.lvlib"/>
-				<Item Name="NI_SHA-512.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/security/Message Digest/SHA-2/SHA-512/NI_SHA-512.lvclass"/>
-				<Item Name="NI_SHA-3.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/security/Message Digest/SHA-3/NI_SHA-3.lvclass"/>
-				<Item Name="NI_Keccak.lvlib" Type="Library" URL="/&lt;vilib&gt;/security/Message Digest/Keccak/NI_Keccak.lvlib"/>
-				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
-				<Item Name="LUnit Result Observer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Result Observer.lvclass"/>
-				<Item Name="LUnit Test Runner.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Test Runner.lvclass"/>
-				<Item Name="LUnit Plugin.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Plugin.lvclass"/>
-				<Item Name="LUnit Result Model by Reference.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Result Model by Reference.lvclass"/>
-				<Item Name="LUnit Result Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Result Model.lvclass"/>
-				<Item Name="LUnit Static Filter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Static Filter.lvclass"/>
-				<Item Name="LUnit Filter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Filter.lvclass"/>
-				<Item Name="LUnit Dashed Filter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Dashed Filter.lvclass"/>
-				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
-				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
-				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
-				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
-				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
-				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Core/Runnable/LUnit Runnable.lvclass"/>
 				<Item Name="WaitOnTestComplete.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/TestCase.llb/WaitOnTestComplete.vi"/>
 				<Item Name="Read Class Ancestry Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Read Class Ancestry Without Loading.vi"/>
 				<Item Name="Is Class Not Interface Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Is Class Not Interface Without Loading.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-				<Item Name="LUnit Test Suite Factory.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Test Suite Factory.lvclass"/>
 				<Item Name="Run Tests.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/VI Tester API.llb/Run Tests.vi"/>
 				<Item Name="Run Tests (Path).vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/VI Tester API.llb/Run Tests (Path).vi"/>
+				<Item Name="LUnit Open API Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/API/LUnit Open API Reference.vi"/>
+				<Item Name="LUnit Configure Test Runner.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/API/LUnit Configure Test Runner.vi"/>
+				<Item Name="LUnit Run Tests (Path).vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/API/LUnit Run Tests (Path).vi"/>
+				<Item Name="LUnit Close API Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/API/LUnit Close API Reference.vi"/>
+				<Item Name="Diff Tool.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/astemes-string-diff-utils/Diff Tool.vi"/>
+				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
+				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
+				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
+				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
+				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
+				<Item Name="Find Common Chars.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/astemes-string-diff-utils/Find Common Chars.vi"/>
+				<Item Name="Find Added Sections.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/astemes-string-diff-utils/Find Added Sections.vi"/>
+				<Item Name="LUnit Run Tests.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/API/LUnit Run Tests.vi"/>
+				<Item Name="LUnit Assertion Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Assertion Result.lvclass/LUnit Assertion Result.ctl"/>
+				<Item Name="LUnit Test Case Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Test Case Result.lvclass/LUnit Test Case Result.ctl"/>
+				<Item Name="Pass If Equal.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Pass If Equal.vi"/>
+				<Item Name="Pass.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Pass.vi"/>
+				<Item Name="Fail.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Fail.vi"/>
+				<Item Name="Variant to string.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Variant to string.vi"/>
+				<Item Name="Set Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Set Assertion Type.vi"/>
+				<Item Name="Add test result.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Add test result.vi"/>
+				<Item Name="LUnit Write Passed.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Passed.vi"/>
+				<Item Name="LUnit Write Message.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Message.vi"/>
+				<Item Name="LUnit Write Description.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Description.vi"/>
+				<Item Name="LUnit Write Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Assertion Type.vi"/>
+				<Item Name="LUnit Record Assertion Result.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Record Assertion Result.vi"/>
+				<Item Name="LUnit Aggregate Assertion Results.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Aggregate Assertion Results.vi"/>
+				<Item Name="LUnit Read Status.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Assertion Result/LUnit Read Status.vi"/>
+				<Item Name="LUnit Read Message.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Read Message.vi"/>
+				<Item Name="LUnit Read Description.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Read Description.vi"/>
+				<Item Name="LUnit Merge Status.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Method Result/LUnit Merge Status.vi"/>
+				<Item Name="LUnit Concatenate result strings.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Concatenate result strings.vi"/>
+				<Item Name="LUnit Assertion Result.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Assertion Result.lvclass"/>
+				<Item Name="Pass If Error.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Pass If Error.vi"/>
+				<Item Name="Pass If.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Pass If.vi"/>
+				<Item Name="Find Index to Insert at.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/astemes-string-diff-utils/Find Index to Insert at.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
