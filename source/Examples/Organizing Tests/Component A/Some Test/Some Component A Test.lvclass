@@ -24,7 +24,7 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="LUnit Test Case.lvclass" Type="Parent" URL="../../../../../LUnit Test Case.lvclass"/>
+		<Item Name="LUnit Test Case.lvclass" Type="Parent" URL="../../../../../Core/LUnit Test Case/LUnit Test Case.lvclass"/>
 	</Item>
 	<Item Name="Some Component A Test.ctl" Type="Class Private Data" URL="Some Component A Test.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

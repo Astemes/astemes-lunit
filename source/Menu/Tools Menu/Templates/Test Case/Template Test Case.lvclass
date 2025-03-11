@@ -19,7 +19,7 @@
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.4</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="LUnit Test Case.lvclass" Type="Parent" URL="../../../../../LUnit Test Case.lvclass"/>
+		<Item Name="LUnit Test Case.lvclass" Type="Parent" URL="../../../../../Core/LUnit Test Case/LUnit Test Case.lvclass"/>
 	</Item>
 	<Item Name="Template Test Case.ctl" Type="Class Private Data" URL="Template Test Case.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

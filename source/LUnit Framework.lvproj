@@ -456,8 +456,8 @@
 			<Item Name="Runnable.lvclass" Type="LVClass" URL="../Core/Runnable/Runnable.lvclass"/>
 			<Item Name="Advanced Assertions.lvlib" Type="Library" URL="../Core/Advanced Assertions/Advanced Assertions.lvlib"/>
 			<Item Name="Execution API.lvclass" Type="LVClass" URL="../User Interface/Execution API/Execution API.lvclass"/>
-			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../LUnit Test Case.lvclass"/>
-			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../LUnit Test Suite.lvclass"/>
+			<Item Name="LUnit Test Case.lvclass" Type="LVClass" URL="../Core/LUnit Test Case/LUnit Test Case.lvclass"/>
+			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../Core/LUnit Test Suite/LUnit Test Suite.lvclass"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
 			<Item Name="Describe Comparison.vi" Type="VI" URL="../Framework/Utilities/Describe Comparison.vi"/>
@@ -838,6 +838,12 @@
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="LUnit Advanced Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/Core/Advanced Assertions/LUnit Advanced Assertions.lvlib"/>
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
+				<Item Name="Pass If Equal.vim" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Pass If Equal.vim"/>
+				<Item Name="Compare Variants.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Compare Variants.vi"/>
+				<Item Name="Describe Comparison.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Describe Comparison.vi"/>
+				<Item Name="Append Pass Result.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Append Pass Result.vi"/>
+				<Item Name="Append Fail Result.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Append Fail Result.vi"/>
+				<Item Name="Test Case.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Core/LUnit Test Case/Test Case.lvclass/Test Case.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -849,6 +855,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="LUnit Test Case.ctl" Type="VI" URL="../LUnit Test Case.lvclass/LUnit Test Case.ctl"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="/&lt;resource&gt;/DOMUserDefRef.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
