@@ -838,6 +838,7 @@
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="LUnit Advanced Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/Core/Advanced Assertions/LUnit Advanced Assertions.lvlib"/>
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
+				<Item Name="Test Case.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Core/LUnit Test Case/Test Case.lvclass/Test Case.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -872,7 +873,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{86FCB19C-1FDD-419C-965A-93BB19BFAE86}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">36</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit</Property>
@@ -922,7 +923,7 @@
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">18</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8E16E49E-8D41-4A0A-93C0-8A0B98E590C6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EED4F3EB-7078-4638-9BE3-A57CD4D17053}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -997,6 +998,18 @@
 				<Property Name="Source[112].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[112].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[112].type" Type="Str">VI</Property>
+				<Property Name="Source[113].destinationIndex" Type="Int">9</Property>
+				<Property Name="Source[113].itemID" Type="Ref">/My Computer/Core/Result.lvlib/Assertion Type.ctl</Property>
+				<Property Name="Source[113].type" Type="Str">VI</Property>
+				<Property Name="Source[114].destinationIndex" Type="Int">9</Property>
+				<Property Name="Source[114].itemID" Type="Ref">/My Computer/Core/Result.lvlib/Result.ctl</Property>
+				<Property Name="Source[114].type" Type="Str">VI</Property>
+				<Property Name="Source[115].destinationIndex" Type="Int">9</Property>
+				<Property Name="Source[115].itemID" Type="Ref">/My Computer/Core/Result.lvlib/Status.ctl</Property>
+				<Property Name="Source[115].type" Type="Str">VI</Property>
+				<Property Name="Source[116].destinationIndex" Type="Int">9</Property>
+				<Property Name="Source[116].itemID" Type="Ref">/My Computer/Core/Result.lvlib/Type.ctl</Property>
+				<Property Name="Source[116].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/User Interface/Execution UI.lvclass</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
@@ -1059,11 +1072,9 @@
 				<Property Name="Source[25].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[25].itemID" Type="Ref">/My Computer/Menu/Help Menu/Astemes/LUnit.vi</Property>
 				<Property Name="Source[25].type" Type="Str">VI</Property>
-				<Property Name="Source[26].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[26].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[26].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[26].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[26].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[26].itemID" Type="Ref">/My Computer/Core</Property>
 				<Property Name="Source[26].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[26].properties[0].value" Type="Bool">false</Property>
@@ -1476,7 +1487,7 @@
 				<Property Name="Source[99].destinationIndex" Type="Int">13</Property>
 				<Property Name="Source[99].itemID" Type="Ref">/My Computer/Core/Advanced Assertions.lvlib/Fail If Specific Error.vi</Property>
 				<Property Name="Source[99].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">113</Property>
+				<Property Name="SourceCount" Type="Int">117</Property>
 			</Item>
 		</Item>
 	</Item>
