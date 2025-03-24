@@ -837,7 +837,7 @@
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="LUnit Advanced Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Advanced Assertions/LUnit Advanced Assertions.lvlib"/>
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
-				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Framework/Core/Runnable/LUnit Runnable.lvclass"/>
+				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Core/Runnable/LUnit Runnable.lvclass"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -922,7 +922,7 @@
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">18</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{01F5738E-B30E-41ED-A8F3-CC9C754A39E5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8E60278F-6E02-424F-B9ED-858F012E92C2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -964,9 +964,11 @@
 				<Property Name="Source[108].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[108].type" Type="Str">VI</Property>
 				<Property Name="Source[109].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[109].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[109].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[109].destinationIndex" Type="Int">17</Property>
 				<Property Name="Source[109].itemID" Type="Ref">/My Computer/astemes-string-diff-utils</Property>
+				<Property Name="Source[109].newName" Type="Str">LUnit</Property>
 				<Property Name="Source[109].type" Type="Str">Container</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Framework/Parallell Test Runner.lvclass</Property>
