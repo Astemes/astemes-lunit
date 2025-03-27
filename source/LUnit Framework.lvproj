@@ -1414,7 +1414,7 @@
 				<Property Name="Source[81].itemID" Type="Ref">/My Computer/User Interface/Plugin Loader.lvclass/Load Plugin.vi</Property>
 				<Property Name="Source[81].type" Type="Str">VI</Property>
 				<Property Name="Source[82].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[82].itemID" Type="Ref">/My Computer/User Interface/Plugin Loader.lvclass/Plugins.ctl</Property>
+				<Property Name="Source[82].itemID" Type="Ref"></Property>
 				<Property Name="Source[82].type" Type="Str">VI</Property>
 				<Property Name="Source[83].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[83].itemID" Type="Ref">/My Computer/User Interface/Support/Process.lvclass/Handle Errors.vi</Property>

@@ -30,13 +30,4 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 	</Item>
-	<Item Name="Plugins.ctl" Type="VI" URL="../Plugins.ctl">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#B!!!!!1#:!0%!!!!!!!!!!B61&lt;(6H;7YA4'^B:'6S,GRW9WRB=X-,5'RV:WFO=SZD&gt;'Q!&lt;U!7!!137%V-)(*F='^S&gt;#ZM&gt;G.M98.T%V2F?(1A5G6Q&lt;X*U,GRW9WRB=X-:1W^W:8*B:W5A17ZB&lt;(F[:8)O&lt;(:D&lt;'&amp;T=RJ&amp;?'6D&gt;82J&lt;WYA5(*P:GFM:8)O&lt;(:D&lt;'&amp;T=Q!'5'RV:WFO!!!"!!!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
-	</Item>
 </LVClass>
