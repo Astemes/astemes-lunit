@@ -62,6 +62,13 @@ Please note that the ``Pass if Equal.vi`` assertion will fail if either the type
 
 You can run a single test vi (using the Run Arrow) and it will run and show the user interface with the results of the test.
 
+Starting from version 1.10 of LUnit, a Quick Drop plugin is available which allows running tests using a Quick Drop shortcut.
+From Quick Drop press ``Ctrl + L`` to run all tests within the current project.
+If you open Quick Drop from a VI and press ``Ctrl + Shift + L`` LUnit will run all tests from Test Case classes calling this specific VI. 
+This can be very useful for checking if an edit to a VI caused any test to fail.
+Please note that this feature requires all tests to be loaded into memory, *i.e.* included in the active project, and it can only check for static links.
+The last limitation means that the feature will not work for dynamic dispatch VI:s, as their call sites are not statically known.
+
 To run all tests contained in a test case, you can right click it in the project window and select the ``Run Test Case...`` menu option.
 
 ![Run from right click menu](img/run_test_case.png)
