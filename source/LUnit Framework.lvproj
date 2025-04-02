@@ -460,8 +460,6 @@
 			<Item Name="LUnit Test Suite.lvclass" Type="LVClass" URL="../LUnit Test Suite.lvclass"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
-			<Item Name="Describe Comparison.vi" Type="VI" URL="../Framework/Utilities/Describe Comparison.vi"/>
-			<Item Name="Describe Variant.vi" Type="VI" URL="../Framework/Utilities/Describe Variant.vi"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Framework/Plugin/Plugin.lvclass"/>
 			<Item Name="Result Observer.lvclass" Type="LVClass" URL="../Framework/Result Observer/Result Observer.lvclass"/>
 			<Item Name="Test Runner.lvclass" Type="LVClass" URL="../Framework/Test Runner/Test Runner.lvclass"/>
@@ -470,6 +468,7 @@
 			<Item Name="Single Thread Test Runner.lvclass" Type="LVClass" URL="../Framework/Single Thread Test Runner/Single Thread Test Runner.lvclass"/>
 			<Item Name="Parallell Test Runner.lvclass" Type="LVClass" URL="../Framework/Parallell Test Runner/Parallell Test Runner.lvclass"/>
 			<Item Name="Test Suite Factory.lvclass" Type="LVClass" URL="../Framework/Test Suite Factory/Test Suite Factory.lvclass"/>
+			<Item Name="Utilities.lvlib" Type="Library" URL="../Framework/Utilities/Utilities.lvlib"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="API Demo" Type="Folder">
@@ -497,7 +496,7 @@
 		<Item Name="User Interface" Type="Folder">
 			<Item Name="Support" Type="Folder">
 				<Item Name="Configuration Manager.lvclass" Type="LVClass" URL="../User Interface/Configuration Manager/Configuration Manager.lvclass"/>
-				<Item Name="Utilities.lvlib" Type="Library" URL="../User Interface/Support/Utilities.lvlib"/>
+				<Item Name="Paths.lvlib" Type="Library" URL="../User Interface/Support/Paths.lvlib"/>
 				<Item Name="Process.lvclass" Type="LVClass" URL="../User Interface/Process/Process.lvclass"/>
 			</Item>
 			<Item Name="Plugin Loader.lvclass" Type="LVClass" URL="../User Interface/Plugin Loader/Plugin Loader.lvclass"/>
@@ -836,8 +835,8 @@
 				<Item Name="QuickDrop Parse Plugin Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Parse Plugin Variant.vi"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
-				<Item Name="LUnit Advanced Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Advanced Assertions/LUnit Advanced Assertions.lvlib"/>
 				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Runnable.lvclass"/>
+				<Item Name="LUnit Advanced Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Advanced Assertions/LUnit Advanced Assertions.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -922,7 +921,7 @@
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">18</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1A106AF1-240D-4EAF-A492-4BA71C93A2DA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5B321199-E62E-4F7A-B918-CF23F3A8573D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Result.lvlib</Property>
@@ -968,7 +967,7 @@
 				<Property Name="Source[108].newName" Type="Str">LUnit</Property>
 				<Property Name="Source[108].type" Type="Str">Container</Property>
 				<Property Name="Source[109].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[109].itemID" Type="Ref">/My Computer/Framework/Describe Comparison.vi</Property>
+				<Property Name="Source[109].itemID" Type="Ref">/My Computer/Framework/Utilities.lvlib/Describe Comparison.vi</Property>
 				<Property Name="Source[109].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[109].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[109].properties[1].type" Type="Str">Auto error handling</Property>
@@ -980,7 +979,7 @@
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Framework/Parallell Test Runner.lvclass</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
 				<Property Name="Source[110].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[110].itemID" Type="Ref">/My Computer/Framework/Describe Variant.vi</Property>
+				<Property Name="Source[110].itemID" Type="Ref">/My Computer/Framework/Utilities.lvlib/Describe Variant.vi</Property>
 				<Property Name="Source[110].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[110].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[110].properties[1].type" Type="Str">Auto error handling</Property>
